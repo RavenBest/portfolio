@@ -41,6 +41,16 @@ a {
   text-decoration: none;
 }
 
+.name {
+  width: 25%;
+}
+
+.work-bio {
+  width: 75%;
+}
+
+
+
 /*** Hero Text ***/
 hero {
   margin-top: 80px;
