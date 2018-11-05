@@ -41,12 +41,17 @@ a {
   text-decoration: none;
 }
 
-.name {
-  width: 25%;
+div.name {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  width: 30%;
 }
 
-.work-bio {
-  width: 75%;
+div.work-bio {
+  align-items: center;
+  display: flex;
+  width: 70%;
 }
 
 
