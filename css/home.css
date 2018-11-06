@@ -25,9 +25,9 @@ header * {
 }
 
 header img{
-  height: 60px;
+  height: 45px;
   margin: left;
-  width: 60px;
+  width: 45px;
 }
 
 header li {
@@ -44,22 +44,25 @@ a {
 div.name {
   align-items: center;
   display: flex;
-  height: 80px;
+  height: 5px;
+  position: fixed;
   width: 30%;
 }
 
 div.work-bio {
   align-items: center;
   display: flex;
+  height: 5px;
+  margin-left: 900px;
+  position: fixed;
   width: 70%;
 }
 
 
 
 /*** Hero Text ***/
-hero {
+.hero {
   margin-top: 80px;
-  padding: 30px;
 }
 
 p {
