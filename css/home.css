@@ -11,14 +11,16 @@ html {
 /*** Navigation Section ***/
 
 header {
+  grid-template-columns: [first] 50px [line1] 232px [line2] 736px [end] 50px;
+  grid-template-rows: [row1-start] 25% [row1-end] 100px;
   align-items: center;
   background-color: #ffffff;
-  display: flex;
+  display: grid;
   height: 100px;
   padding-top: 5px;
   padding-left: 5%;
   padding-right: 5%;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -28,6 +30,7 @@ header * {
 }
 
 header img{
+  grid-column-start: 1;
   height: 45px;
   width: 45px;
 }
@@ -52,11 +55,13 @@ div.name {
 }
 
 div.work-bio {
+  grid-column-start: 2;
+  grid-column-end: 3;
   align-items: center;
   display: flex;
   height: 5px;
   line-height: 20px;
-  padding-left: 1300px;
+  /*padding-left: 1300px;*/
   text-align: center;
   text-overflow: hidden;
   width: 75%;
@@ -88,13 +93,22 @@ h1 {
 
 /*** IdeaHub Case Study ***/
 
-.ideahub-project{
-  align-items: center;
-  height: 600px;
-  margin-bottom: 200px;
-  padding-left: 5%;
-  padding-right: 5%;
+.ideahub-content{
   width: 100%;
+}
+
+.column1{
+  float: left;
+  height: 600px;
+  padding-left: 5%;
+  width: 45%;
+}
+
+.column2{
+  float: right;
+  height: 600px;
+  padding-left: 5%;
+  width: 45%;
 }
 
 .logo {
@@ -113,7 +127,6 @@ p {
   font-family: "Source Sans Pro";
   font-size: 5.0rem;
   padding-top: 20px;
-  width: 25%;
 }
 
 button {
@@ -131,6 +144,7 @@ button {
   display: flex;
   float: right;
   padding-left: 600px;
+  padding-top: 275px;
   position: absolute;
   z-index: 1;
 }
