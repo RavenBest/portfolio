@@ -13,23 +13,46 @@ html {
   text-decoration: none;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+}
+
 nav img {
   height: 45px;
   width: 45px;
 }
 
+.hero {
+  background-image: linear-gradient(45deg, #1b1464, #ed1e79);
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+}
+
+.column1 img {
+  height: 45px;
+  width: 27px;
+}
 /*** Navigation Section ***/
 
 
 @media only screen and (max-width: 640px) {
-  .container {
+
+  /* Mobile Nav */
+  nav {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 20px 65px 75px 80px 65px;
+    grid-template-columns: 30px 65px 75px 80px 65px 20px;
     grid-template-rows: 100px auto;
-    position: fixed;
     width: 100%;
+  }
+
+  header {
+    position: sticky;
   }
 
   .logo {
@@ -54,9 +77,30 @@ nav img {
 
   .NavLinks {
     color: #1b1464;
-    display: grid;
     font-family: "Montserrat";
     font-size: 1.6rem;
     text-decoration: none;
+  }
+
+  /* Mobile Hero */
+  .hero {
+    display: grid;
+    grid-template-columns: 50px 320px 50px;
+    grid-template-rows: auto;
+    height: 400px;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3.0rem;
+    grid-column: 2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* Mobile Case Study */
+  .column1 {
+
   }
 }
