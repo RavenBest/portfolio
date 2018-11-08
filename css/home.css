@@ -94,13 +94,14 @@ footer img {
   width: 45px;
 }
 
-div.footer-links {
+ul.footer-links {
   align-content: center;
+  display: flex;
   font-size: 2rem;
 }
 
-.ul {
-  display: block;
+ul li {
+  flex: auto;
 }
 
 
@@ -218,10 +219,10 @@ div.footer-links {
     grid-row: 1;
   }
 
-  div.footer-links {
+  ul.footer-links {
     align-items: center;
     grid-row: 2;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 1rem;
+    text-align: center;
   }
 }
