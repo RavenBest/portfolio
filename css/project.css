@@ -41,6 +41,39 @@ img.logo {
   width: 27px;
 }
 
+/* Deliverables */
+
+section.Deliverables {
+  margin-bottom: 10rem;
+  text-align: center;
+}
+
+section.Deliverables h1 {
+  font-family: "Source Sans Pro";
+  font-size: 2.0rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+section.Deliverables p {
+  font-family: "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: .5rem;
+}
+
+ul.Roles {
+  padding-top: 2rem;
+}
+
+ul.Deliverables {
+  padding-top: 1rem;
+}
+
+ul.Tools.Used {
+  padding-top: 1rem;
+}
+
 
 /*Footer*/
 footer {
@@ -172,6 +205,30 @@ ul li {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* Mobile Deliverables */
+
+  section.Deliverables {
+    display: grid;
+    grid-template-columns: 50px 270px 50px;
+    grid-template-rows: 145px 225px 100px;
+  }
+
+  ul.Roles{
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  ul.Deliverables{
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  ul.Tools.Used {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
 
   /* Mobile Footer */
   footer {
