@@ -27,6 +27,7 @@ nav img {
 .NavLinks {
   color: #1b1464;
   font-family: "Montserrat";
+  list-style-type: none;
   text-decoration: none;
 }
 
@@ -153,6 +154,7 @@ ul li {
 
   .NavLinks {
       font-size: 1.6rem;
+
   }
 
 
@@ -450,34 +452,26 @@ h1 {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 50px 70px 1400px 90px 75px 125px 50px;
+    grid-template-columns: 1fr 0fr 2fr;
     grid-template-rows: 100px auto;
     padding: 2rem 1rem;
     width: 100%;
   }
 
   .logo {
-    grid-column: 2;
+    grid-column: 1;
   }
 
-  .name {
+  .logo a{
+    align-items: center;
+  }
+
+  .NavLinks ul {
+    align-items: right;
+    display: block;
+    float: right;
+    font-size: 2.0rem;
     grid-column: 3;
-  }
-
-  .work {
-    grid-column: 4;
-  }
-
-  .bio {
-    grid-column: 5;
-  }
-
-  .chat {
-    grid-column: 6;
-  }
-
-  .NavLinks {
-      font-size: 2.0rem;
   }
 
   /* Laptop Hero Section */
@@ -587,7 +581,7 @@ h1 {
       align-items: center;
       display: grid;
       font-size: 3rem;
-      grid-template-columns: 1550px 60px 60px 60px 60px 60px 60px;
+      grid-template-columns: 1fr 2fr;
       grid-template-rows: 100px auto;
     }
 
