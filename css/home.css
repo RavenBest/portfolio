@@ -24,10 +24,20 @@ nav img {
   width: 45px;
 }
 
-.NavLinks {
-  color: #1b1464;
+.logo {
+  align-items: center;
+}
+
+.logo a {
   font-family: "Montserrat";
-  list-style-type: none;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.NavLinks a {
+  color: #1b1464;
+  display: block;
+  font-family: "Montserrat";
   text-decoration: none;
 }
 
@@ -459,14 +469,16 @@ h1 {
   }
 
   .logo {
+    align-items: center;
     grid-column: 1;
   }
 
-  .logo a{
-    align-items: center;
+  .logo a {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
   }
 
-  .NavLinks ul {
+  .NavLinks a {
     align-items: right;
     display: block;
     float: right;
@@ -556,7 +568,7 @@ h1 {
     width: 71.6rem;
   }
 
-  /* Tablet Footer */
+  /* Laptop Footer */
 
     footer img {
       height: 6rem;
