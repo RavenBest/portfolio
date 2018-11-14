@@ -23,9 +23,22 @@ nav img {
   width: 45px;
 }
 
-.NavLinks {
-  color: #1b1464;
+.logo {
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo a {
   font-family: "Montserrat";
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.NavLinks a {
+  color: #1b1464;
+  display: block;
+  font-family: "Montserrat";
+  padding: 0 3rem;
   text-decoration: none;
 }
 
@@ -108,39 +121,36 @@ ul li {
     width: 45px;
   }
 
-  nav {
-    align-items: center;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 30px 55px 75px 70px 55px;
-    grid-template-rows: 100px auto;
-    padding: .2rem .1rem;
-    width: 100%;
-  }
+    nav {
+      align-items: center;
+      background-color: #ffffff;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px auto;
+      padding: 2rem 1rem;
+      width: 100%;
+    }
 
-  .logo {
-    grid-column: 2;
-  }
+    header .logo {
+      display: inline-flex;
+      grid-column: 1;
+      grid-row: 1;
+      padding-right: 7rem;
+      vertical-align: middle;
+    }
 
-  .name {
-    grid-column: 3;
-  }
+    .logo a {
+      display: none;
+    }
 
-  .work {
-    grid-column: 4;
-  }
-
-  .bio {
-    grid-column: 5;
-  }
-
-  .chat {
-    grid-column: 6;
-  }
-
-  .NavLinks {
-      font-size: 1.6rem;
-  }
+    .NavLinks a {
+      display: block;
+      float: right;
+      font-size: 1.8rem;
+      grid-column: 2;
+      grid-row: 1;
+      padding-left: 3rem;
+    }
 
   /* Mobile Hero */
   section.hero {

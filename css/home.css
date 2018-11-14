@@ -26,6 +26,7 @@ nav img {
 
 .logo {
   align-items: center;
+  text-decoration: none;
 }
 
 .logo a {
@@ -38,6 +39,7 @@ nav img {
   color: #1b1464;
   display: block;
   font-family: "Montserrat";
+  padding: 0 3rem;
   text-decoration: none;
 }
 
@@ -60,7 +62,6 @@ h1 {
 
 .column1 img {
   height: 45px;
-  width: 27px;
 }
 
 .column1 h2 {
@@ -132,41 +133,37 @@ ul li {
     width: 45px;
   }
 
-  nav {
-    align-items: center;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 30px 55px 75px 70px 55px;
-    grid-template-rows: 100px auto;
-    padding: .2rem .1rem;
-    width: 100%;
-  }
+    nav {
+      align-items: center;
+      background-color: #ffffff;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 100px auto;
+      padding: 2rem 1rem;
+      width: 100%;
+    }
 
-  .logo {
-    grid-column: 2;
-  }
+    header .logo {
+      display: inline-flex;
+      grid-column: 1;
+      grid-row: 1;
+      padding-left: 3rem;
+      vertical-align: middle;
+    }
 
-  .name {
-    grid-column: 3;
-  }
+    .logo a {
+      display: none;
+    }
 
-  .work {
-    grid-column: 4;
-  }
-
-  .bio {
-    grid-column: 5;
-  }
-
-  .chat {
-    grid-column: 6;
-  }
-
-  .NavLinks {
-      font-size: 1.6rem;
-
-  }
-
+    .NavLinks a {
+      display: block;
+      float: right;
+      font-size: 1.8rem;
+      grid-column: 2;
+      grid-row: 1;
+      padding-left: 8.5rem;
+      width: 100%;
+    }
 
 
   /* Mobile Hero */
@@ -189,20 +186,23 @@ ul li {
 
   .column1 {
     display: grid;
-    grid-template-columns: 110px 200px 50px;
+    grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 100px 20px;
+    width: 100%;
   }
 
-  .column1.logo {
-    grid-column: 2;
+  .column1 img {
+    grid-column: 1;
+    padding-left: 8rem;
   }
 
   .column1 h2 {
     font-family: "Oswald";
     font-size: 3.6rem;
     font-weight: 900;
-    grid-column: 2;
+    grid-column: 1;
     grid-row-start: 2;
+    padding-left: 8rem;
     padding-top: 1rem;
   }
 
@@ -210,9 +210,9 @@ ul li {
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     padding-top: .5rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row-start: 3;
-    width: 60%;
+    padding-left: 8rem;
   }
 
   .column1 button {
@@ -221,8 +221,9 @@ ul li {
     border-radius: .2rem;
     color: #ffffff;
     height: 4.0rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
+    margin-left: 8rem;
     text-align: center;
     width: 15rem;
   }
@@ -270,8 +271,13 @@ ul li {
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 768px) {
 /* Tablet Size */
+
+nav img {
+  height: 6rem;
+  width: 6rem;
+}
 
 nav img {
   height: 6rem;
@@ -282,34 +288,30 @@ nav {
   align-items: center;
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: 50px 75px 160px 100px 80px 150px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px auto;
   padding: 2rem 1rem;
   width: 100%;
 }
 
-.logo {
+header .logo {
+  display: inline-flex;
+  grid-column: 1;
+  padding-left: 3rem;
+  vertical-align: middle;
+}
+
+.logo a {
+  padding-left: 1rem;
+}
+
+.NavLinks a {
+  display: block;
+  float: right;
+  font-size: 2.0rem;
   grid-column: 2;
-}
-
-.name {
-  grid-column: 3;
-}
-
-.work {
-  grid-column: 4;
-}
-
-.bio {
-  grid-column: 5;
-}
-
-.chat {
-  grid-column: 6;
-}
-
-.NavLinks {
-    font-size: 2.0rem;
+  grid-row: 1;
+  width: 30%;
 }
 
 /* Tablet Hero Section */
@@ -317,7 +319,7 @@ nav {
 h1 {
   font-size: 5.6rem;
   grid-column: 2;
-  padding: 18rem;
+  padding: 12rem 8rem;
   width: 100%;
 }
 
@@ -331,21 +333,23 @@ h1 {
 .column1 {
   display: grid;
   float: left;
-  grid-template-columns: 110px 175px;
+  grid-template-columns: 1fr;
   grid-template-rows: 50px 75px 160px 20px;
-  width: 45%;
+  width: 35%;
 }
 
-.column1.logo {
-  grid-column: 2;
+.column1 img {
+  grid-column: 1;
+  padding-left: 3rem;
 }
 
 .column1 h2 {
   font-family: "Oswald";
   font-size: 5.6rem;
   font-weight: 900;
-  grid-column: 2;
+  grid-column: 1;
   grid-row-start: 2;
+  padding-left: 3rem;
   padding-top: 1rem;
 }
 
@@ -353,9 +357,10 @@ h1 {
   font-family: "Source Sans Pro";
   font-size: 2.8rem;
   padding-top: 2.5rem;
-  grid-column: 2;
+  grid-column: 1;
   grid-row-start: 3;
-  width: 60%;
+  padding-left: 3rem;
+  width: 85%;
 }
 
 .column1 button {
@@ -365,19 +370,19 @@ h1 {
   color: #ffffff;
   font-size: 1.8rem;
   height: 6.0rem;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 4;
-  text-align: center;
-  width: 24rem;
+  margin-left: 3rem;
+  width: 20rem;
 }
 
 
 .column2 {
   display: grid;
-  grid-template-columns: 500px 50px;
+  grid-template-columns: 1fr;
   grid-template rows: 100 auto;
   padding-top: 8.0rem;
-  width: 55%;
+  width: 65%;
 }
 
 .iphone {
@@ -396,57 +401,36 @@ h1 {
 
 /* Tablet Footer */
 
-  footer img {
-    height: 6rem;
-    width: 6rem;
-  }
+        footer {
+          align-items: center;
+          bottom: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 100px auto;
+          width: 100%;
+        }
 
-  footer {
-    align-items: center;
-    bottom: 0;
-    display: grid;
-    grid-template-columns: 50px 70px 600px 50px 50px 50px 50px 50px 50px;
-    grid-template-rows: 100px auto;
-    width: 100%;
-  }
+        footer img {
+          height: 6rem;
+          width: 6rem;
+        }
 
-  .logo-white {
-    grid-column: 2;
-    grid-row: 1;
-  }
+        .logo-white {
+          grid-column: 1;
+          grid-row: 1;
+          padding-left: 3rem;
+        }
 
-  ul.footer-links{
-    align-items: center;
-    display: grid;
-    font-size: 3rem;
-    grid-template-columns: 675px 60px 60px 60px 60px 60px 60px;
-    grid-template-rows: 100px auto;
-  }
+        ul.footer-links{
+          display: inline-flex;
+          float: right;
+          font-size: 3rem;
+          grid-column: 2;
+        }
 
-  li.email {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  li.facebook {
-    grid-column: 3;
-    grid-row: 1;
-  }
-
-  li.twitter {
-    grid-column: 4;
-    grid-row: 1;
-  }
-
-  li.git {
-    grid-column: 5;
-    grid-row: 1;
-  }
-
-  li.linkedin {
-    grid-column: 6;
-    grid-row: 1;
-  }
+        .footer-links li {
+          padding-right: 3rem;
+        }
 
 }
 
@@ -462,35 +446,34 @@ h1 {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 0fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto;
     padding: 2rem 1rem;
     width: 100%;
   }
 
-  .logo {
-    align-items: center;
+  header .logo {
+    display: inline-flex;
     grid-column: 1;
+    padding-left: 3rem;
+    vertical-align: middle;
   }
 
   .logo a {
-    padding-bottom: 2rem;
     padding-left: 1rem;
   }
 
   .NavLinks a {
-    align-items: right;
     display: block;
     float: right;
     font-size: 2.0rem;
-    grid-column: 3;
+    grid-column: 2;
   }
 
   /* Laptop Hero Section */
 
   h1 {
     font-size: 6.0rem;
-    grid-column: 2;
     padding: 20rem 45rem;
     width: 100%;
   }
@@ -503,22 +486,23 @@ h1 {
 
   .column1 {
     display: grid;
-    float: left;
-    grid-template-columns: 300px 350px;
+    grid-template-columns: 1fr;
     grid-template-rows: 50px 75px 160px 20px;
+    padding-left: 30rem;
     padding-top: 8rem;
     width: 50%;
   }
 
-  .column1.logo {
-    grid-column: 2;
+  .column1 img {
+    grid-column: 1;
+    grid-row: 1;
   }
 
   .column1 h2 {
     font-family: "Oswald";
     font-size: 5.6rem;
     font-weight: 900;
-    grid-column: 2;
+    grid-column: 1;
     grid-row-start: 2;
     padding-top: 1rem;
   }
@@ -527,7 +511,7 @@ h1 {
     font-family: "Source Sans Pro";
     font-size: 2.8rem;
     padding-top: 2.5rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row-start: 3;
     width: 60%;
   }
@@ -539,7 +523,7 @@ h1 {
     color: #ffffff;
     font-size: 1.8rem;
     height: 6.0rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
     text-align: center;
     width: 24rem;
@@ -550,6 +534,7 @@ h1 {
     display: grid;
     grid-template-columns: 500px 50px;
     grid-template rows: 100 auto;
+    margin-right: 8rem;
     padding-top: 8.0rem;
     width: 50%;
   }
@@ -570,57 +555,35 @@ h1 {
 
   /* Laptop Footer */
 
+    footer {
+      align-items: center;
+      bottom: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px auto;
+      width: 100%;
+    }
+
     footer img {
       height: 6rem;
       width: 6rem;
     }
 
-    footer {
-      align-items: center;
-      bottom: 0;
-      display: grid;
-      grid-template-columns: 50px 70px;
-      grid-template-rows: 100px auto;
-      width: 100%;
-    }
-
     .logo-white {
-      grid-column: 2;
+      grid-column: 1;
       grid-row: 1;
+      padding-left: 3rem;
     }
 
     ul.footer-links{
-      align-items: center;
-      display: grid;
+      display: inline-flex;
+      float: right;
       font-size: 3rem;
-      grid-template-columns: 1fr 2fr;
-      grid-template-rows: 100px auto;
-    }
-
-    li.email {
       grid-column: 2;
-      grid-row: 1;
     }
 
-    li.facebook {
-      grid-column: 3;
-      grid-row: 1;
+    .footer-links li {
+      padding-right: 3rem;
     }
-
-    li.twitter {
-      grid-column: 4;
-      grid-row: 1;
-    }
-
-    li.git {
-      grid-column: 5;
-      grid-row: 1;
-    }
-
-    li.linkedin {
-      grid-column: 6;
-      grid-row: 1;
-    }
-
 
 }
