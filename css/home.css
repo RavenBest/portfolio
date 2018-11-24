@@ -318,7 +318,6 @@ header .logo {
 
 h1 {
   font-size: 5.6rem;
-  grid-column: 2;
   padding: 12rem 8rem;
   width: 100%;
 }
@@ -360,7 +359,7 @@ h1 {
   grid-column: 1;
   grid-row-start: 3;
   padding-left: 3rem;
-  width: 85%;
+  width: 35%;
 }
 
 .column1 button {
@@ -474,7 +473,7 @@ h1 {
 
   h1 {
     font-size: 6.0rem;
-    padding: 20rem 45rem;
+    padding: 20rem 15rem;
     width: 100%;
   }
 
@@ -487,10 +486,10 @@ h1 {
   .column1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 75px 160px 20px;
-    padding-left: 30rem;
+    grid-template-rows: 50px 75px 250px 20px;
+    padding-left: 10rem;
     padding-top: 8rem;
-    width: 50%;
+    width: 30%;
   }
 
   .column1 img {
@@ -513,7 +512,7 @@ h1 {
     padding-top: 2.5rem;
     grid-column: 1;
     grid-row-start: 3;
-    width: 60%;
+    width: 80%;
   }
 
   .column1 button {
@@ -534,7 +533,7 @@ h1 {
     display: grid;
     grid-template-columns: 500px 50px;
     grid-template rows: 100 auto;
-    margin-right: 8rem;
+    margin-left: 3rem;
     padding-top: 8.0rem;
     width: 50%;
   }
@@ -543,6 +542,7 @@ h1 {
     grid-column: 1;
     grid-row: 1;
     height: 29.9rem;
+    margin-left: 5rem;
     width: 15.1rem;
   }
 
@@ -550,6 +550,7 @@ h1 {
     grid-column: 1;
     grid-row: 1;
     height: 45.9rem;
+    margin-left: 5rem;
     width: 71.6rem;
   }
 
