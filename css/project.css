@@ -57,36 +57,310 @@ img.logo {
 /* Deliverables */
 
 section.Deliverables {
-  margin-bottom: 10rem;
   text-align: center;
 }
 
 section.Deliverables h1 {
   font-family: "Source Sans Pro";
-  font-size: 2.0rem;
   font-weight: 900;
-  padding-bottom: 1rem;
 }
 
 section.Deliverables p {
   font-family: "Source Sans Pro";
-  font-size: 1.6rem;
-  font-weight: 400;
-  padding-top: .5rem;
 }
 
-ul.Roles {
-  padding-top: 2rem;
+/* Summary */
+
+.Summary {
+  background-color: #000000;
+  color: #ffffff;
 }
 
-ul.Deliverables {
-  padding-top: 1rem;
+.Summary h2 {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-ul.Tools.Used {
-  padding-top: 1rem;
+.Summary h3 {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
+.Summary p {
+  font-family: "Source Sans Pro";
+  text-align: center;
+}
+
+/* Problem & Solution */
+
+.Problem img {
+  height: 45px;
+  width: 27px;
+}
+
+.Problem h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.Problem p {
+  font-family: "Source Sans Pro";
+}
+
+.Solution img {
+  height: 45px;
+  width: 27px;
+}
+
+.Solution h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.Solution p {
+  font-family: "Source Sans Pro";
+  line-height: 2.0rem;
+}
+
+/* User Surveys */
+
+.Surveys {
+  background-color: #ffe100;
+}
+
+.Surveys h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Surveys h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Surveys p.keys {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+
+.Surveys p {
+  font-family: "Source Sans Pro";
+  line-height: 2.0rem;
+  text-align: center;
+}
+
+ul.Takeaways {
+  display: list-item;
+  font-family: "Source Sans Pro";
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.Surveys button {
+  background-color: #000000;
+}
+
+/* Personas */
+.Personas h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Personas p {
+  font-family: "Source Sans Pro";
+  text-align: center;
+}
+
+.Personas h3 {
+  font-family: "Source Sans Pro";
+  text-align: center;
+}
+
+.Personas b {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+}
+
+.Personas p.quote {
+  font-style: italic;
+  font-weight: 900;
+}
+
+/* Competitive Analysis*/
+
+.Competitive-Analysis h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Competitive-Analysis h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Competitive-Analysis p {
+  font-family: "Source Sans Pro";
+}
+
+/* User Stories */
+
+.User-Stories {
+  background-color: #ffe100;
+}
+
+.User-Stories h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.User-Stories h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.User-Stories b {
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+}
+
+.User-Stories p {
+  font-family: "Source Sans Pro";
+}
+
+/* User-Flows */
+
+.User-Flows h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.User-Flows p{
+  font-family: "Source Sans Pro";
+}
+
+.User-Flows b {
+    font-weight: 900;
+}
+
+/* Branding */
+.Branding {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.Branding h2 {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.Branding h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Branding p {
+  font-family: "Source Sans Pro";
+}
+
+.Branding p.title {
+  font-weight: 900;
+}
+
+.Example-Left h2 {
+  font-family: "Oswald";
+}
+
+.Example-Left p {
+  font-family: "Average";
+}
+
+.Example-Right h2 {
+  font-family: "Oswald";
+}
+
+.Example-Right p {
+  font-family: "Average";
+}
+
+.Branding button {
+   background-color: #ffffff;
+   color: #000000;
+   font-family: "Source Sans Pro";
+   font-weight: 900;
+}
+
+/* Wireframes */
+
+.Wireframes h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Wireframes h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Wireframes p {
+  font-family: "Source Sans Pro";
+}
+
+/* High-Fidelity Mockups */
+
+.High-Fid h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.High-Fid p {
+  font-family: "Source Sans Pro";
+}
+
+.Visual-Design h2 {
+  font-family:"Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Visual-Design h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.Visual-Design p {
+  font-family: "Source Sans Pro";
+}
+
+/* Conlcusion */
+
+.Conclusion h2 {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.Conclusion h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+}
+
+.Conclusion p {
+  font-family: "Source Sans Pro";
+}
 
 /*Footer*/
 footer {
@@ -195,9 +469,12 @@ ul li {
     border: none;
     border-radius: .2rem;
     color: #ffffff;
-    height: 4.0rem;
+    font-family: "Source Sans Pro";
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 5.0rem;
     text-align: center;
-    width: 20rem;
+    width: 30rem;
   }
 
   div.button-mobile {
@@ -214,6 +491,7 @@ ul li {
     grid-row: 5;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
   }
 
   /* Mobile Deliverables */
@@ -221,24 +499,550 @@ ul li {
   section.Deliverables {
     display: grid;
     grid-template-columns: 50px 270px 50px;
-    grid-template-rows: 145px 225px 100px;
+    grid-template-rows: 200px 225px 100px;
+    margin-bottom: 10rem;
   }
 
   ul.Roles{
     grid-column: 2;
     grid-row: 1;
+    padding-top: 2rem;
+    margin-top: 5rem;
   }
 
   ul.Deliverables{
     grid-column: 2;
     grid-row: 2;
+    padding-top: 1rem;
+  }
+
+  section.Deliverables h1 {
+    font-size: 2.0rem;
+    padding-bottom: 1rem;
+  }
+
+  section.Deliverables p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-top: .5rem;
   }
 
   ul.Tools.Used {
     grid-column: 2;
     grid-row: 3;
+    padding-top: 1rem;
   }
 
+  /* Mobile Summary */
+  .Summary {
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .Summary h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .Summary h3 {
+    font-size: 2.4rem;
+    font-weight: 900;
+    padding-top: 1rem;
+  }
+
+  .Summary p {
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+  }
+
+  /* Mobile Problem & Solution */
+
+  .Problem {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 20px 175px 30px;
+  }
+
+  .Problem img {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 30rem;
+  }
+
+  .Problem h2 {
+    font-size: 2.0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+  }
+
+  .Problem p {
+    font-size: 1.8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+
+  }
+
+  .Solution {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 20px 175px 30px;
+  }
+
+  .Solution img {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: 30rem;
+  }
+
+  .Solution h2 {
+    font-size: 2.0rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+  }
+
+  .Solution p {
+    font-size: 1.8rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+  }
+
+
+  /* Mobile Surveys */
+  .Surveys h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .Surveys h3 {
+    font-family: "Montserrat";
+    font-size: 2.4rem;
+    font-weight: 900;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .Surveys p.keys {
+    font-size: 1.8rem;
+  }
+
+  ul.Takeaways li {
+    padding-top: 1rem;
+  }
+
+  .Surveys p {
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  ul.Takeaways {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .Surveys button {
+    background-color: #000000;
+    border: none;
+    border-radius: .2rem;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 5.0rem;
+    text-align: center;
+    width: 30rem;
+    margin-left: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  /* Mobile Personas */
+  .Personas h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .Personas p {
+    font-family: "Source Sans Pro";
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .Personas img {
+    height: 23.2rem;
+    width: 23.2rem;
+  }
+
+  .Personas h3 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .Personas b {
+    font-size: 1.8rem;
+  }
+
+  .Personas p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .Personas img {
+    margin-top: 3rem;
+  }
+
+  /* Mobile Competitive Analysis */
+  .Competitive-Analysis {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  .Competitive-Analysis h2 {
+    font-size: 2.0rem;
+    font-weight: 900;
+    padding-top: 5rem;
+  }
+
+  .Competitive-Analysis h3 {
+    font-size: 2.4rem;
+    padding-bottom: 6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+  }
+
+  .Competitive-Analysis p {
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+  }
+
+  .Competitive-Analysis img.Evernote {
+    height: 6.9rem;
+    margin-bottom: 5rem;
+    width: 28.1rem;
+  }
+
+  .Competitive-Analysis img.Pinterest {
+    height: 17.2rem;
+    margin-bottom: 5rem;
+    width: 17.2rem;
+  }
+
+  .Competitive-Analysis img.GoogleDrive {
+      height: 20.3rem;
+      margin-bottom: 5rem;
+      width: 21.4rem;
+  }
+
+  /* Mobile User Stories */
+  .User-Stories {
+    padding-bottom: 5rem;
+  }
+
+  .User-Stories h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .User-Stories h3 {
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .User-Stories p {
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* Mobile User Flows*/
+  .User-Flows {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+  }
+
+  .User-Flows h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .User-Flows p {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+  }
+
+  .User-Flows b {
+    margin-bottom: 2rem;
+  }
+
+  .User-Flows img.Log-In {
+    height: 7.1rem;
+    width: 29.1rem;
+  }
+
+  .User-Flows img.Create {
+    height: 6.9rem;
+    width: 30.3rem;
+  }
+
+  .User-Flows img.Collab {
+    height: 6rem;
+    width: 32.3rem;
+  }
+
+  /* Mobile Branding */
+
+  .Branding {
+    margin-top: 3rem;
+    padding-bottom: 8rem;
+  }
+
+  .Branding h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .Branding h3 {
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .Branding p {
+    font-size: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .Branding img.Sketches {
+    height: 33.1rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    width: 31.5rem;
+  }
+
+  .Branding p.title {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .Branding img.iteration {
+    height: 24.2rem;
+    margin-bottom: 3rem;
+    width: 27.2rem;
+  }
+
+  .Branding img.logos {
+    height: 24.2rem;
+    margin-bottom: 3rem;
+    width: 27.2rem;
+  }
+
+  .Branding img.palette {
+    height: 40.1rem;
+    width: 28.3rem;
+  }
+
+  .Example-Left {
+    float: left;
+    width: 48%;
+  }
+
+  .Example-Left h2 {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+  }
+
+  .Example-Left .heading {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+  }
+
+  .Example-Left .body {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
+
+  .Example-Right {
+    float: right;
+    width: 52%;
+  }
+
+  .Example-Right h2 {
+    font-size: 3.6rem;
+  }
+
+  .Example-Right p {
+    padding-top: 2rem;
+  }
+
+  .Branding button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: .2rem;
+    color: #000000;
+    font-family: "Source Sans Pro";
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 5.0rem;
+    margin-left: 3.5rem;
+    margin-top: 4rem;
+    text-align: center;
+    width: 30rem;
+  }
+
+  /* Mobile Wireframes */
+
+  .Wireframes h2 {
+    font-size: 2.0rem;
+    padding-top: 5rem;
+  }
+
+  .Wireframes h3 {
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .Wireframes p {
+    font-size: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .Low-Fid img.landing {
+    height: 48.9rem;
+    width: 28rem;
+    margin-top: 3rem;
+  }
+
+  .Low-Fid img.dash {
+    height:20.8rem;
+    margin-top: 3rem;
+    width: 28.3rem;
+  }
+
+  .Low-Fid img.project {
+    height: 20.3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 28rem;
+  }
+
+  /* High Fidelity Mockups */
+   .High-Fid h2 {
+     font-size: 2.0rem;
+     padding-bottom: 3rem;
+     padding-top: 5rem;
+   }
+
+   .High-Fid p.number {
+     font-size: 1.6rem;
+     margin-left: 3rem;
+     padding-bottom: 2rem;
+   }
+
+   .High-Fid p{
+     font-size: 1.6rem;
+     padding-bottom: 2rem;
+     padding-left: 3rem;
+     padding-right: 3rem;
+     padding-top: 3rem;
+   }
+
+   .High-Fid img.db {
+     height: 24.3rem;
+     margin-bottom: 3rem;
+     width: 28.2rem;
+   }
+
+   .High-Fid img.db-2 {
+     height: 24.4rem;
+     margin-bottom: 3rem;
+     width: 28.2rem;
+   }
+
+   .High-Fid img.ih {
+     height: 24.4rem;
+     margin-bottom: 3rem;
+     width: 28.3rem;
+   }
+
+   .High-Fid img.ih-final {
+     height: 24.2rem;
+     margin-bottom: 3rem;
+     width: 28rem;
+   }
+
+   /* Visual Design */
+  .Visual-Design h2 {
+    font-size: 2.0rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+  }
+
+  .Visual-Design img {
+    height: 20.1rem;
+    margin-bottom: 3rem;
+    width: 28.3rem;
+  }
+
+  .Visual-Design h3 {
+    font-size: 1.8rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .Visual-Design p {
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* Mobile Conclusion */
+  .Conclusion h2{
+    font-size: 2.0rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+  }
+
+  .Conclusion h3 {
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .Conclusion p {
+    font-size: 1.8rem;
+    padding-bottom: 8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
   /* Mobile Footer */
   footer {
