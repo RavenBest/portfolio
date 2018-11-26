@@ -1996,3 +1996,865 @@ ul.Takeaways {
         }
 
 }
+
+@media only screen and (min-width: 900px) {
+  /* Laptop and Up */
+
+  nav img {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  nav {
+    align-items: center;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto;
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  header .logo {
+    display: inline-flex;
+    grid-column: 1;
+    padding-left: 3rem;
+    vertical-align: middle;
+  }
+
+  .logo a {
+    padding-left: 1rem;
+  }
+
+  .NavLinks a {
+    display: block;
+    float: right;
+    font-size: 2.0rem;
+    grid-column: 2;
+  }
+
+  /* Laptop Hero */
+
+  section.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 525px 85px 80px 50px 150px;
+    margin-bottom: 8rem;
+    width: 100%;
+  }
+
+  .hero img {
+    grid-column: 1;
+    grid-row: 1;
+    height: 45.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 71.6rem;
+  }
+
+  img.logo {
+    height: 2.7rem;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 72rem;
+    margin-top: 1rem;
+    width: 4.5rem;
+  }
+
+  h2.hero{
+    font-family: "Oswald";
+    font-size: 6.0rem;
+    font-weight: 900;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+  }
+
+  p.hero{
+    font-family: "Source Sans Pro";
+    font-size: 2.2rem;
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+  }
+
+  section button {
+    background-color: #1b1464;
+    border: none;
+    border-radius: .2rem;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 5.0rem;
+    text-align: center;
+    width: 30rem;
+  }
+
+  div.button-mobile {
+    display: block;
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.button-desktop {
+    display: block;
+    grid-column: 1;
+    grid-row: 5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+
+/* Laptop Deliverables */
+section.Deliverables {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 10rem;
+}
+
+ul.Roles{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+ul.Deliverables{
+  grid-column: 3;
+  grid-row: 1;
+}
+
+section.Deliverables h1 {
+  font-size: 2.4rem;
+  padding-bottom: 1rem;
+}
+
+section.Deliverables p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-top: .5rem;
+}
+
+ul.Tools.Used {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+/* Laptop Summary */
+
+.Summary {
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+
+.Summary h2 {
+  font-size: 2.4rem;
+  padding-top: 5rem;
+}
+
+.Summary h3 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+
+.Summary p {
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+  padding-left: 50rem;
+  padding-right: 50rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+/* Tablet Problem & Solution */
+.Problem {
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 8rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  width: 50%;
+
+}
+
+.Problem img {
+  margin-left: 8rem;
+}
+
+.Problem h2 {
+  font-size: 2.0rem;
+  font-weight: 900;
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+
+.Problem p {
+  font-size: 1.8rem;
+  padding-left: 8rem;
+  padding-right: 5rem;
+  padding-top: 4rem;
+
+}
+
+.Solution {
+  background-color: #ffffff;
+  float: right;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  width: 50%;
+  margin-bottom: 8rem;
+}
+
+.Solution img {
+
+}
+
+.Solution h2 {
+  font-size: 2.0rem;
+  font-weight: 900;
+  padding-top: 2rem;
+}
+
+.Solution p {
+  font-size: 1.8rem;
+
+  padding-top: 4rem;
+}
+
+/* Laptop Surveys */
+
+.Surveys {
+  margin-bottom: 8rem;
+  padding-bottom: 5rem;
+}
+
+.Surveys h2 {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.Surveys h3 {
+  font-family: "Montserrat";
+  font-size: 2.8rem;
+  font-weight: 900;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.Surveys p.keys {
+  font-size: 1.8rem;
+  padding-left: 10rem;
+  text-align: left;
+}
+
+
+ul.Takeaways li {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+.Surveys p {
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+ul.Takeaways {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-bottom: 8rem;
+}
+
+.Surveys button {
+  background-color: #000000;
+  border: none;
+  border-radius: .2rem;
+  color: #ffffff;
+  display: block;
+  font-family: "Source Sans Pro";
+  font-size: 1.8rem;
+  font-weight: 900;
+  height: 5.0rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30rem;
+
+}
+
+/* Laptop Personas */
+
+.Personas {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.Personas h2 {
+  font-weight: 900;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.Personas p {
+  font-family: "Source Sans Pro";
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.Personas img {
+  height: 23.2rem;
+  margin-left: 34rem;
+  width: 23.2rem;
+}
+
+.Personas h3 {
+  font-size: 1.8rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.Personas b {
+  font-size: 1.8rem;
+}
+
+.Personas p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.Personas img {
+  margin-top: 3rem;
+}
+
+.Personas div h2 {
+  font-size: 2.0rem;
+}
+
+
+.Personas div.Melanie.Vasquez {
+  float: left;
+  width: 50%;
+}
+
+.Personas div.Steven.Johannsen {
+  float: right;
+  width: 50%;
+}
+
+.Personas div.Age {
+  margin-bottom: 4rem;
+}
+
+.Personas div.Goals {
+  margin-bottom: 4rem;
+}
+
+.Personas div.Frustrations {
+  margin-bottom: 4rem;
+}
+
+/* Competitive Analysis */
+.Competitive-Analysis {
+  margin-bottom: 62rem
+}
+
+.Competitive-Analysis h2 {
+  font-size: 2.0rem;
+  font-weight: 900;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.Competitive-Analysis h3 {
+  font-size: 2.4rem;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.Competitive-Analysis p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.Competitive-Analysis .Column4 {
+  float: right;
+  font-size: 1.8rem;
+  padding-right: 5rem;
+  width: 50%
+}
+
+.Competitive-Analysis .Column3 {
+  float: left;
+  width: 50%;
+}
+
+.Competitive-Analysis img.Evernote {
+  height: 6.9rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  width: 28.1rem;
+}
+
+.Competitive-Analysis img.Pinterest {
+  height: 17.2rem;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+  width: 17.2rem;
+}
+
+.Competitive-Analysis img.GoogleDrive {
+    height: 20.3rem;
+    margin-bottom: 5rem;
+    margin-left: 8rem;
+    width: 21.4rem;
+}
+
+/* Tablet User Stories */
+.User-Stories {
+  padding-bottom: 5rem;
+}
+
+.User-Stories h2 {
+  font-size: 2.0rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.User-Stories h3 {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.User-Stories p b{
+  padding-left: 20rem;
+  padding-right: 2rem;
+}
+
+.User-Stories p {
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* Tablet User Flows */
+.User-Flows {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.User-Flows h2 {
+  font-size: 2.0rem;
+  padding-top: 5rem;
+}
+
+.User-Flows p {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.User-Flows b {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.User-Flows img.Log-In {
+  height: 17rem;
+  margin-left: 3rem;
+  width: 69.3rem;
+}
+
+.User-Flows img.Create {
+  height: 15rem;
+  margin-left: 3rem;
+  width: 65.4rem;
+}
+
+.User-Flows img.Collab {
+  height: 13.1rem;
+  margin-left: 2rem;
+  width: 71.2rem;
+}
+
+/* Tablet Branding */
+
+.Branding {
+  margin-top: 3rem;
+  padding-bottom: 8rem;
+}
+
+.Branding h2 {
+  font-size: 2.0rem;
+  padding-top: 5rem;
+}
+
+.Branding h3 {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.Branding p {
+  font-size: 1.8rem;
+  padding-left: 5rem;
+  padding-right: 3rem;
+}
+
+.Branding img.Sketches {
+  height: 65.5rem;
+  margin-bottom: 3rem;
+  margin-left: 7rem;
+  margin-top: 5rem;
+  width: 62.2rem;
+}
+
+.Branding p.title {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.Branding img.iteration {
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  height: 24.2rem;
+  margin-bottom: 3rem;
+  margin-left: 25rem;
+  width: 27.2rem;
+}
+
+.Branding img.logos {
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  height: 24.2rem;
+  margin-bottom: 3rem;
+  margin-left: 25rem;
+  width: 27.2rem;
+}
+
+.Branding div.Color-Type {
+  display: grid;
+  grid-template-columns: 304px 464px;
+  grid-template-rows:  110px 400px;
+}
+
+.Branding img.palette {
+  grid-column: 1;
+  grid-row: 1;
+  height: 40.1rem;
+  margin-left: 5rem;
+  width: 28.3rem;
+}
+
+.Branding p.Oswald {
+  grid-column: 2;
+  grid-row: 1;
+  padding-right: 5rem;
+}
+
+.Example-Left {
+  grid-column: 2;
+  grid-row: 2;
+  width: 50%;
+}
+
+.Example-Left h2 {
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+}
+
+.Example-Left .heading {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding-left: 1.5rem;
+}
+
+.Example-Left .body {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding-top: 6rem;
+  padding-left: 1.5rem;
+}
+
+.Example-Right {
+  grid-column: 2;
+  grid-row: 2;
+  padding-left: 18rem;
+  width: 100%;
+}
+
+.Example-Right h2 {
+  font-size: 3.6rem;
+  padding-right: 5rem;
+}
+
+.Example-Right p {
+  padding-top: 2rem;
+  margin-right: 1rem;
+}
+
+.Branding button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: .2rem;
+  color: #000000;
+  font-family: "Source Sans Pro";
+  font-size: 1.8rem;
+  font-weight: 900;
+  height: 5.0rem;
+  margin-left: 23rem;
+  margin-top: 4rem;
+  text-align: center;
+  width: 30rem;
+}
+
+/* Tablet Wireframes */
+
+.Wireframes {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.Wireframes h2 {
+  font-size: 2.0rem;
+  padding-top: 5rem;
+}
+
+.Wireframes h3 {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.Wireframes p {
+  font-size: 1.8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.Wireframes div.Low-Fid{
+  display: grid;
+  grid-template-columns: 59px 270px 320px 59px;
+  grid-template-rows: 233px 233px;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.Low-Fid img.landing {
+  height: 47.53rem;
+  grid-column: 2;
+  grid-row: 1;
+  width: 27.22rem;
+}
+
+.Low-Fid img.dash {
+  height: 23.265rem;
+  grid-column: 3;
+  grid-row: 1;
+  margin-left: 1rem;
+  width: 31.612rem;
+}
+
+.Low-Fid img.project {
+  height: 23.265rem;
+  grid-column: 3;
+  grid-row: 2;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 31.612rem;
+}
+
+/* Tablet Hi-Fid Mockups */
+.High-Fid h2 {
+  font-size: 2.0rem;
+  padding-bottom: 3rem;
+  padding-top: 8rem;
+}
+
+.High-Fid .hi-mockups {
+  display: grid;
+  grid-template-columns: 30px 330px 350px 94px;
+  grid-template-rows: 60px 250px 60px 250px;
+}
+
+.High-Fid .number1 {
+  font-size: 1.8rem;
+  grid-column: 2;
+  grid-row: 1;
+  padding-right: 5rem;
+}
+
+.High-Fid .number2 {
+  font-size: 1.8rem;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.High-Fid .number3 {
+  font-size: 1.8rem;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.High-Fid .number4 {
+  font-size: 1.8rem;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.High-Fid p {
+  font-size: 1.8rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+}
+
+.High-Fid img.db {
+  height: 24.3rem;
+  grid-column: 2;
+  grid-row: 2;
+  margin-left: 5rem;
+  width: 28.2rem;
+}
+
+.High-Fid img.db-2 {
+  height: 24.4rem;
+  grid-column: 3;
+  grid-row: 2;
+  margin-left: 5rem;
+  width: 28.2rem;
+}
+
+.High-Fid img.ih {
+  height: 24.4rem;
+  grid-column: 2;
+  grid-row: 4;
+  margin-left: 5rem;
+  width: 28.3rem;
+}
+
+.High-Fid img.ih-final {
+  height: 24.2rem;
+  grid-column: 3;
+  grid-row: 4;
+  margin-left: 5rem;
+  width: 28rem;
+}
+
+/* Visual Design */
+
+.Visual-Design h2 {
+  font-size: 2.0rem;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+.Visual-Design div.Dashboards {
+  float: left;
+  margin-left: 5rem;
+  width: 50%;
+}
+
+.Visual-Design div.Dasboard-Blurbs {
+  float: right;
+  width: 50%;
+}
+
+.Visual-Design img {
+  height: 20.1rem;
+  margin-left: 4.5rem;
+  margin-bottom: 3rem;
+  width: 28.3rem;
+}
+
+.Visual-Design h3 {
+  font-size: 1.8rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 4rem;
+}
+
+.Visual-Design p {
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+  margin-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Tablet Conclusion */
+
+.Conclusion h2{
+  font-size: 2.0rem;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+.Conclusion h3 {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+}
+
+.Conclusion p {
+  font-size: 1.8rem;
+  line-height: 2.0rem;
+  padding-bottom: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+
+  /* Laptop Footer */
+
+    footer {
+      align-items: center;
+      bottom: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px auto;
+      width: 100%;
+    }
+
+    footer img {
+      height: 6rem;
+      width: 6rem;
+    }
+
+    .logo-white {
+      grid-column: 1;
+      grid-row: 1;
+      padding-left: 3rem;
+    }
+
+    ul.footer-links{
+      display: inline-flex;
+      float: right;
+      font-size: 3rem;
+      grid-column: 2;
+    }
+
+    .footer-links li {
+      padding-right: 3rem;
+    }
+
+}
