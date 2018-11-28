@@ -2051,22 +2051,26 @@ ul.Takeaways {
     width: 71.6rem;
   }
 
+  ul.logomark{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   img.logo {
-    display: relative;
     height: 2.7rem;
     grid-column: 1;
     grid-row: 2;
+    margin-right: 2rem;
     width: 4.5rem;
   }
 
   h2.hero{
-    display: relative;
     font-family: "Oswald";
     font-size: 6.0rem;
     font-weight: 900;
     grid-column: 1;
     grid-row: 2;
-    text-align: center;
   }
 
   p.hero{
@@ -2315,8 +2319,12 @@ ul.Takeaways {
 }
 
 .Personas img {
+  display: block;
   height: 23.2rem;
   width: 23.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
 }
 
 .Personas h3 {
@@ -2329,10 +2337,6 @@ ul.Takeaways {
   font-size: 1.8rem;
 }
 
-
-.Personas img {
-  margin-top: 3rem;
-}
 
 .Personas div h2 {
   font-size: 2.2rem;
@@ -2353,13 +2357,11 @@ ul.Takeaways {
 .Personas div.Melanie.Vasquez {
   grid-column: 1;
   grid-row: 1;
-  width: 50%;
 }
 
 .Personas div.Steven.Johannsen {
   grid-column: 2;
   grid-row: 1;
-  width: 50%;
 }
 
 .Personas div.Age {
@@ -2377,15 +2379,15 @@ ul.Takeaways {
 /* Laptop Competitive Analysis */
 .Competitive-Analysis {
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
-  grid-template-rows: 80px 150px 400px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 100px 400px;
   margin-bottom: 20rem
 }
 
 .Competitive-Analysis h2 {
   font-size: 2.8rem;
   font-weight: 900;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
   padding-top: 5rem;
   text-align: center;
@@ -2393,7 +2395,7 @@ ul.Takeaways {
 
 .Competitive-Analysis h3 {
   font-size: 3.0rem;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 2;
   padding-bottom: 6rem;
   padding-top: 2rem;
@@ -2408,20 +2410,24 @@ ul.Takeaways {
 .Competitive-Analysis .Column4 {
   float: right;
   font-size: 2.2rem;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 3;
   line-height: 2.4rem;
-  margin-left: 70rem;
+  margin-left: 85rem;
   padding-right: 5rem;
-  width: 45%
+  width: 40%
 }
 
 .Competitive-Analysis .Column3 {
   float: left;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 3;
-  margin-left: 15rem;
-  width: 30%;
+  margin-left: 35rem;
+  width: 60%;
+}
+
+.Competitive-Analysis img {
+  display: block;
 }
 
 .Competitive-Analysis img.Evernote {
@@ -2477,6 +2483,9 @@ ul.Takeaways {
 
 /* Tablet User Flows */
 .User-Flows {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 100px;
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
@@ -2488,10 +2497,10 @@ ul.Takeaways {
 
 .User-Flows p {
   font-size: 2.2rem;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 2rem;
+  padding-top: 10rem;
   text-align: center;
 }
 
@@ -2502,53 +2511,65 @@ ul.Takeaways {
 
 .User-Flows img.Log-In {
   height: 29.8rem;
-  margin-bottom: 8rem;
-  margin-left: 30rem;
+  grid-column: 1;
+  margin-left: auto;
+  margin-right: auto;
   width: 121.3rem;
 }
 
 .User-Flows img.Create {
   height: 25.9rem;
+  grid-column: 1;
   margin-bottom: 8rem;
-  margin-left: 33rem;
+  margin-left: auto;
+  margin-right: auto;
   width: 113.1rem;
 }
 
 .User-Flows img.Collab {
   height: 22.9rem;
+  grid-column: 1;
   margin-bottom: 8rem;
-  margin-left: 30rem;
+  margin-left: auto;
+  margin-right: auto;
   width: 124.7rem;
 }
 
 /* Laptop Branding */
 
 .Branding {
+  display: grid;
+  grid-template-columns: 1fr;
   margin-top: 8rem;
   padding-bottom: 16rem;
 }
 
 .Branding h2 {
   font-size: 2.6rem;
+  grid-column: 1;
   padding-top: 5rem;
 }
 
 .Branding h3 {
   font-size: 3.0rem;
+  grid-column: 1;
   padding-bottom: 3rem;
   padding-top: 2rem;
 }
 
 .Branding p.text {
   font-size: 2.2rem;
+  grid-column: 1;
   padding-left: 20rem;
   padding-right: 20rem;
 }
 
 .Branding img.Sketches {
   height: 65.5rem;
+  grid-column: 1;
   margin-bottom: 3rem;
-  margin-left: 65rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5rem;
   width: 62.2rem;
 }
@@ -2560,18 +2581,22 @@ ul.Takeaways {
   padding-bottom: 5rem;
 }
 
-.Branding img.iteration {
-  display: inline;
+.Branding img {
+  display: inline-block;
+  grid-column: 1;
   height: 24.2rem;
   margin-bottom: 8rem;
   width: 27.2rem;
 }
 
-.Branding img.logos {
-  display: inline-block;
-  height: 24.2rem;
-  margin-bottom: 8rem;
-  width: 27.2rem;
+.Branding div.iterations {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Branding div.logos {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Branding div.Color-Type {
@@ -2791,24 +2816,34 @@ ul.Takeaways {
 /* Laptop Visual Design */
 
 .Visual-Design {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 1830px;
   margin-bottom: 25rem;
 }
 
 .Visual-Design h2 {
   font-size: 3.0rem;
-  padding-bottom: 3rem;
-  padding-top: 5rem;
+  grid-column: 1;
+  grid-row: 1;
+  padding-bottom: 8rem;
+  padding-top: 10rem;
 }
 
 .Visual-Design div.Dashboards {
-  float: left;
-  margin-left: 5rem;
-  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.Visual-Design div.dash-images {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .Visual-Design div.Dasboard-Blurbs {
-  float: right;
-  width: 40%;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .Visual-Design img {
@@ -2820,16 +2855,10 @@ ul.Takeaways {
 
 .Visual-Design h3 {
   font-size: 2.4rem;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-  padding-top: 25rem;
 }
 
 .Visual-Design p {
   font-size: 2.2rem;
-  line-height: 2.0rem;
-  margin-right: 30rem;
-  padding-bottom: 20rem;
 }
 
 /* Laptop Conclusion */
