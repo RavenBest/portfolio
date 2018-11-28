@@ -2453,31 +2453,33 @@ ul.Takeaways {
 
 /* Laptop User Stories */
 .User-Stories {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   padding-bottom: 5rem;
+  width: 100%;
 }
 
 .User-Stories h2 {
   font-size: 2.6rem;
+  grid-column: 2;
   padding-top: 5rem;
-  text-align: center;
 }
 
 .User-Stories h3 {
   font-size: 3.0rem;
+  grid-column: 2;
   padding-bottom: 3rem;
   padding-top: 2rem;
-  text-align: center;
 }
 
 .User-Stories p b{
-  margin-left: 2rem;
   margin-right: 2rem;
-  padding-left: 75rem;
 
 }
 
 .User-Stories p {
   font-size: 2.2rem;
+  grid-column: 2;
   line-height: 3.2rem;
 }
 
@@ -2816,16 +2818,10 @@ ul.Takeaways {
 /* Laptop Visual Design */
 
 .Visual-Design {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 1830px;
-  margin-bottom: 25rem;
 }
 
 .Visual-Design h2 {
   font-size: 3.0rem;
-  grid-column: 1;
-  grid-row: 1;
   padding-bottom: 8rem;
   padding-top: 10rem;
 }
@@ -2834,31 +2830,40 @@ ul.Takeaways {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  width: 100%
 }
 
-.Visual-Design div.dash-images {
+.Visual-Design img {
   grid-column: 1;
   grid-row: 1;
 }
 
-.Visual-Design div.Dasboard-Blurbs {
+.Visual-Design .Dashboard-Blurbs {
   grid-column: 2;
   grid-row: 1;
+  margin-left: 5rem;
+  margin-right: 40rem;
+
 }
 
 .Visual-Design img {
   height: 60.9rem;
-  margin-left: 4.5rem;
+  margin-left: 15rem;
   margin-bottom: 3rem;
   width: 85.6rem;
 }
 
 .Visual-Design h3 {
   font-size: 2.4rem;
+  margin-bottom: 2rem;
+  margin-top: 20rem;
 }
 
 .Visual-Design p {
   font-size: 2.2rem;
+  line-height: 2.6rem;
+  margin-bottom: 40rem;
+  margin-left: 2rem;
 }
 
 /* Laptop Conclusion */
@@ -2878,7 +2883,7 @@ ul.Takeaways {
   line-height: 2.6rem;
   padding-bottom: 10rem;
   padding-left: 30rem;
-  padding-right: 30rem;
+  width: 60%;
 }
 
 
