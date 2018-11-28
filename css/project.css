@@ -154,7 +154,6 @@ section.Deliverables p {
 }
 
 ul.Takeaways {
-  display: list-item;
   font-family: "Source Sans Pro";
   list-style-position: inside;
   list-style-type: disc;
@@ -2053,15 +2052,15 @@ ul.Takeaways {
   }
 
   img.logo {
+    display: relative;
     height: 2.7rem;
     grid-column: 1;
     grid-row: 2;
-    margin-left: 70rem;
-    margin-top: 1rem;
     width: 4.5rem;
   }
 
   h2.hero{
+    display: relative;
     font-family: "Oswald";
     font-size: 6.0rem;
     font-weight: 900;
@@ -2296,7 +2295,7 @@ ul.Takeaways {
 
 .Personas {
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 80px 100px 1300px;
   width: 100%;
 }
@@ -2343,18 +2342,24 @@ ul.Takeaways {
   font-size: 2.2rem;
 }
 
+.Personas .personas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 8rem;
+}
+
 
 .Personas div.Melanie.Vasquez {
-  grid-column: 2;
-  grid-row: 3;
-  width: 45%;
+  grid-column: 1;
+  grid-row: 1;
+  width: 50%;
 }
 
 .Personas div.Steven.Johannsen {
   grid-column: 2;
-  grid-row: 3;
-  margin-left: 70rem;
-  width: 45%;
+  grid-row: 1;
+  width: 50%;
 }
 
 .Personas div.Age {
