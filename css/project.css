@@ -428,37 +428,43 @@ ul li {
   /* Mobile Hero */
   section.hero {
     display: grid;
-    grid-template-columns: 50px 270px 50px;
+    grid-template-columns: 1fr;
     grid-template-rows: 170px 60px 50px 50px 50px;
     width: 100%;
   }
 
+  ul.logomark{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   img {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
     height: 159px;
     width: 249px;
   }
 
   img.logo {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
-    margin-left: 3.5rem;
+    margin-right: 2rem;
   }
 
   h2.hero{
     font-family: "Oswald";
     font-size: 4.5rem;
     font-weight: 900;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
-    padding-left: 7.5rem;
+    text-align: center;
   }
 
   p.hero{
     font-family: "Source Sans Pro";
     font-size: 1.6rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
     text-align: center;
   }
@@ -478,7 +484,7 @@ ul li {
 
   div.button-mobile {
     display: block;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
     margin-left: auto;
     margin-right: auto;
@@ -486,7 +492,7 @@ ul li {
 
   div.button-desktop {
     display: block;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 5;
     margin-left: auto;
     margin-right: auto;
@@ -568,7 +574,7 @@ ul li {
   .Problem img {
     grid-column: 1;
     grid-row: 1;
-    margin-right: 30rem;
+    margin-left: 5rem;
   }
 
   .Problem h2 {
@@ -595,7 +601,7 @@ ul li {
   .Solution img {
     grid-column: 1;
     grid-row: 1;
-    margin-right: 30rem;
+    margin-left: 5rem;
   }
 
   .Solution h2 {
@@ -671,7 +677,7 @@ ul li {
   .Personas  {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 90px 150px 950px 950px;
+    grid-template-rows: 200px 150px 950px 950px;
   }
 
   .Personas h2 {
@@ -897,11 +903,20 @@ ul li {
     padding-bottom: 3rem;
   }
 
+  div.iterations {
+    display: block;
+    margin-left: 6.5rem;
+  }
+
   .Branding img.iteration {
     height: 24.2rem;
     margin-bottom: 3rem;
-    margin-left: 5rem;
     width: 27.2rem;
+  }
+
+  div.logos {
+    display: block;
+    margin-left: 6.5rem;
   }
 
   .Branding img.logos {
@@ -1177,14 +1192,14 @@ ul li {
 
   section.hero {
     display: grid;
-    grid-template-columns: 50px 668px 50px;
+    grid-template-columns: 1fr;
     grid-template-rows: 340px 85px 80px 50px 150px;
     margin-bottom: 8rem;
     width: 100%;
   }
 
   .hero img {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
     height: 30rem;
     margin-left: auto;
@@ -1192,11 +1207,17 @@ ul li {
     width: 47rem;
   }
 
+  ul.logomark {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   img.logo {
     height: 2.7rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
-    margin-left: 19rem;
+    margin-right: 2rem;
     margin-top: 1rem;
     width: 4.5rem;
   }
@@ -1205,7 +1226,7 @@ ul li {
     font-family: "Oswald";
     font-size: 6.0rem;
     font-weight: 900;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
     text-align: center;
   }
@@ -1213,7 +1234,7 @@ ul li {
   p.hero{
     font-family: "Source Sans Pro";
     font-size: 2.2rem;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
     text-align: center;
   }
@@ -1233,7 +1254,7 @@ ul li {
 
   div.button-mobile {
     display: block;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 4;
     margin-left: auto;
     margin-right: auto;
@@ -1241,7 +1262,7 @@ ul li {
 
   div.button-desktop {
     display: block;
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 5;
     margin-left: auto;
     margin-right: auto;
@@ -1426,36 +1447,36 @@ ul.Takeaways {
 
 .Personas {
   display: grid;
-  grid-template-columns: 50px 668px 50px;
-  grid-template-rows: 80px 90px 890px 890px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 100px 1300px;
+  width: 100%;
 }
 
 .Personas h2 {
   font-weight: 900;
-  grid-column: 2;
-  grid-row: 1;
-  font-size: 2.4rem;
-  padding-top: 5rem;
-  width: 100%;
+  font-size: 2.6rem;
+  text-align: center;
 }
 
 .Personas p {
-  grid-column: 2;
-  grid-row: 2;
   font-family: "Source Sans Pro";
-  font-size: 1.8rem;
-  line-height: 2.0rem;
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
 .Personas img {
+  display: block;
   height: 23.2rem;
-  margin-left: 22rem;
   width: 23.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
 }
 
 .Personas h3 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   padding-bottom: 5rem;
   text-align: center;
 }
@@ -1464,30 +1485,31 @@ ul.Takeaways {
   font-size: 1.8rem;
 }
 
-.Personas p {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.Personas img {
-  margin-top: 3rem;
-}
 
 .Personas div h2 {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
 }
 
+.Personas div p {
+  font-size: 2.2rem;
+}
+
+.Personas .personas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 8rem;
+}
+
+
 .Personas div.Melanie.Vasquez {
-  grid-column: 2;
-  grid-row: 3;
-  width: 100%;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .Personas div.Steven.Johannsen {
-  float: right;
   grid-column: 2;
-  grid-row: 4;
-  width: 100%;
+  grid-row: 1;
 }
 
 .Personas div.Age {
@@ -1670,6 +1692,12 @@ ul.Takeaways {
   padding-bottom: 5rem;
 }
 
+div.iterations {
+  display: block;
+  margin-left: 10rem;
+}
+
+
 .Branding img.iteration {
   display: grid;
   grid-column: 1fr 1fr 1fr;
@@ -1677,6 +1705,11 @@ ul.Takeaways {
   margin-bottom: 3rem;
   margin-left: 25rem;
   width: 27.2rem;
+}
+
+div.logos {
+  display: block;
+  margin-left: 10rem;
 }
 
 .Branding img.logos {
@@ -1901,21 +1934,33 @@ ul.Takeaways {
 
 /* Visual Design */
 
+.Visual-Design {
+}
+
 .Visual-Design h2 {
-  font-size: 2.0rem;
-  padding-bottom: 3rem;
-  padding-top: 5rem;
+  font-size: 3.0rem;
+  padding-bottom: 8rem;
+  padding-top: 10rem;
 }
 
 .Visual-Design div.Dashboards {
-  float: left;
-  margin-left: 5rem;
-  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%
 }
 
-.Visual-Design div.Dasboard-Blurbs {
-  float: right;
-  width: 50%;
+.Visual-Design img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.Visual-Design .Dashboard-Blurbs {
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
 }
 
 .Visual-Design img {
@@ -1927,9 +1972,7 @@ ul.Takeaways {
 
 .Visual-Design h3 {
   font-size: 1.8rem;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-  padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .Visual-Design p {
