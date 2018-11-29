@@ -2,44 +2,57 @@
 <html lang="en">
   <head>
     <title>Raven Best | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/bio.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="author" content="Raven Best">
     <meta name="keywords" content="Raven, Best, portfolio, site">
     <meta name="description" content="This is my personal portoflio, designed and coded by me to showcase my work during my time at Bloc">
   </head>
-  <nav>
-    <ul>
-      <li> <img src="images/Personal-Logos/RB-Color.png" alt="Color Logo"> </li>
-      <li> <a href="#">RAVEN BEST</a> </li>
-      <li> <a href="#">WORK</a> </li>
-      <li> <a href="#">BIO</a> </li>
-      <li> <a href="#">LET'S CHAT!</a> </li>
-    </ul>
-  </nav>
   <body>
-    <img src="images/RB-Portrait.jpg" alt="Profile Photo"</img>
-    <h1>Hey, I'm Raven, you can call me Rae.</h1>
-    <p>I’ve always known two things about myself: I have a limitless imagination (prone to daydreaming) and I’m very curious about how and why things work. With these two passions I’ve had some amazing experiences on my path to becoming a designer.
-
-In college, I became fascinated in the ways societal norms and historical events have shaped our opinions and outlooks, doing a lot of research specifically in terms of race and gender. I learned that the many problems our society faces today affect our experiences; our quality of life. I became determined to be part of the solution, to make human experiences better.
-
-Through my art, I’ve had opportunities to screen print flags at a skatepark for the DC Funk Parade, organize a workshop for the Freer-Sackler Gallery of the Smithsonian, create banners for the People’s Climate March, and even lead a sneaker painting workshop with the Harvard Divinity School. I’ve seen first hand how, with an effective design, you can communicate a message that can affect thousands.
-
-Right now, I’m using my sociology background and art skills to improve our users’ experience by creating intuitive interfaces through UX Design. I make apps and web pages using user research, visual design and front end coding. I love working with people to determine their needs and bring their ideas to life!
-
-Interested in hearing more or working together?<p>
-  <button type="submit">VIEW MY RESUME</button>
-  <button type="submit">CONTACT ME</button>
+    <header>
+      <nav class="container">
+        <div class="logo"> <img src="images/Personal-Logos/RB-Color.png" alt="Color Logo"> <a href="#home">RAVEN BEST</a> </div>
+        <ul class="NavLinks">
+          <li> <a href="#chat">LET'S CHAT!</a> </li>
+          <li> <a href="#bio">BIO</a> </li>
+          <li> <a href="#work">WORK</a> <li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="images/rb-portrait.png" alt="Profile Photo"</img>
+      <h1>Hey, I'm Raven, you can call me Rae.</h1>
+      <p>I’ve always known two things about myself: I have a limitless imagination (prone to daydreaming) and I’m very curious about how and why things work. With these two passions I’ve had some amazing experiences on my path to becoming a designer. <p>
+      <p>In college, I became fascinated in the ways societal norms and historical events have shaped our opinions and outlooks, doing a lot of research specifically in terms of race and gender. I learned that the many problems our society faces today affect our experiences; our quality of life. I became determined to be part of the solution, to make human experiences better. </p>
+      <p>Through my art, I’ve had opportunities to screen print flags at a skatepark for the DC Funk Parade, organize a workshop for the Freer-Sackler Gallery of the Smithsonian, create banners for the People’s Climate March, and even lead a sneaker painting workshop with the Harvard Divinity School. I’ve seen first hand how, with an effective design, you can communicate a message that can affect thousands.</p>
+      <p>Right now, I’m using my sociology background and art skills to improve our users’ experience by creating intuitive interfaces through UX Design. I make apps and web pages using user research, visual design and front end coding. I love working with people to determine their needs and bring their ideas to life!</p>
+      <p>Interested in hearing more or working together?</p>
+      <button type="submit">VIEW MY RESUME</button>
+      <button type="submit">CONTACT ME</button>
+    </main>
   </body>
   <footer>
-    <ul>
-      <li> <img src="images/Personal-Logos/RB-White.png" alt="White Logo"> </li>
-      <li> <a href="mailto:raven.best5@gmail.com">Email</a> </li>
-      <li> <a href="https://www.facebook.com/raven.imani.3">Facebook</a> </li>
-      <li> <a href="https://twitter.com/Raven_Things">Twitter</a> </li>
-      <li> <a href="https://github.com/RavenBest">Github</a> </li>
-      <li> <a href="https://www.linkedin.com/in/raven-best-b17826116/">LinkedIn</a> </li>
-    </ul>
+    <div class="logo-white">
+      <img src="images/Personal-Logos/RB-White.png" alt="White Logo">
+    </div>
+    <div>
+      <ul class="footer-links">
+        <li class="email"><a href="mailto:raven.best5@gmail.com">
+          <i class="far fa-envelope" style="color:#ffffff"></i></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/raven.imani.3">
+          <i class="fab fa-facebook-f" style="color:#ffffff"></i></a></li>
+        <li class="twitter"><a href="https://twitter.com/Raven_Things">
+          <i class="fab fa-twitter" style="color:#ffffff"></i></a></li>
+        <li class="git"><a href="https://github.com/RavenBest">
+          <i class="fab fa-github" style="color:#ffffff"></i></a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/raven-best-b17826116/">
+          <i class="fab fa-linkedin-in" style="color:#ffffff"></i></a></li>
+      </ul>
+    </div>
   </footer>
 </html>
