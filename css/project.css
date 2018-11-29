@@ -16,6 +16,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 nav img {
@@ -29,6 +30,7 @@ nav img {
 }
 
 .logo a {
+  color: #1b1464;
   font-family: "Montserrat";
   font-size: 2rem;
   text-decoration: none;
@@ -367,6 +369,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 20px 20px;
+  z-index: 2;
 }
 
 footer img {
@@ -2886,7 +2889,7 @@ ul.Takeaways {
   grid-column: 2;
   grid-row: 1;
   margin-left: 5rem;
-  margin-right: 40rem;
+  margin-right: 5rem;
 
 }
 
@@ -2926,8 +2929,7 @@ ul.Takeaways {
   font-size: 2.2rem;
   line-height: 2.6rem;
   padding-bottom: 10rem;
-  padding-left: 30rem;
-  width: 60%;
+  padding-left: 5rem;
 }
 
 
