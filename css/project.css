@@ -2055,7 +2055,7 @@ div.logos {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 100px auto;
     padding: 2rem 1rem;
     width: 100%;
