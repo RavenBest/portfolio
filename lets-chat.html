@@ -26,14 +26,13 @@
       </nav>
     </header>
     <div class="container">
-      <form action="action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-        <label for="subject">Subject</label>
-        <textarea id="subject" placeholder="Write something.." style="height:200px"></textarea>
-        <button type="Submit">SUBMIT</button>
+      <form name="html form" method="post" action="mailto:raven.best5@gmail.com">
+        <h1>Let's Chat!</h1>
+        <p>I'd love to connect, whether to work together or grab some coffee, send me a message!</p>
+        <input type="text" name="first_name" placeholder="NAME" required>
+        <input type="email" name="email" placeholder="MAIL" required>
+        <textarea name="comment" placeholder="MESSAGE" required></textarea>
+        <button name="send" type="submit" class="submit">SEND</button>
       </form>
     </div>
   </body>
