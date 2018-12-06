@@ -2460,7 +2460,7 @@ ul.Takeaways {
   grid-column: 1;
   grid-row: 3;
   line-height: 2.4rem;
-  margin-left: 85rem;
+  margin-left: 65rem;
   padding-right: 5rem;
   width: 40%
 }
@@ -2469,7 +2469,7 @@ ul.Takeaways {
   float: left;
   grid-column: 1;
   grid-row: 3;
-  margin-left: 35rem;
+  margin-left: 20rem;
   width: 60%;
 }
 
@@ -2479,14 +2479,14 @@ ul.Takeaways {
 
 .Competitive-Analysis img.Evernote {
   height: 6.9rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   margin-left: 5rem;
   width: 28.1rem;
 }
 
 .Competitive-Analysis img.Pinterest {
   height: 17.2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   margin-left: 10rem;
   width: 17.2rem;
 }
@@ -2719,8 +2719,9 @@ ul.Takeaways {
   font-size: 1.8rem;
   font-weight: 900;
   height: 5.0rem;
-  margin-left: 85rem;
-  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
   text-align: center;
   width: 30rem;
 }
