@@ -1704,7 +1704,7 @@ div.iterations {
 
 .Branding img.iteration {
   display: grid;
-  grid-column: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   height: 24.2rem;
   margin-bottom: 3rem;
   margin-left: 25rem;
@@ -1718,7 +1718,7 @@ div.logos {
 
 .Branding img.logos {
   display: grid;
-  grid-column: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   height: 24.2rem;
   margin-bottom: 3rem;
   margin-left: 25rem;

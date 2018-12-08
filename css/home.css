@@ -234,7 +234,7 @@ ul li {
   .column2 {
     display: grid;
     grid-template-columns: 50px 400px 50px;
-    grid-template rows: 100 auto;
+    grid-template-rows: 200px auto;
     padding-top: 8.0rem;
   }
 
@@ -337,7 +337,7 @@ h1 {
   display: grid;
   float: left;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 75px 160px 20px;
+  grid-template-rows: 50px 75px 250px 20px;
   width: 35%;
 }
 
@@ -363,7 +363,7 @@ h1 {
   grid-column: 1;
   grid-row-start: 3;
   padding-left: 3rem;
-  width: 35%;
+  width: 75%;
 }
 
 .column1 button {
@@ -383,7 +383,7 @@ h1 {
 .column2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template rows: 100 auto;
+  grid-template-rows: 500px auto;
   padding-top: 8.0rem;
   width: 65%;
 }
@@ -536,7 +536,7 @@ h1 {
   .column2 {
     display: grid;
     grid-template-columns: 500px 50px;
-    grid-template rows: 100 auto;
+    grid-template-rows: 500px auto;
     margin-left: 3rem;
     padding-top: 8.0rem;
     width: 50%;

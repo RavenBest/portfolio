@@ -216,7 +216,7 @@ ul li {
     .column2 {
       display: grid;
       grid-template-columns: 50px 400px 50px;
-      grid-template rows: 100 auto;
+      grid-template-rows: 200px auto;
       padding-top: 8.0rem;
     }
 
@@ -360,7 +360,7 @@ ul li {
 .column2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template rows: 100 auto;
+  grid-template-rows: 100px auto;
   padding-top: 8.0rem;
   width: 65%;
 }
@@ -507,7 +507,7 @@ ul li {
   .column2 {
     display: grid;
     grid-template-columns: 500px 50px;
-    grid-template rows: 100;
+    grid-template-rows: 300px;
     margin-left: 1rem;
     margin-right: 5rem;
     padding-top: 8.0rem;
