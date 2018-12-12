@@ -388,7 +388,7 @@ ul li {
 
 /* Mobile Size */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 375px) and (max-width: 767px){
 
   /* Mobile Nav */
 
@@ -2057,7 +2057,7 @@ div.logos {
     background-color: #ffffff;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 100px;
     padding: 2rem 1rem;
     width: 100%;
   }
