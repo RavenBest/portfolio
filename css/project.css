@@ -2084,7 +2084,8 @@ div.logos {
     font-size: 2.0rem;
     grid-column: 2;
     grid-row: 1;
-    width: 30%;
+    padding-left: 0;
+    width: 20%;
   }
 
   /* Laptop Hero */
