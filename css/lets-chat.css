@@ -183,7 +183,7 @@ ul li {
     }
 
     .logo a {
-      display: none;
+      color: #ffffff;
     }
 
     .NavLinks a {
@@ -373,9 +373,6 @@ ul li {
         vertical-align: middle;
       }
 
-      .logo a {
-        padding-left: 1rem;
-      }
 
       .NavLinks a {
         display: block;

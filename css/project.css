@@ -416,7 +416,7 @@ ul li {
     }
 
     .logo a {
-      display: none;
+      color: #ffffff;
     }
 
     .NavLinks a {
@@ -2052,11 +2052,16 @@ div.logos {
     width: 6rem;
   }
 
+  nav img {
+    height: 6rem;
+    width: 6rem;
+  }
+
   nav {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
     padding: 2rem 1rem;
     width: 100%;
@@ -2078,6 +2083,8 @@ div.logos {
     float: right;
     font-size: 2.0rem;
     grid-column: 2;
+    grid-row: 1;
+    width: 30%;
   }
 
   /* Laptop Hero */
@@ -2945,6 +2952,7 @@ ul.Takeaways {
       grid-template-rows: 100px auto;
       width: 100%;
     }
+
 
     footer img {
       height: 6rem;

@@ -119,22 +119,24 @@ ul li {
       display: inline-flex;
       grid-column: 1;
       grid-row: 1;
-      padding-right: 7rem;
+      padding-left: 3rem;
       vertical-align: middle;
     }
 
     .logo a {
-      display: none;
+      color: #ffffff;
     }
-
+    
     .NavLinks a {
       display: block;
       float: right;
       font-size: 1.8rem;
       grid-column: 2;
       grid-row: 1;
-      padding-left: 3rem;
+      padding-left: 8.5rem;
+      width: 100%;
     }
+
 
     /* Mobile Main */
     main {
@@ -337,11 +339,16 @@ ul li {
       width: 6rem;
     }
 
+    nav img {
+      height: 6rem;
+      width: 6rem;
+    }
+
     nav {
       align-items: center;
       background-color: #ffffff;
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: 100px;
       padding: 2rem 1rem;
       width: 100%;
@@ -363,9 +370,12 @@ ul li {
       float: right;
       font-size: 2.0rem;
       grid-column: 2;
+      grid-row: 1;
+      padding-left: 0;
+      width: 20%;
     }
 
-    /* Mobile Main */
+    /* Laptop Main */
     main {
       display: grid;
       grid-template-columns: 1fr;

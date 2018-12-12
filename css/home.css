@@ -153,9 +153,9 @@ ul li {
       padding-left: 3rem;
       vertical-align: middle;
     }
-
+    
     .logo a {
-      display: none;
+      color: #ffffff;
     }
 
     .NavLinks a {
@@ -446,11 +446,16 @@ h1 {
     width: 6rem;
   }
 
+  nav img {
+    height: 6rem;
+    width: 6rem;
+  }
+
   nav {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
     padding: 2rem 1rem;
     width: 100%;
@@ -472,8 +477,11 @@ h1 {
     float: right;
     font-size: 2.0rem;
     grid-column: 2;
+    grid-row: 1;
+    padding-left: 0;
+    width: 20%;
   }
-  
+
   /* Laptop Hero Section */
 
   h1 {
