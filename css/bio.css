@@ -119,20 +119,21 @@ ul li {
       display: inline-flex;
       grid-column: 1;
       grid-row: 1;
-      padding-left: 3rem;
+      padding-left: 1rem;
       vertical-align: middle;
     }
 
     .logo a {
       color: #ffffff;
     }
-    
+
     .NavLinks a {
       display: block;
       float: right;
       font-size: 1.8rem;
       grid-column: 2;
       grid-row: 1;
+      padding: .5rem 0;
       padding-left: 8.5rem;
       width: 100%;
     }

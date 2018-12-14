@@ -41,7 +41,7 @@ nav img {
   color: #1b1464;
   display: block;
   font-family: "Montserrat";
-  padding: 0 0;
+  padding: .5rem 0;
   text-decoration: none;
 }
 
@@ -146,14 +146,14 @@ ul li {
       width: 100%;
     }
 
+
     header .logo {
       display: inline-flex;
       grid-column: 1;
-      grid-row: 1;
-      padding-left: 3rem;
+      padding-left: 1rem;
       vertical-align: middle;
     }
-    
+
     .logo a {
       color: #ffffff;
     }
@@ -460,6 +460,10 @@ h1 {
     padding: 2rem 1rem;
     width: 100%;
   }
+
+  nav img {
+    margin-left:0
+    }
 
   header .logo {
     display: inline-flex;
