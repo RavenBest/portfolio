@@ -216,10 +216,6 @@ ul li {
       width: 6rem;
     }
 
-    nav img {
-      height: 6rem;
-      width: 6rem;
-    }
 
     nav {
       align-items: center;
@@ -245,11 +241,10 @@ ul li {
     .NavLinks a {
       display: block;
       float: right;
-      font-size: 1.8rem;
+      font-size: 2.0rem;
       grid-column: 2;
       grid-row: 1;
-      padding-left: 8.5rem;
-      width: 100%;
+      width: 30%;
     }
 
     /* Mobile Main */

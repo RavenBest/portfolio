@@ -280,7 +280,6 @@ ul li {
 nav img {
   height: 6rem;
   width: 6rem;
-  margin-left: 5rem;
 }
 
 nav img {
@@ -312,11 +311,10 @@ header .logo {
 .NavLinks a {
   display: block;
   float: right;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   grid-column: 2;
   grid-row: 1;
-  padding-left: 8.5rem;
-  width: 100%;
+  width: 30%;
 }
 
 /* Tablet Hero Section */
