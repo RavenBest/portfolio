@@ -2173,6 +2173,10 @@ footer p {
     width: 100%;
   }
 
+  nav img {
+    margin-left:0
+    }
+
   header .logo {
     display: inline-flex;
     grid-column: 1;
@@ -2190,8 +2194,10 @@ footer p {
     font-size: 2.0rem;
     grid-column: 2;
     grid-row: 1;
-    width: 30%;
+    padding-left: 0;
+    width: 20%;
   }
+
 
   /* Laptop Hero */
 
