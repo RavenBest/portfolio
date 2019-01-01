@@ -1541,6 +1541,7 @@ ul.Takeaways {
 .Personas h2 {
   font-weight: 900;
   font-size: 2.6rem;
+  padding-top: 8rem;
   text-align: center;
 }
 
@@ -1559,7 +1560,7 @@ ul.Takeaways {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 
 .Personas h3 {
