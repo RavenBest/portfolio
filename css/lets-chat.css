@@ -210,7 +210,8 @@ footer p{
     }
 
     p{
-      font-size: 2.0rem;
+      font-size: 2.2rem;
+      line-height: 2.8rem;
       padding-bottom: 3rem;
       padding-top: 2rem;
     }
@@ -313,7 +314,10 @@ footer p{
     }
 
     p{
-      font-size: 2.6rem;
+      font-size: 2.2rem;
+      line-height: 2.8rem;
+      margin-left: 15rem;
+      margin-right: 15rem;
       padding-bottom: 5rem;
       padding-top: 3rem;
     }
@@ -410,7 +414,7 @@ footer p{
       }
 
       p{
-        font-size: 2.0rem;
+        font-size: 2.2rem;
         padding-bottom: 3rem;
         padding-top: 2rem;
       }
@@ -429,8 +433,8 @@ footer p{
         align-items: center;
         bottom: 0;
         display: grid;
-        grid-template-columns: 1fr 10fr 1fr;
-        grid-template-rows: 100px 50px;
+        grid-template-columns: 1fr 10fr;
+        grid-template-rows: 100px auto;
         width: 100%;
       }
 
@@ -449,18 +453,19 @@ footer p{
         display: inline-flex;
         float: right;
         font-size: 3rem;
-        grid-column: 3;
+        grid-column: 2;
+        grid-row: 1;
       }
 
       .footer-links li {
         padding-right: 3rem;
       }
 
-      footer p{
+      footer p {
         grid-column: 2;
-        grid-row: 2;
         margin-top: 2rem;
         padding-bottom: 2rem;
+        padding-right: 12rem;
         text-align: center;
       }
 

@@ -161,7 +161,7 @@ section.Deliverables p {
 
 ul.Takeaways {
   font-family: "Source Sans Pro";
-  list-style-position: inside;
+  list-style-position: outside;
   list-style-type: disc;
 }
 
@@ -454,6 +454,7 @@ footer p {
       font-size: 1.8rem;
       grid-column: 2;
       grid-row: 1;
+      padding: .5rem 0;
       padding-left: 8.5rem;
       width: 100%;
     }
@@ -512,6 +513,7 @@ footer p {
     font-size: 1.8rem;
     font-weight: 900;
     height: 5.0rem;
+    margin-top: 2rem;
     text-align: center;
     width: 25rem;
   }
@@ -592,7 +594,7 @@ footer p {
 
   .Summary p {
     font-size: 1.8rem;
-    line-height: 2.0rem;
+    line-height: 2.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1rem;
@@ -621,7 +623,7 @@ footer p {
 
   .Problem p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 4rem;
@@ -649,7 +651,7 @@ footer p {
 
   .Solution p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 4rem;
@@ -665,6 +667,7 @@ footer p {
   .Surveys h3 {
     font-family: "Montserrat";
     font-size: 2.4rem;
+    line-height: 3.0rem;
     font-weight: 900;
     padding-top: 2rem;
     text-align: center;
@@ -680,7 +683,7 @@ footer p {
 
   .Surveys p {
     font-size: 1.8rem;
-    line-height: 2.0rem;
+    line-height: 2.4rem;
     padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -688,6 +691,7 @@ footer p {
 
   ul.Takeaways {
     font-size: 1.8rem;
+    line-height: 2.4rem;
     padding-top: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -729,7 +733,7 @@ footer p {
     grid-row: 2;
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
-    line-height: 2.0rem;
+    line-height: 2.4rem;
     text-align: center;
   }
 
@@ -745,6 +749,7 @@ footer p {
   }
 
   .Personas p {
+    line-height: 2.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -775,14 +780,17 @@ footer p {
   }
 
   .Personas div.Age {
+    line-height: 2.4rem;
     margin-bottom: 4rem;
   }
 
   .Personas div.Goals {
+    line-height: 2.4rem;
     margin-bottom: 4rem;
   }
 
   .Personas div.Frustrations {
+    line-height: 2.4rem;
     margin-bottom: 4rem;
   }
 
@@ -800,6 +808,7 @@ footer p {
 
   .Competitive-Analysis h3 {
     font-size: 2.4rem;
+    line-height: 3.0rem;
     padding-bottom: 6rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -808,7 +817,7 @@ footer p {
 
   .Competitive-Analysis p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-bottom: 3rem;
     padding-left: 5rem;
     padding-right: 3rem;
@@ -857,7 +866,7 @@ footer p {
 
   .User-Stories p {
     font-size: 1.8rem;
-    line-height: 2.0rem;
+    line-height: 2.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -875,7 +884,7 @@ footer p {
 
   .User-Flows p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     margin-bottom: 4rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -918,13 +927,14 @@ footer p {
 
   .Branding h3 {
     font-size: 2.4rem;
+    line-height: 3rem;
     padding-bottom: 3rem;
     padding-top: 2rem;
   }
 
   .Branding p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -1006,7 +1016,7 @@ footer p {
   }
 
   .Example-Right p {
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-top: 2rem;
   }
 
@@ -1040,7 +1050,7 @@ footer p {
 
   .Wireframes p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -1082,7 +1092,7 @@ footer p {
 
    .High-Fid p{
      font-size: 1.8rem;
-     line-height: 2rem;
+     line-height: 2.4rem;
      padding-bottom: 2rem;
      padding-left: 3rem;
      padding-right: 3rem;
@@ -1139,7 +1149,7 @@ footer p {
 
   .Visual-Design p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-bottom: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1159,6 +1169,7 @@ footer p {
 
   ul.conclusion-list {
     font-size: 1.8rem;
+    list-style-position: outside;
     grid-column: 1;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -1167,7 +1178,7 @@ footer p {
 
   .Conclusion p {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
     padding-bottom: 8rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1220,6 +1231,7 @@ footer p {
   footer p {
     grid-column: 1;
     grid-row: 3;
+    line-height: 2.4rem;
     margin-top: 2rem;
     text-align: center;
   }
@@ -1377,7 +1389,7 @@ section.Deliverables h1 {
 
 section.Deliverables p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   font-weight: 400;
   padding-top: .5rem;
 }
@@ -1407,7 +1419,7 @@ ul.Tools.Used {
 
 .Summary p {
   font-size: 1.8rem;
-  line-height: 2.0rem;
+  line-height: 2.4rem;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 1rem;
@@ -1437,7 +1449,7 @@ ul.Tools.Used {
 
 .Problem p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   grid-column: 2;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1468,7 +1480,7 @@ ul.Tools.Used {
 
 .Solution p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   grid-column: 2;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1498,9 +1510,14 @@ ul.Takeaways li {
   padding-top: 1rem;
 }
 
+ul.Takeaways li {
+  text-indent: -.4rem;
+  margin-left: 5rem;
+}
+
 .Surveys p {
   font-size: 1.8rem;
-  line-height: 2.0rem;
+  line-height: 2.4rem;
   padding-top: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1508,6 +1525,7 @@ ul.Takeaways li {
 
 ul.Takeaways {
   font-size: 1.8rem;
+  line-height: 2.4rem;
   padding-top: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1534,7 +1552,8 @@ ul.Takeaways {
 .Personas {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 100px 1300px;
+  grid-template-rows: 80px 100px 1800px;
+  margin-bottom: 25rem;
   width: 100%;
 }
 
@@ -1580,42 +1599,51 @@ ul.Takeaways {
 
 .Personas div p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .Personas .personas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 
 .Personas div.Melanie.Vasquez {
   grid-column: 1;
   grid-row: 1;
+  width: 80%;
+  margin-left: 5rem;
 }
 
 .Personas div.Steven.Johannsen {
   grid-column: 2;
   grid-row: 1;
+  margin-left: 3rem;
+  width: 80%;
 }
 
 .Personas div.Age {
+  line-height: 2.4rem;
   margin-bottom: 4rem;
 }
 
 .Personas div.Goals {
+  line-height: 2.4rem;
   margin-bottom: 4rem;
 }
 
 .Personas div.Frustrations {
+  line-height: 2.4rem;
   margin-bottom: 4rem;
 }
 
 /* Competitive Analysis */
 .Competitive-Analysis {
-  margin-bottom: 62rem
+  margin-bottom: 80rem
 }
 
 .Competitive-Analysis h2 {
@@ -1634,7 +1662,7 @@ ul.Takeaways {
 
 .Competitive-Analysis p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   margin-bottom: 3rem;
 }
 
@@ -1652,14 +1680,15 @@ ul.Takeaways {
 
 .Competitive-Analysis img.Evernote {
   height: 6.9rem;
-  margin-bottom: 5rem;
+  margin-bottom: 12rem;
   margin-left: 5rem;
+  margin-top: 4rem;
   width: 28.1rem;
 }
 
 .Competitive-Analysis img.Pinterest {
   height: 17.2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   margin-left: 10rem;
   width: 17.2rem;
 }
@@ -1696,7 +1725,7 @@ ul.Takeaways {
 
 .User-Stories p {
   font-size: 1.8rem;
-  line-height: 2.0rem;
+  line-height: 2.4rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -1714,7 +1743,7 @@ ul.Takeaways {
 
 .User-Flows p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   margin-bottom: 4rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1765,7 +1794,7 @@ ul.Takeaways {
 
 .Branding p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   padding-left: 5rem;
   padding-right: 3rem;
 }
@@ -1910,7 +1939,7 @@ div.logos {
 
 .Wireframes p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -1987,7 +2016,7 @@ div.logos {
 
 .High-Fid p {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.4rem;
   padding-bottom: 5rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -2060,7 +2089,7 @@ div.logos {
 .Visual-Design img {
   height: 20.1rem;
   margin-left: 4.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   width: 28.3rem;
 }
 
@@ -2071,7 +2100,7 @@ div.logos {
 
 .Visual-Design p {
   font-size: 1.8rem;
-  line-height: 2.0rem;
+  line-height: 2.4rem;
   margin-right: 5rem;
   padding-bottom: 5rem;
 }
@@ -2092,6 +2121,7 @@ div.logos {
 ul.conclusion-list {
   font-size: 1.8rem;
   grid-column: 1;
+  list-style-position: outside;
   margin-left: 10rem;
   margin-right: 10rem;
   padding-bottom: 5rem;
@@ -2099,7 +2129,7 @@ ul.conclusion-list {
 
 .Conclusion p {
   font-size: 1.8rem;
-  line-height: 2.0rem;
+  line-height: 2.4rem;
   padding-bottom: 8rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -2305,7 +2335,7 @@ section.Deliverables h1 {
 section.Deliverables p {
   font-size: 2.2rem;
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-top: .5rem;
 }
 
@@ -2334,7 +2364,7 @@ ul.Tools.Used {
 
 .Summary p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-left: 20rem;
   padding-right: 20rem;
   padding-top: 3rem;
@@ -2344,6 +2374,8 @@ ul.Tools.Used {
 /* Laptop Problem & Solution */
 .Problem {
   background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
   float: left;
   margin-bottom: 8rem;
   padding-bottom: 4rem;
@@ -2365,7 +2397,7 @@ ul.Tools.Used {
 
 .Problem p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-left: 8rem;
   padding-right: 5rem;
   padding-top: 4rem;
@@ -2374,6 +2406,8 @@ ul.Tools.Used {
 
 .Solution {
   background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
   float: right;
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -2393,14 +2427,14 @@ ul.Tools.Used {
 
 .Solution p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-top: 4rem;
 }
 
 /* Laptop Surveys */
 
 .Surveys {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -2419,28 +2453,31 @@ ul.Tools.Used {
 
 .Surveys p.keys {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-left: 10rem;
   text-align: left;
 }
 
 
 ul.Takeaways li {
+  text-indent: -5rem;
+  margin-left: 5rem;
   padding-top: 1rem;
   padding-left: 5rem;
 }
 
 .Surveys p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-bottom: 4rem;
   padding-top: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 ul.Takeaways {
   font-size: 2.2rem;
+  line-height: 2.8rem;
   padding-top: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -2469,7 +2506,7 @@ ul.Takeaways {
 .Personas {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 100px 1300px;
+  grid-template-rows: 80px 120px 1600px;
   width: 100%;
 }
 
@@ -2482,9 +2519,8 @@ ul.Takeaways {
 .Personas p {
   font-family: "Source Sans Pro";
   font-size: 2.2rem;
-  line-height: 2.4rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  line-height: 2.8rem;
+  padding-bottom: 5rem;
   padding-top: 2rem;
   text-align: center;
 }
@@ -2495,7 +2531,6 @@ ul.Takeaways {
   width: 23.2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3rem;
   margin-top: 3rem;
 }
 
@@ -2516,29 +2551,30 @@ ul.Takeaways {
 
 .Personas div p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
 }
 
 .Personas .personas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  margin-top: 8rem;
+  margin-top: 16rem;
 }
 
 
 .Personas div.Melanie.Vasquez {
   grid-column: 1;
   grid-row: 1;
+  width: 100%;
 }
 
 .Personas div.Steven.Johannsen {
   grid-column: 2;
   grid-row: 1;
+  width: 100%;
 }
 
 .Personas div.Age {
-  margin-bottom: 4rem;
 }
 
 .Personas div.Goals {
@@ -2551,9 +2587,6 @@ ul.Takeaways {
 
 /* Laptop Competitive Analysis */
 .Competitive-Analysis {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 80px 100px 400px;
   margin-top: 10rem;
   margin-bottom: 20rem;
   padding-bottom: 8rem;
@@ -2562,16 +2595,12 @@ ul.Takeaways {
 .Competitive-Analysis h2 {
   font-size: 2.8rem;
   font-weight: 900;
-  grid-column: 1;
-  grid-row: 1;
   padding-top: 5rem;
   text-align: center;
 }
 
 .Competitive-Analysis h3 {
   font-size: 3.0rem;
-  grid-column: 1;
-  grid-row: 2;
   padding-bottom: 6rem;
   padding-top: 2rem;
   text-align: center;
@@ -2579,27 +2608,24 @@ ul.Takeaways {
 
 .Competitive-Analysis p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 .Competitive-Analysis .Column4 {
   float: right;
   font-size: 2.2rem;
-  grid-column: 1;
-  grid-row: 3;
-  line-height: 2.4rem;
-  margin-left: 80rem;
-  padding-right: 5rem;
+  line-height: 2.8rem;
+  margin-right: 5rem;
   width: 50%
 }
 
 .Competitive-Analysis .Column3 {
   float: left;
-  grid-column: 1;
-  grid-row: 3;
-  margin-left: 30rem;
-  width: 65%;
+  margin-left: 5rem;
+  padding-left: 8rem;
+  width: 30%;
 }
 
 .Competitive-Analysis img {
@@ -2630,7 +2656,7 @@ ul.Takeaways {
 /* Laptop User Stories */
 .User-Stories {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   padding-bottom: 5rem;
   margin-top: 10rem;
   width: 100%;
@@ -2677,7 +2703,7 @@ ul.Takeaways {
 
 .User-Flows p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-bottom: 4rem;
   padding-left: 20rem;
   padding-right: 20rem;
@@ -2740,6 +2766,7 @@ ul.Takeaways {
 
 .Branding p.text {
   font-size: 2.2rem;
+  line-height: 2.8rem;
   grid-column: 1;
   padding-left: 20rem;
   padding-right: 20rem;
@@ -2878,7 +2905,7 @@ ul.Takeaways {
 
 .Wireframes p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-left: 20rem;
   padding-right: 20rem;
 }
@@ -2956,7 +2983,7 @@ ul.Takeaways {
 
 .High-Fid p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
+  line-height: 2.8rem;
   padding-bottom: 5rem;
   padding-left: 20rem;
   padding-right: 20rem;
@@ -3041,9 +3068,8 @@ ul.Takeaways {
 
 .Visual-Design p {
   font-size: 2.2rem;
-  line-height: 2.4rem;
-  margin-bottom: 40rem;
-  margin-left: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 30rem;
 }
 
 /* Laptop Conclusion */
@@ -3075,8 +3101,8 @@ ul.conclusion-list {
 
 .Conclusion p {
   font-size: 2.2rem;
+  line-height: 2.8rem;
   grid-column: 1;
-  line-height: 2.4rem;
   padding-bottom: 5rem;
   padding-left: 20rem;
   padding-right: 20rem;
@@ -3089,8 +3115,8 @@ ul.conclusion-list {
     align-items: center;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 100px 50px;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 100px auto;
     width: 100%;
   }
 
@@ -3109,20 +3135,20 @@ ul.conclusion-list {
     display: inline-flex;
     float: right;
     font-size: 3rem;
-    grid-column: 3;
+    grid-column: 2;
+    grid-row: 1;
   }
 
   .footer-links li {
     padding-right: 3rem;
   }
 
-  footer p{
+  footer p {
     grid-column: 2;
-    grid-row: 2;
     margin-top: 2rem;
     padding-bottom: 2rem;
+    padding-right: 12rem;
     text-align: center;
   }
-
 
 }
