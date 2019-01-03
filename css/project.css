@@ -2618,13 +2618,13 @@ ul.Takeaways {
   font-size: 2.2rem;
   line-height: 2.8rem;
   margin-right: 5rem;
+  padding-left: 6rem;
   width: 50%
 }
 
 .Competitive-Analysis .Column3 {
   float: left;
-  margin-left: 5rem;
-  padding-left: 8rem;
+  margin-left: 12rem;
   width: 30%;
 }
 
@@ -2634,14 +2634,14 @@ ul.Takeaways {
 
 .Competitive-Analysis img.Evernote {
   height: 6.9rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   margin-left: 5rem;
   width: 28.1rem;
 }
 
 .Competitive-Analysis img.Pinterest {
   height: 17.2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
   margin-left: 10rem;
   width: 17.2rem;
 }
@@ -2687,7 +2687,7 @@ ul.Takeaways {
   line-height: 3.2rem;
 }
 
-/* Tablet User Flows */
+/* Laptop User Flows */
 .User-Flows {
   display: grid;
   grid-template-columns: 1fr;
@@ -2717,29 +2717,29 @@ ul.Takeaways {
 }
 
 .User-Flows img.Log-In {
-  height: 29.8rem;
+  height: 22.2rem;
   grid-column: 1;
   margin-left: auto;
   margin-right: auto;
-  width: 121.3rem;
+  width: 90rem;
 }
 
 .User-Flows img.Create {
-  height: 25.9rem;
+  height: 20.61rem;
   grid-column: 1;
   margin-bottom: 8rem;
   margin-left: auto;
   margin-right: auto;
-  width: 113.1rem;
+  width: 90rem;
 }
 
 .User-Flows img.Collab {
-  height: 22.9rem;
+  height: 16.528rem;
   grid-column: 1;
   margin-bottom: 8rem;
   margin-left: auto;
   margin-right: auto;
-  width: 124.7rem;
+  width: 90rem;
 }
 
 /* Laptop Branding */
@@ -2913,33 +2913,33 @@ ul.Takeaways {
 .Wireframes div.Low-Fid{
   display: grid;
   grid-template-columns: 4fr 2fr 2fr 4fr;
-  grid-template-rows: 446px 446px;
+  grid-template-rows: 350px 350px;
   margin-top: 4rem;
   margin-bottom: 10rem;
 }
 
 .Low-Fid img.landing {
-  height: 90.1rem;
+  height: 70.636rem;
   grid-column: 2;
   grid-row: 1;
-  width: 51.6rem;
+  width: 40.453rem;
 }
 
 .Low-Fid img.dash {
-  height: 44.6rem;
+  height: 34.965rem;
   grid-column: 3;
   grid-row: 1;
   margin-left: 1rem;
-  width: 60.6rem;
+  width: 47.509rem;
 }
 
 .Low-Fid img.project {
-  height: 44.6rem;
+  height: 34.573rem;
   grid-column: 3;
   grid-row: 2;
   margin-left: 1rem;
   margin-top: 1rem;
-  width: 60.6rem;
+  width: 47.822rem;
 }
 
 /* Laptop Hi-Fid Mockups */
@@ -2952,7 +2952,7 @@ ul.Takeaways {
 .High-Fid .hi-mockups {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-template-rows: 80px 490px 80px 490px;
+  grid-template-rows: 60px 375px 60px 375px;
   margin-bottom: 8rem;
 }
 
@@ -2960,7 +2960,7 @@ ul.Takeaways {
   font-size: 2.2rem;
   grid-column: 2;
   grid-row: 1;
-  padding-right: 5rem;
+  padding-right: 3rem;
 }
 
 .High-Fid .number2 {
@@ -2985,41 +2985,40 @@ ul.Takeaways {
   font-size: 2.2rem;
   line-height: 2.8rem;
   padding-bottom: 5rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 6rem;
   padding-top: 3rem;
 }
 
 .High-Fid img.db {
-  height: 48.6rem;
+  height: 37.254rem;
   grid-column: 2;
   grid-row: 2;
-  margin-left: 5rem;
-  width: 56.4rem;
+  margin-left: 2rem;
+  width: 43.233rem;
 }
 
 .High-Fid img.db-2 {
-  height: 48.6rem;
+  height: 37.254rem;
   grid-column: 3;
   grid-row: 2;
-  margin-left: 5rem;
-  width: 56.4rem;
+  margin-left: 2rem;
+  width: 43.233rem;
 }
 
 .High-Fid img.ih {
-  height: 48.6rem;
+  height: 37.254rem;
   grid-column: 2;
   grid-row: 4;
-  margin-left: 5rem;
-  width: 56.4rem;
+  margin-left: 2rem;
+  width: 43.233rem;
 }
 
 .High-Fid img.ih-final {
-  height: 48.6rem;
+  height: 37.254rem;
   grid-column: 3;
   grid-row: 4;
-  margin-left: 5rem;
-  width: 56.4rem;
+  margin-left: 2rem;
+  width: 43.233rem;
 }
 
 /* Laptop Visual Design */
@@ -3031,38 +3030,37 @@ ul.Takeaways {
   font-size: 3.0rem;
   padding-bottom: 8rem;
   padding-top: 10rem;
+  text-align: center;
 }
 
 .Visual-Design div.Dashboards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
   grid-template-rows: 1fr;
-  width: 100%
 }
 
 .Visual-Design img {
+  float: right;
   grid-column: 1;
   grid-row: 1;
+  margin-left: 5rem;
 }
 
 .Visual-Design .Dashboard-Blurbs {
   grid-column: 2;
   grid-row: 1;
-  margin-left: 5rem;
-  margin-right: 5rem;
-
 }
 
 .Visual-Design img {
-  height: 60.9rem;
-  margin-left: 15rem;
+  height: 49.79rem;
   margin-bottom: 3rem;
-  width: 85.6rem;
+  width: 70rem;
 }
 
 .Visual-Design h3 {
   font-size: 2.4rem;
   margin-bottom: 2rem;
+  margin-right: 15rem;
   margin-top: 20rem;
 }
 
