@@ -48,8 +48,6 @@ nav img {
 .hero {
   background-image: linear-gradient(45deg, #371866, #1b1464, #46227E, #662d91, #A52686, #ed1e79);
   background-size: 400% 400%;
-  border-bottom-left-radius: 90% 10%;
-  border-bottom-right-radius: 90% 10%;
   -webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
