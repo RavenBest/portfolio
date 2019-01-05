@@ -9,6 +9,7 @@ html {
 
 .container{
   color: #1b1464;
+  opacity: 0.8;
   text-decoration: none;
 }
 
@@ -43,6 +44,11 @@ nav img {
   padding: 0 0;
   text-decoration: none;
 }
+
+a:hover {
+  color: #F5569C;
+}
+
 
 /* Hero */
 .hero img {
@@ -432,7 +438,7 @@ footer p {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 100px auto;
-      padding: 2rem 1rem;
+      padding: .5rem 1rem;
       width: 100%;
     }
 
@@ -1259,7 +1265,7 @@ footer p {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 100px auto;
-      padding: 2rem 1rem;
+      padding: .5rem 1rem;
       width: 100%;
     }
 
@@ -1271,6 +1277,7 @@ footer p {
     }
 
       .logo a {
+        padding-bottom: 10px;
         padding-left: 1rem;
       }
 
@@ -2199,7 +2206,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
-    padding: 2rem 1rem;
+    padding: .5rem 1rem;
     width: 100%;
   }
 
@@ -2215,6 +2222,7 @@ footer p {
   }
 
   .logo a {
+    padding-bottom: 10px;
     padding-left: 1rem;
   }
 

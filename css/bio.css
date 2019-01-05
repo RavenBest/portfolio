@@ -9,6 +9,7 @@ html {
 
 .container{
   color: #1b1464;
+  opacity: 0.8;
   text-decoration: none;
 }
 
@@ -43,6 +44,11 @@ nav img {
   padding: 0 0;
   text-decoration: none;
 }
+
+a:hover {
+  color: #F5569C;
+}
+
 
 /* Main */
 main h1 {
@@ -117,7 +123,7 @@ footer p{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 100px auto;
-      padding: 2rem 1rem;
+      padding: .5rem 1rem;
       width: 100%;
     }
 
@@ -168,19 +174,20 @@ footer p{
       grid-row: 2;
       padding-top: 5rem;
       font-size: 3.0rem;
-      line-height: 3.8rem;
+      line-height: 1.3;
       margin-left: 3rem;
       margin-right: 3rem;
       text-align: center;
     }
 
-    main p {
+    .bio-text p {
       font-size: 1.8rem;
       grid-column: 1;
-      line-height: 2.4rem;
+      line-height: 1.3;
       margin-bottom: 2rem;
       margin-left: 5rem;
       margin-right: 5rem;
+      margin-top: 4rem;
     }
 
     main button {
@@ -239,7 +246,7 @@ footer p{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 100px auto;
-      padding: 2rem 1rem;
+      padding: .5rem 1rem;
       width: 100%;
     }
 
@@ -251,6 +258,7 @@ footer p{
     }
 
     .logo a {
+      padding-bottom: 10px;
       padding-left: 1rem;
     }
 
@@ -291,10 +299,10 @@ footer p{
       text-align: center;
     }
 
-    main p {
+    .bio-text p {
       font-size: 2.2rem;
       grid-column: 1;
-      line-height: 2.8rem;
+      line-height: 1.3;
       margin-bottom: 2rem;
       margin-left: 10rem;
       margin-right: 10rem;
@@ -380,7 +388,7 @@ footer p{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 100px;
-      padding: 2rem 1rem;
+      padding: .5rem 1rem;
       width: 100%;
     }
 
@@ -392,6 +400,7 @@ footer p{
     }
 
     .logo a {
+      padding-bottom: 10px;
       padding-left: 1rem;
     }
 
@@ -423,7 +432,8 @@ footer p{
       width: 23.2rem;
     }
 
-    main h1 {
+    .bio-text h1 {
+      letter-spacing: 3px;
       grid-column: 1;
       grid-row: 2;
       padding-top: 5rem;
@@ -431,13 +441,18 @@ footer p{
       text-align: center;
     }
 
-    main p {
+    .bio-text p {
       font-size: 2.2rem;
       grid-column: 1;
-      line-height: 2.8rem;
+      line-height: 1.5;
       margin-bottom: 4rem;
       margin-left: 30rem;
       margin-right: 30rem;
+    }
+
+    .bio-text a {
+      text-decoration: underline;
+      font-weight: : 900;
     }
 
     main button {
