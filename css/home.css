@@ -39,7 +39,7 @@ html {
 .NavLinks a {
   color: #ffffff;
   font-family: "Montserrat";
-  padding: 0 0;
+  padding: .5rem 0;
   text-decoration: none;
 }
 
