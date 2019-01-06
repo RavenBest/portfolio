@@ -177,6 +177,13 @@ ul.Takeaways {
   background-color: #000000;
 }
 
+  .button:hover {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+  }
+}
+
 /* Personas */
 .Personas h2 {
   font-family: "Montserrat";
@@ -318,6 +325,10 @@ ul.Takeaways {
    color: #000000;
    font-family: "Source Sans Pro";
    font-weight: 900;
+}
+
+.branding-button:hover {
+  background-color: #ffe100;
 }
 
 /* Wireframes */
@@ -474,7 +485,7 @@ footer p {
   section.hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 170px 60px 50px 50px 50px;
+    grid-template-rows: 170px 60px 50px auto 20px auto;
     width: 100%;
   }
 
@@ -515,7 +526,7 @@ footer p {
     text-align: center;
   }
 
-  section button {
+  .hero button {
     background-color: #1b1464;
     border: none;
     border-radius: .2rem;
@@ -524,7 +535,6 @@ footer p {
     font-size: 1.8rem;
     font-weight: 900;
     height: 5.0rem;
-    margin-top: 2rem;
     text-align: center;
     width: 25rem;
   }
@@ -540,10 +550,9 @@ footer p {
   div.button-desktop {
     display: block;
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 6;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
   }
 
   /* Mobile Deliverables */
@@ -1299,7 +1308,7 @@ footer p {
   section.hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 340px 85px 80px 50px 150px;
+    grid-template-rows: 340px 85px 80px auto auto;
     margin-bottom: 8rem;
     width: 100%;
   }
@@ -1345,7 +1354,7 @@ footer p {
     text-align: center;
   }
 
-  section button {
+  .hero button {
     background-color: #1b1464;
     border: none;
     border-radius: .2rem;
@@ -2204,7 +2213,7 @@ footer p {
     align-items: center;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 100px;
     padding: .5rem 1rem;
     width: 100%;
@@ -2226,14 +2235,16 @@ footer p {
     padding-left: 1rem;
   }
 
+  ul {
+    margin-right: 5rem;
+  }
+
   .NavLinks a {
-    display: block;
-    float: right;
+    display: flex;
     font-size: 2.0rem;
-    grid-column: 2;
-    grid-row: 1;
-    padding-left: 0;
-    width: 20%;
+    justify-content: center;
+    text-align: right;
+    width: 25%;
   }
 
 
@@ -2242,8 +2253,8 @@ footer p {
   section.hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 525px 85px 80px 50px 150px;
-    margin-bottom: 8rem;
+    grid-template-rows: 525px 85px 80px auto auto;
+    margin-bottom: 12rem;
     width: 100%;
   }
 
@@ -2287,7 +2298,7 @@ footer p {
     text-align: center;
   }
 
-  section button {
+  .hero button {
     background-color: #1b1464;
     border: none;
     border-radius: .2rem;
@@ -2300,7 +2311,7 @@ footer p {
     width: 30rem;
   }
 
-  div.button-mobile {
+  .button-mobile {
     display: block;
     grid-column: 1;
     grid-row: 4;
@@ -2308,13 +2319,12 @@ footer p {
     margin-right: auto;
   }
 
-  div.button-desktop {
+  .button-desktop {
     display: block;
     grid-column: 1;
     grid-row: 5;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
   }
 
 /* Laptop Deliverables */
@@ -3157,4 +3167,16 @@ ul.conclusion-list {
     text-align: center;
   }
 
+}
+
+.button-mobile:hover {
+  background-color: #ffffff;
+  border: 2px solid #1b1464;
+  color: #1b1464;
+}
+
+.button-desktop:hover {
+  background-color: #ffffff;
+  border: 2px solid #1b1464;
+  color: #1b1464;
 }

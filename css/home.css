@@ -38,9 +38,8 @@ html {
 
 .NavLinks a {
   color: #ffffff;
-  display: block;
   font-family: "Montserrat";
-  padding: .5rem 0;
+  padding: 0 0;
   text-decoration: none;
 }
 
@@ -160,6 +159,12 @@ img.arrow {
 
 .laptop {
   z-index: 0;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border: 2px solid #1b1464;
+  color: #1b1464;
 }
 
 footer {
@@ -411,6 +416,7 @@ footer p{
   padding-left: 1rem;
 }
 
+
 .NavLinks a {
   display: block;
   float: right;
@@ -592,9 +598,9 @@ h2{
 
   nav {
     align-items: center;
-    background-color: transparent;
+    background-color: #ffffff;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 100px;
     padding: .5rem 1rem;
     width: 100%;
@@ -604,7 +610,7 @@ h2{
     margin-left:0
     }
 
-  .header .logo {
+  header .logo {
     display: inline-flex;
     grid-column: 1;
     padding-left: 3rem;
@@ -612,13 +618,18 @@ h2{
   }
 
   .logo a {
+    padding-bottom: 10px;
     padding-left: 1rem;
+  }
+
+  ul {
+    margin-right: 5rem;
   }
 
   .NavLinks a {
     display: flex;
     font-size: 2.0rem;
-    justify-content: space-between;
+    justify-content: center;
     text-align: right;
     width: 25%;
   }

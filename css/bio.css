@@ -76,6 +76,12 @@ main button {
   width: 25rem;
 }
 
+.button:hover {
+  background-color: #ffffff;
+  border: 2px solid #1b1464;
+  color: #1b1464;
+}
+
 /*Footer*/
 footer {
   background-color: #1b1464;
@@ -313,7 +319,6 @@ footer p{
       margin-bottom: 2rem;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 4rem;
     }
 
   /* Tablet Footer */
@@ -386,7 +391,7 @@ footer p{
       align-items: center;
       background-color: #ffffff;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 2fr 1fr;
       grid-template-rows: 100px;
       padding: .5rem 1rem;
       width: 100%;
@@ -404,14 +409,16 @@ footer p{
       padding-left: 1rem;
     }
 
+    ul {
+      margin-right: 5rem;
+    }
+
     .NavLinks a {
-      display: block;
-      float: right;
+      display: flex;
       font-size: 2.0rem;
-      grid-column: 2;
-      grid-row: 1;
-      padding-left: 0;
-      width: 20%;
+      justify-content: center;
+      text-align: right;
+      width: 25%;
     }
 
     /* Laptop Main */
@@ -455,12 +462,11 @@ footer p{
       font-weight: : 900;
     }
 
-    main button {
+    main .button {
       grid-column: 1;
       margin-bottom: 2rem;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 4rem;
     }
 
     /* Laptop Footer */

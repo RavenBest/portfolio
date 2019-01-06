@@ -117,7 +117,7 @@ label {
   width:100%;
 }
 
- .contact-form form .submit {
+ .contact-form form .button {
   background:#ffffff;
   border: none;
   border-radius: .2rem;
@@ -134,6 +134,12 @@ label {
 	-ms-transition:all .1s ease-in-out;
 	-o-transition:all .1s ease-in-out;
 	transition:all .1s ease-in-out;}
+
+  form .button:hover{
+    background-color: #1b1464;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+  }
 
 /* footer */
 
@@ -412,11 +418,16 @@ footer p{
       }
 
 
+      ul {
+        margin-right: 5rem;
+      }
+
       .NavLinks a {
-        display: block;
-        float: right;
+        display: flex;
         font-size: 2.0rem;
-        grid-column: 2;
+        justify-content: center;
+        text-align: right;
+        width: 25%;
       }
 
       /* Laptop Form */
