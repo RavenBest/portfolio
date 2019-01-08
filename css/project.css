@@ -1935,6 +1935,11 @@ div.logos {
   width: 30rem;
 }
 
+.Branding a {
+    padding-top: 1.5rem;
+    text-decoration: none;
+}
+
 /* Tablet Wireframes */
 
 .Wireframes {
@@ -2883,7 +2888,7 @@ ul.Takeaways {
   margin-left: 1rem;
 }
 
-.Branding button {
+.Branding a.branding-button {
   background-color: #ffffff;
   border: none;
   border-radius: .2rem;
@@ -2897,6 +2902,11 @@ ul.Takeaways {
   margin-top: 8rem;
   text-align: center;
   width: 30rem;
+}
+
+.Branding a {
+  padding-top: 1.5rem;
+  text-decoration: none;
 }
 
 /* Laptop Wireframes */
