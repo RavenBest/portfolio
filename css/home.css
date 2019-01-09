@@ -24,6 +24,11 @@ html {
   width: 45px;
 }
 
+
+.hero-wrapper h1 {
+  letter-spacing: 1px;
+}
+
 .logo {
   align-items: center;
   text-decoration: none;
@@ -241,8 +246,6 @@ footer p{
 
 
   /* Mobile Hero */
-  .hero {
-  }
 
   .hero h1 {
     font-size: 4.4rem;
@@ -256,19 +259,21 @@ footer p{
 
   .hero h2 {
     font-family: "Source Sans Pro";
-    font-size: 2.2rem;
+    font-weight: 700;
+    font-size: 2.8rem;
     line-height: 1.3;
-    padding: 2rem 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .hero p {
     font-family: "Source Sans Pro";
     font-size: 2.2rem;
     line-height: 1.3;
-    padding-bottom: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 0rem;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
 
   }
 
@@ -313,7 +318,7 @@ footer p{
 
   .column1 button {
     background-color: #1b1464;
-    border: none;
+    border: 2rem;
     border-radius: .2rem;
     color: #ffffff;
     height: 4.0rem;
@@ -327,7 +332,7 @@ footer p{
 
   .column1 button:hover {
     background-color: #ffffff;
-    border: #1b1464;
+    border: 2rem #1b1464;
     color: #1b1464;
   }
 
@@ -431,20 +436,20 @@ footer p{
 h1 {
   font-size: 6.8rem;
   font-weight: 900;
-  letter-spacing: 3px;
   line-height: 1.3;
-  padding-bottom: 0;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-top: 15rem;
+  margin: auto;
+  max-width: 650px;
+  padding-top: 8rem;
   width: 100%;
 }
 
 h2{
   font-family: "Source Sans Pro";
+  font-weight: 700;
   font-size: 4.4rem;
   line-height: 1.3;
-  padding: 2rem 8rem;
+  margin: auto;
+  max-width: 650px;
   width: 100%;
 }
 
@@ -453,9 +458,9 @@ h2{
   font-size: 4.4rem;
   line-height: 1.3;
   padding-bottom: 8rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-top: 0rem;
+  margin: auto;
+  max-width: 650px;
+  padding-top: 4rem;
   width: 100%;
 }
 
@@ -639,29 +644,28 @@ h2{
   h1 {
     font-size: 7.5rem;
     font-weight: 900;
-    letter-spacing: 4px;
-    max-width: 550rem;
-    padding-bottom: 0rem;
-    padding-left: 24rem;
-    padding-right: 24rem;
-    padding-top: 15rem;
+    letter-spacing: 1px;
+    margin: auto;
+    max-width: 920px;
+    padding-top: 8rem;
     width: 100%;
   }
 
   h2 {
     font-family: "Source Sans Pro";
-    font-size: 4.0rem;
-    max-width: 550rem;
-    padding: 4rem 24rem;
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin: auto;
+    max-width: 920px;
   }
 
   .hero p {
     font-family: "Source Sans Pro";
     font-size: 4.0rem;
     line-height: 1.4;
-    padding-bottom: 30rem;
-    padding-left: 24rem;
-    padding-right: 24rem;
+    margin: auto;
+    max-width: 920px;
+    padding-bottom: 25rem;
   }
 
   /* Laptop Case Study */
@@ -702,6 +706,7 @@ h2{
     grid-row-start: 3;
     max-width: 300px;
   }
+
 
   .column1 button {
     background-color: #1b1464;
