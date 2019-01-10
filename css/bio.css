@@ -468,10 +468,18 @@ footer p{
       max-width: 730px;
     }
 
-   main .button {
-      display: inline-block;
-      margin-bottom: 4rem;
+   .bio-buttons {
+     display: block;
+     margin-bottom: 4rem;
+     margin-left: auto;
+     margin-right: auto;
     }
+
+    .button:nth-child(2){
+      margin-left: 2rem;
+
+    }
+
 
 
     /* Laptop Footer */
