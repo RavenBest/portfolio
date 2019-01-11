@@ -19,11 +19,24 @@ html {
   z-index: 2;
 }
 
-.header img {
+/* .header img { */
   height: 45px;
   width: 45px;
 }
 
+.cls-1{fill:#fff;}
+.cls-2,.cls-3{fill:none;stroke:#fff;stroke-width:3px;}
+.cls-2{stroke-linecap:round;stroke-linejoin:round;}
+.cls-3{stroke-miterlimit:10;}
+
+#rblogo-white {
+  fill: #fff;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  overflow: visible;
+  stroke-width: 2px;
+}
 
 .hero-wrapper h1 {
   letter-spacing: 1px;
@@ -682,6 +695,7 @@ h2{
     grid-template-rows: auto auto auto auto;
     padding-left: 15rem;
     padding-top: 8rem;
+    margin-right: 10rem;
     width: 30%;
   }
 
