@@ -290,6 +290,17 @@ ul.Takeaways {
       padding: 13px;
     }
 
+    .User-Stories .button {
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .User-Stories .button:hover {
+      background-color: #ffffff;
+      border: 1px solid #000000;
+      color: #000000;
+    }
+
 /* User-Flows */
 
 .User-Flows h2 {
@@ -332,7 +343,7 @@ ul.Takeaways {
 }
 
 .Branding img {
-  border: 2px solid #000000;
+  border: 2px solid #A5A5A5;
   border-radius: 3px;
 }
 
@@ -730,6 +741,12 @@ footer p {
 
 
   /* Mobile Surveys */
+
+  .Surveys {
+    margin: auto;
+    width: 100%;
+  }
+
   .Surveys h2 {
     font-size: 2.0rem;
     padding-top: 5rem;
@@ -768,6 +785,12 @@ footer p {
     padding-right: 5rem;
   }
 
+  .takeaways-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
   .Surveys button {
     background-color: #000000;
     border: none;
@@ -776,10 +799,12 @@ footer p {
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     font-weight: 900;
+    grid-column:1;
     height: 5.0rem;
     text-align: center;
     width: 30rem;
-    margin-left: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4rem;
     margin-bottom: 5rem;
   }
@@ -831,7 +856,8 @@ footer p {
 
 
   .Personas div h2 {
-    font-size: 2.0rem;
+    font-size: 2.6rem;
+    margin-bottom: -2rem;
   }
 
   .Personas div h3 {
@@ -840,10 +866,11 @@ footer p {
   }
 
   .Personas div.Melanie.Vasquez {
-    background-color: #e8e8e8;
+    background-color: #F3EDC0;
     grid-column: 1;
     grid-row: 3;
     padding-bottom: 4rem;
+    padding-top: 3rem;
     margin-top: 5rem;
     width: 100%;
   }
@@ -858,7 +885,7 @@ footer p {
 
 
   .Personas div.Steven.Johannsen {
-    background-color: #e8e8e8;
+    background-color: #F3EDC0;
     float: right;
     grid-column: 1;
     grid-row: 4;
@@ -909,11 +936,19 @@ footer p {
     padding-top: 2rem;
   }
 
+  .competitve {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+
   .Competitive-Analysis p {
     font-size: 1.8rem;
     line-height: 1.3;
     padding-bottom: 3rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
     padding-right: 3rem;
   }
 
@@ -921,6 +956,7 @@ footer p {
     height: 22.7rem;
     margin-bottom: 5rem;
     margin-left: 9rem;
+    margin-top: 2rem;
     width: 22.5rem;
   }
 
@@ -928,6 +964,7 @@ footer p {
     height: 17.2rem;
     margin-bottom: 5rem;
     margin-left: 10rem;
+    margin-top: 2rem;
     width: 17.2rem;
   }
 
@@ -935,12 +972,19 @@ footer p {
       height: 20.3rem;
       margin-bottom: 5rem;
       margin-left: 8rem;
+      margin-top: 2rem;
       width: 21.4rem;
   }
 
   /* Mobile User Stories */
   .User-Stories {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-bottom: 5rem;
+    width: 100%;
   }
 
   .User-Stories h2 {
@@ -963,6 +1007,19 @@ footer p {
     line-height: 1.3;
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .User-Stories button {
+    border: 1px;
+    border-radius: .2rem;
+    font-family: "Source Sans Pro";
+    font-size: 1.8rem;
+    height: 5.0rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    text-align: center;
+    width: 30rem;
   }
 
   /* Mobile User Flows*/
@@ -1010,8 +1067,11 @@ footer p {
   /* Mobile Branding */
 
   .Branding {
+    display: grid;
+    grid-template-columns: 1fr;
     margin-top: 3rem;
     padding-bottom: 8rem;
+    width: 100%;
   }
 
   .Branding h2 {
@@ -1120,7 +1180,8 @@ footer p {
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     height: 5.0rem;
-    margin-left: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4rem;
     text-align: center;
     width: 30rem;
@@ -1681,7 +1742,8 @@ ul.Takeaways {
 
 
 .Personas div h2 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
+  margin-bottom: -2rem;
 }
 
 .Personas div h3 {
@@ -1705,7 +1767,7 @@ ul.Takeaways {
 
 
 .Personas div.Melanie.Vasquez {
-  background-color: #e8e8e8;
+  background-color: #F3EDC0;
   border-radius: 1rem;
   grid-column: 1;
   grid-row: 1;
@@ -1715,7 +1777,7 @@ ul.Takeaways {
 }
 
 .Personas div.Steven.Johannsen {
-  background-color: #e8e8e8;
+  background-color: #F3EDC0;
   border-radius: 1rem;
   grid-column: 2;
   grid-row: 1;
@@ -1757,48 +1819,84 @@ ul.Takeaways {
   text-align: center;
 }
 
+.competitive .evernote {
+  display: grid;
+  grid-template-columns: 21.8rem 1fr;
+  grid-gap: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 100%:
+}
+
+.competitive .evernote img.Evernote {
+  height: 22.7rem;
+  width: 22.5rem;
+  grid-column: 1;
+}
+
+.competitive .evernote p {
+  grid-column: 2;
+  padding-top: 5rem;
+}
+
+.competitive .pinterest{
+  display: grid;
+  grid-template-columns: 21.8rem 1fr;
+  grid-gap: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 100%:
+}
+
+.competitive .pinterest p {
+  grid-column: 2;
+  padding-left: 2rem;
+}
+
+.competitive .pinterest img.Pinterest {
+  height: 17.2rem;
+  grid-column: 1;
+  width: 17.2rem;
+}
+
+.competitive .google {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-gap: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 100%:
+}
+
+.competitive .google {
+  grid-template-columns: 21.8rem 1fr;
+  grid-gap: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.competitive .google p {
+  grid-column: 2;
+  padding-top: 2rem;
+}
+
+.competitive .google img.GoogleDrive {
+  height: 20.3rem;
+  grid-column: 1;
+  width: 21.4rem;
+}
+
 .Competitive-Analysis p {
   font-size: 1.8rem;
   line-height: 1.3;
   margin-bottom: 3rem;
 }
 
-.Competitive-Analysis .Column4 {
-  float: right;
-  font-size: 1.8rem;
-  padding-right: 5rem;
-  width: 50%
-}
-
-.Competitive-Analysis .Column3 {
-  float: left;
-  width: 50%;
-}
-
-.Competitive-Analysis img.Evernote {
-  height: 22.7rem;
-  margin-bottom: 12rem;
-  margin-left: 8rem;
-  margin-top: 4rem;
-  width: 22.5rem;
-}
-
-.Competitive-Analysis img.Pinterest {
-  height: 17.2rem;
-  margin-bottom: 8rem;
-  margin-left: 10rem;
-  width: 17.2rem;
-}
-
-.Competitive-Analysis img.GoogleDrive {
-    height: 20.3rem;
-    margin-bottom: 5rem;
-    margin-left: 8rem;
-    width: 21.4rem;
-}
 
 /* Tablet User Stories */
 .User-Stories {
+  display: grid;
+  grid-template-columns: 1fr;
   padding-bottom: 5rem;
 }
 
@@ -1825,6 +1923,20 @@ ul.Takeaways {
   line-height: 1.3;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.User-Stories button {
+  border: 1px;
+  border-radius: .2rem;
+  font-family: "Source Sans Pro";
+  font-size: 1.8rem;
+  grid-column: 1;
+  height: 5.0rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  text-align: center;
+  width: 30rem;
 }
 
 /* Tablet User Flows */
@@ -2487,12 +2599,10 @@ ul.Tools.Used {
   grid-template-columns: 1fr 2fr;
   float: left;
   margin-bottom: 8rem;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
   padding-top: 4rem;
   width: 50%;
-
 }
-
 
 .Problem h2 {
   grid-column: 2;
@@ -2513,7 +2623,7 @@ ul.Tools.Used {
   display: grid;
   grid-template-columns: 2fr 1fr;
   float: right;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
   padding-top: 4rem;
   width: 50%;
   margin-bottom: 8rem;
@@ -2655,7 +2765,8 @@ ul.Takeaways {
 
 
 .Personas div h2 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
+  margin-bottom: -2rem;
 }
 
 .Personas div p {
@@ -2699,8 +2810,7 @@ ul.Takeaways {
 /* Laptop Competitive Analysis */
 .Competitive-Analysis {
   margin-top: 10rem;
-  margin-bottom: 20rem;
-  padding-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
 .Competitive-Analysis h2 {
@@ -2720,23 +2830,27 @@ ul.Takeaways {
   font-size: 2.2rem;
   line-height: 1.3;
   margin-bottom: 5rem;
-  margin-top: 2rem;
 }
 
-.Competitive-Analysis .Column4 {
-  float: right;
-  font-size: 2.2rem;
-  line-height: 1.3;
-  margin-right: 15%;
-  margin-top: 3rem;
-  padding-left: 6rem;
+.competitive {
+  margin: auto;
   max-width: 80rem;
 }
 
-.Competitive-Analysis .Column3 {
-  float: left;
-  margin-left: 20%;
-  max-width: 20rem;
+.competitive .evernote {
+  display: grid;
+  grid-template-columns: 22.6rem 1fr;
+  grid-gap: 5rem;
+}
+
+.competitive .evernote img.Evernote {
+  grid-column: 1;
+  height: 22.7rem;
+  width: 22.5rem;
+}
+
+.competitive .evernote p  {
+  grid-column: 2;
 }
 
 .Competitive-Analysis img {
@@ -2744,24 +2858,38 @@ ul.Takeaways {
   vertical-align: middle;
 }
 
-.Competitive-Analysis img.Evernote {
-  height: 22.7rem;
-  margin-bottom: 4rem;
-  margin-left: 8rem;
-  margin-top: -3rem;
-  width: 22.5rem;
+
+.competitive .pinterest {
+  display: grid;
+  grid-template-columns: 22.6rem 1fr;
+  grid-gap: 5rem;
 }
 
-.Competitive-Analysis img.Pinterest {
+.competitive .pinterest img.Pinterest {
+  grid-column: 1;
   height: 17.2rem;
-  margin-bottom: 4rem;
   width: 17.2rem;
 }
 
-.Competitive-Analysis img.GoogleDrive {
-    height: 20.3rem;
-    margin-bottom: 5rem;
-    width: 21.4rem;
+.competitive .pinterest p {
+  grid-column: 2;
+  margin-left: -2rem;
+}
+
+.competitive .google {
+  display: grid;
+  grid-template-columns: 22.6rem 1fr;
+  grid-gap: 5rem;
+}
+
+.competitive .google img.GoogleDrive {
+  grid-column: 1;
+  height: 20.3rem;
+  width: 21.4rem;
+}
+
+.competitive .google p {
+  grid-column: 2;
 }
 
 /* Laptop User Stories */
@@ -2795,6 +2923,20 @@ ul.Takeaways {
   font-size: 2.2rem;
   line-height: 1.3;
   grid-column: 2;
+}
+
+.User-Stories button {
+  border: 1px;
+  border-radius: .2rem;
+  font-family: "Source Sans Pro";
+  font-size: 1.8rem;
+  grid-column: 2;
+  height: 5.0rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  text-align: center;
+  width: 30rem;
 }
 
 /* Laptop User Flows */
@@ -3172,7 +3314,7 @@ ul.Takeaways {
 .Visual-Design .Dashboard-Blurbs {
   grid-column: 2;
   grid-row: 1;
-  min-width: 900px
+  max-width: 900px
 }
 
 .Visual-Design img {

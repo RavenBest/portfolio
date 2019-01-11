@@ -438,7 +438,7 @@ footer p{
       grid-template-columns: 1fr;
       grid-template-rows: auto auto;
       margin: auto;
-      max-width: 730px;
+      max-width: 900px;
       width: 100%;
     }
 
@@ -456,7 +456,7 @@ footer p{
       letter-spacing: 1px;
       grid-column: 1;
       grid-row: 2;
-      max-width: 500px;
+      max-width: 700px;
     }
 
     .bio-text p {
@@ -465,7 +465,6 @@ footer p{
       line-height: 1.5;
       margin-bottom: 4rem;
       margin-top: 4rem;
-      max-width: 730px;
     }
 
    .bio-buttons {
