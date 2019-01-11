@@ -3237,12 +3237,14 @@ ul.Takeaways {
   font-size: 2.2rem;
   grid-column: 2;
   grid-row: 3;
+  padding-top: 2rem;
 }
 
 .High-Fid .number4 {
   font-size: 2.2rem;
   grid-column: 3;
   grid-row: 3;
+  padding-top: 2rem;
 }
 
 .High-Fid p {
