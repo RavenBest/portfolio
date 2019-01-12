@@ -866,7 +866,7 @@ footer p {
   }
 
   .Personas div.Melanie.Vasquez {
-    background-color: #F3EDC0;
+    background-color: #FFF080;
     grid-column: 1;
     grid-row: 3;
     padding-bottom: 4rem;
@@ -885,7 +885,7 @@ footer p {
 
 
   .Personas div.Steven.Johannsen {
-    background-color: #F3EDC0;
+    background-color: #FFF080;
     float: right;
     grid-column: 1;
     grid-row: 4;
@@ -1730,9 +1730,9 @@ ul.Takeaways {
   display: block;
   height: 23.2rem;
   width: 23.2rem;
+  margin-bottom: -3rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3rem;
   margin-top: 4rem;
 }
 
@@ -1767,7 +1767,7 @@ ul.Takeaways {
 
 
 .Personas div.Melanie.Vasquez {
-  background-color: #F3EDC0;
+  background-color: #FFF080;
   border-radius: 1rem;
   grid-column: 1;
   grid-row: 1;
@@ -1777,7 +1777,7 @@ ul.Takeaways {
 }
 
 .Personas div.Steven.Johannsen {
-  background-color: #F3EDC0;
+  background-color: #FFF080;
   border-radius: 1rem;
   grid-column: 2;
   grid-row: 1;
@@ -1803,7 +1803,6 @@ ul.Takeaways {
 
 /* Competitive Analysis */
 .Competitive-Analysis {
-  margin-bottom: 8rem
 }
 
 .Competitive-Analysis h2 {
@@ -2827,6 +2826,7 @@ ul.Takeaways {
   display: block;
   height: 23.2rem;
   width: 23.2rem;
+  margin-bottom: -5rem;
   margin-left: auto;
   margin-right: auto;
 }
