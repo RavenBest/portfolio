@@ -150,6 +150,7 @@ img.arrow {
 }
 
 .column1 p {
+  color: #000;
   font-family: "Source Sans Pro";
   font-size: 1.8rem;
   padding-top: .5rem;
@@ -157,10 +158,7 @@ img.arrow {
 }
 
 .column1 button {
-  background-color: #662D91;
-  border: 2px solid #fff;
   border-radius: .2rem;
-  color: #ffffff;
   height: 4.0rem;
   text-align: center;
   width: 15rem;
@@ -179,9 +177,9 @@ img.arrow {
 }
 
 .button:hover {
-  background-color: #ffffff;
+  background-color: #1b1464;
   border: 2px solid #1b1464;
-  color: #1b1464;
+  color: #fff;
 }
 
 footer {
@@ -293,7 +291,8 @@ footer p{
 
   /* Ideahub*/
   .ideahub-project {
-    background-color: #662D91;
+    background-color: #fff;
+    border: 1rem solid #662D91;
     border-radius: .5rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -317,7 +316,7 @@ footer p{
   }
 
   .column1 h2 {
-    color: #fff;
+    color: #000;
     font-family: "Oswald";
     font-size: 3.6rem;
     grid-column: 1;
@@ -327,7 +326,7 @@ footer p{
   }
 
   .column1 p {
-    color: #fff;
+    color: #000;
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     line-height: 2.4rem;
@@ -338,10 +337,11 @@ footer p{
   }
 
   .column1 button {
-    background-color: #662D91;
-    border: 2rem #fff;
+    background-color: #fff;
+    border: .5rem solid #662D91;
     border-radius: .2rem;
-    color: #fff;
+    color: #1b1464;
+    font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
     grid-row: 4;
@@ -354,8 +354,8 @@ footer p{
 
   .column1 button:hover {
     background-color: #1b1464;
-    border: 2rem #fff;
-    color: #1b1464;
+    border: 1rem solid #1b1464;
+    color: #fff;
   }
 
   .column2 {
@@ -368,7 +368,7 @@ footer p{
     grid-column: 1;
     grid-row: 1;
     height: 106px;
-    margin-left: 3rem;
+    margin-left: 2rem;
     width: 54px;
   }
 
@@ -376,13 +376,14 @@ footer p{
     grid-column: 1;
     grid-row: 1;
     height: 159px;
-    margin-left: 4rem;
+    margin-left: 2.5rem;
     width: 249px;
   }
 
 /* Greenbook*/
   .greenbook-project {
-    background-color: #662D91;
+    background-color: #fff;
+    border: 1rem solid #662D91;
     border-radius: .5rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -409,7 +410,7 @@ footer p{
   }
 
   .column1 p {
-    color: #fff;
+    color: #000;
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     line-height: 2.4rem;
@@ -419,11 +420,12 @@ footer p{
     padding-left: 8rem;
   }
 
-  .column1 button {
-    background-color: #662D91;
-    border: 2px solid #fff;
+  .greenbook-project .column1 button {
+    background-color: #fff;
+    border: .5rem solid #662D91;
     border-radius: .2rem;
-    color: #fff;
+    color: #1b1464;
+    font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
     grid-row: 4;
@@ -432,10 +434,10 @@ footer p{
     width: 15rem;
   }
 
-  .column1 button:hover {
-    background-color: #ffffff;
-    border: 2rem #1b1464;
-    color: #1b1464;
+  .greenbook-project .column1 button:hover {
+    background-color: #1b1464;
+    border: 1rem solid #1b1464;
+    color: #fff;
   }
 
   .column2 {
@@ -567,7 +569,8 @@ h2{
 
 /* Tablet Case Study */
 .ideahub-project {
-  background-color: #662D91;
+  background-color: #fff;
+  border: 1rem solid #662D91;
   border-radius: 1rem;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -593,7 +596,7 @@ h2{
 }
 
 .column1 h2 {
-  color: #fff;
+  color: #000;
   font-family: "Oswald";
   font-size: 5.6rem;
   font-weight: 900;
@@ -604,6 +607,7 @@ h2{
 }
 
 .column1 p {
+  color: #000;
   font-family: "Source Sans Pro";
   font-size: 2.8rem;
   line-height: 3.2rem;
@@ -616,11 +620,12 @@ h2{
 }
 
 .column1 button {
-  background-color: #662D91;
-  border: 2px solid #fff;
+  background-color: #fff;
+  border: .5rem solid #662D91;
   border-radius: .2rem;
-  color: #fff;
+  color: #1b1464;
   font-size: 1.8rem;
+  font-weight: 900;
   height: 6.0rem;
   grid-column: 1;
   grid-row: 4;
@@ -655,7 +660,8 @@ h2{
 
 /* Greenbook*/
   .greenbook-project {
-    background-color: #662D91;
+    background-color: #fff;
+    border: 1rem solid #662D91;
     border-radius: 1rem;
     height: 42rem;
     margin-left: 3rem;
@@ -688,18 +694,16 @@ h2{
     line-height: 3.2rem;
     padding-top: 2.5rem;
     grid-column: 2;
-    grid-row-start: 3;
-    padding-bottom: 4rem;
     padding-left: 0;
     padding-right: 3rem;
     width: 100%;
   }
 
   .greenbook-project .column1 button {
-    background-color: #662D91;
-    border: 2px solid #fff;
+    background-color: #fff;
+    border: .5rem solid #662D91;
     border-radius: .2rem;
-    color: #ffffff;
+    color: #1b1464;
     font-size: 1.8rem;
     height: 6.0rem;
     grid-column: 2;
@@ -708,13 +712,14 @@ h2{
     margin-right: 3rem;
     padding-left: 0;
     margin-left: 0;
+    text-align: center;
     width: 20rem;
   }
 
-  .column1 button:hover {
-    background-color: #ffffff;
-    border: 2rem #1b1464;
-    color: #1b1464;
+  .greenbook-project .column1 button:hover {
+    background-color: #1b1464;
+    border: 1rem solid #1b1464;
+    color: #fff;
   }
 
   .greenbook-project .column2 {
@@ -913,10 +918,10 @@ h2{
 
 
   .column1 button {
-    background-color: #662D91;
-    border: 2px solid #fff;
+    background-color: #fff;
+    border: .5rem solid #662D91;
     border-radius: .2rem;
-    color: #ffffff;
+    color: #1b1464;
     font-size: 1.8rem;
     height: 6.0rem;
     grid-column: 1;
@@ -998,10 +1003,10 @@ h2{
     }
 
     .greenbook-project .column1 button {
-        background-color: #662D91;
-        border: 2px solid #fff;
+        background-color: #fff;
+        border: .5rem solid #662D91;
         border-radius: .2rem;
-        color: #ffffff;
+        color: #1b1464;
         font-size: 1.8rem;
         height: 6.0rem;
         grid-column: 2;
@@ -1013,10 +1018,10 @@ h2{
         width: 24rem;
     }
 
-    .column1 button:hover {
-      background-color: #ffffff;
-      border: 2rem #1b1464;
-      color: #1b1464;
+    .greenbook-project .column1 button:hover {
+      background-color: #1b1464;
+      border: 1rem solid #1b1464;
+      color: #fff;
     }
 
     .greenbook-project .column2 {
