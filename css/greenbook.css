@@ -1221,6 +1221,7 @@ ul.Takeaways {
           }
 
           .Low-Fid img.landing {
+            border: 2px solid #054A29;
             height: 70rem;
             width: auto;
             margin-left: 5rem;
@@ -1228,6 +1229,7 @@ ul.Takeaways {
           }
 
           .Low-Fid img.dash {
+            border: 2px solid #054A29;
             height: 20.3rem;
             margin-left: 5rem;
             margin-top: 3rem;
@@ -1235,6 +1237,7 @@ ul.Takeaways {
           }
 
           .Low-Fid img.project {
+            border: 2px solid #054A29;
             height: 20.3rem;
             margin-bottom: 3rem;
             margin-left: 5rem;
@@ -3385,18 +3388,14 @@ ul.Takeaways {
     display: inline-block;
     height: 55rem;
     width: auto;
-    margin-left: 4rem;
   }
 
-
-  .Branding img.Sketches {
-    height: auto;
-    grid-column: 1;
-    margin-bottom: 3rem;
+  .Branding .Sketches {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
-    width: 30rem;
   }
 
   .Branding p.title {
@@ -3901,7 +3900,7 @@ ul.Takeaways {
     margin-left: 2rem;
     width: 67rem;
   }
-  
+
     /* Laptop Footer */
 
     footer {
