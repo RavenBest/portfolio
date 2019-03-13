@@ -1334,6 +1334,100 @@ ul.Takeaways {
             padding-right: 3rem;
           }
 
+          /* Ideahub*/
+          .ideahub-project {
+            background-color: #fff;
+            border: 1rem solid #662D91;
+            border-radius: .5rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            padding-bottom: 2rem;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            padding-top: 2rem;
+          }
+
+          .column1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto;
+            width: 100%;
+          }
+
+          .column1 img {
+            height: 45px;
+            grid-column: 1;
+            margin-top: 2rem;
+            padding-left: 8rem;
+          }
+
+          .column1 h2 {
+            color: #000;
+            font-family: "Oswald";
+            font-size: 3.6rem;
+            grid-column: 1;
+            grid-row-start: 2;
+            padding-left: 8rem;
+            padding-top: 1rem;
+          }
+
+          .column1 p {
+            color: #000;
+            font-family: "Source Sans Pro";
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+            padding-top: .5rem;
+            grid-column: 1;
+            grid-row-start: 3;
+            padding-left: 8rem;
+          }
+
+          .column1 button {
+            background-color: #fff;
+            border: .5rem solid #662D91;
+            border-radius: .2rem;
+            color: #1b1464;
+            font-weight: 900;
+            height: 4.0rem;
+            grid-column: 1;
+            grid-row: 4;
+            margin-left: 8rem;
+            margin-bottom: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+            width: 15rem;
+          }
+
+          .column1 button:hover {
+            background-color: #1b1464;
+            border: 1rem solid #1b1464;
+            color: #fff;
+          }
+
+          .column2 {
+            align-items: baseline;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 200px auto;
+          }
+
+          .iphone {
+            grid-column: 1;
+            grid-row: 1;
+            height: 106px;
+            margin-left: 2rem;
+            width: 54px;
+            z-index: 1;
+          }
+
+          .laptop {
+            grid-column: 1;
+            grid-row: 1;
+            height: 159px;
+            margin-left: 2.5rem;
+            width: 249px;
+          }
+
           /* Mobile Footer */
           footer {
             display: grid;
@@ -2509,6 +2603,99 @@ ul.Takeaways {
           padding-right: 5rem;
         }
 
+        .ideahub-project {
+          background-color: #fff;
+          border: 1rem solid #662D91;
+          border-radius: 1rem;
+          margin-left: 3rem;
+          margin-right: 3rem;
+          padding-bottom: 6rem;
+          margin-top: 5rem;
+          margin-bottom: 5rem;
+          padding-top: 2rem;
+        }
+
+        .column1 {
+          display: grid;
+          float: left;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto auto auto;
+          margin-right: 3rem;
+          width: 30%;
+        }
+
+        .column1 img {
+          height: 45px;
+          grid-column: 1;
+          margin-top: 2rem;
+          padding-left: 5rem;
+        }
+
+        .column1 h2 {
+          color: #000;
+          font-family: "Oswald";
+          font-size: 5.6rem;
+          font-weight: 900;
+          grid-column: 1;
+          grid-row-start: 2;
+          padding-left: 5rem;
+          padding-top: 1rem;
+        }
+
+        .column1 p {
+          color: #000;
+          font-family: "Source Sans Pro";
+          font-size: 2.8rem;
+          line-height: 3.2rem;
+          padding-top: 2.5rem;
+          grid-column: 1;
+          grid-row-start: 3;
+          margin-bottom: 2rem;
+          padding-left: 5rem;
+          width: 100%;
+        }
+
+        .column1 button {
+          background-color: #fff;
+          border: .5rem solid #662D91;
+          border-radius: .2rem;
+          color: #1b1464;
+          font-size: 1.8rem;
+          font-weight: 900;
+          height: 6.0rem;
+          grid-column: 1;
+          grid-row: 4;
+          margin-left: 5rem;
+          width: 20rem;
+        }
+
+
+        .column2 {
+          align-items: baseline;
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+          padding-top: 8.0rem;
+          width: 60%;
+        }
+
+        .iphone {
+          grid-column: 1;
+          grid-row: 1;
+          height: 182px;
+          margin-left: 3rem;
+          width: 93px;
+          z-index: 1;
+        }
+
+        .laptop {
+          grid-column: 1;
+          grid-row: 1;
+          height: 269px;
+          margin-left: 5rem;
+          width: 378px;
+        }
+
 
         /* Tablet Footer */
 
@@ -3625,7 +3812,96 @@ ul.Takeaways {
     max-width: 800px;
   }
 
+  .ideahub-project {
+    max-width: 1100px;
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
 
+  .column1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    margin-left: 5rem;
+    margin-right: 0;
+    padding-top: 4rem;
+  }
+
+  .column1 img {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 0;
+  }
+
+  .column1 h2 {
+    font-family: "Oswald";
+    font-size: 5.6rem;
+    font-weight: 900;
+    grid-column: 1;
+    grid-row-start: 2;
+    padding-left: 0;
+  }
+
+  .column1 p {
+    font-family: "Source Sans Pro";
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    grid-column: 1;
+    grid-row-start: 3;
+    padding-left: 0;
+    padding-top: 0;
+    width: 80%;
+  }
+
+
+  .column1 button {
+    background-color: #fff;
+    border: .5rem solid #662D91;
+    border-radius: .2rem;
+    color: #1b1464;
+    font-size: 1.8rem;
+    height: 6.0rem;
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 0;
+    margin-top: 4rem;
+    padding-left: 0;
+    text-align: center;
+    width: 24rem;
+  }
+
+
+  .column2 {
+    display: flex;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-right: 5rem;
+    padding-top: 4rem;
+    width: 65%;
+  }
+
+  .iphone {
+    grid-column: 1;
+    grid-row: 1;
+    height: 23.8rem;
+    margin-left: -1rem;
+    margin-top: 19rem;
+    position: absolute;
+    width: 12rem;
+  }
+
+  .laptop {
+    grid-column: 1;
+    grid-row: 1;
+    height: 43rem;
+    margin-left: 2rem;
+    width: 67rem;
+  }
+  
     /* Laptop Footer */
 
     footer {
