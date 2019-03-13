@@ -1221,7 +1221,6 @@ ul.Takeaways {
           }
 
           .Low-Fid img.landing {
-            border: 2px solid #054A29;
             height: 70rem;
             width: auto;
             margin-left: 5rem;
@@ -1229,7 +1228,6 @@ ul.Takeaways {
           }
 
           .Low-Fid img.dash {
-            border: 2px solid #054A29;
             height: 20.3rem;
             margin-left: 5rem;
             margin-top: 3rem;
@@ -1237,7 +1235,6 @@ ul.Takeaways {
           }
 
           .Low-Fid img.project {
-            border: 2px solid #054A29;
             height: 20.3rem;
             margin-bottom: 3rem;
             margin-left: 5rem;
