@@ -126,6 +126,20 @@ p{
   width: 100%;
 }
 
+h2.section-title {
+  color: #1b1464;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+
+h2.section-title-2 {
+  color: #1b1464;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+
 img.arrow {
   display: block;
   margin-left: auto;
@@ -154,11 +168,12 @@ img.arrow {
   font-family: "Source Sans Pro";
   font-size: 1.8rem;
   padding-top: .5rem;
-  width: 60%;
+  width: 80%;
 }
 
 .column1 button {
   border-radius: .2rem;
+  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
   height: 4.0rem;
   text-align: center;
   width: 15rem;
@@ -177,9 +192,109 @@ img.arrow {
 }
 
 .button:hover {
+  background-color: #fff;
+  border: .2rem solid #fff;
+  color: #1b1464;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1rem;
+  float: left;
+  width: 50%;
+}
+
+.content {
   background-color: #1b1464;
-  border: 2px solid #1b1464;
-  color: #fff;
+  border-radius: .2rem;
+  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-title{
+  color: #1b1464;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.content .content-text{
+  color: #1b1464;
+  font-family: "Source Sans Pro";
+}
+
+.content .overlay {
+background: rgba(255,255,255,0.95);
+position: absolute;
+height: 99%;
+width: 100%;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+opacity: 0;
+-webkit-transition: all 0.4s ease-in-out 0s;
+-moz-transition: all 0.4s ease-in-out 0s;
+transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .overlay{
+  opacity: 1;
+}
+
+.content-details {
+position: absolute;
+text-align: center;
+padding-left: 1em;
+padding-right: 1em;
+width: 100%;
+top: 50%;
+left: 50%;
+opacity: 0;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+-webkit-transition: all 0.3s ease-in-out 0s;
+-moz-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+top: 50%;
+left: 50%;
+opacity: 1;
+}
+
+.content-details h3{
+color: #fff;
+font-weight: 500;
+letter-spacing: 0.15em;
+margin-bottom: 0.5em;
+text-transform: uppercase;
+}
+
+.content-details p{
+color: #fff;
+font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+top: 80%;
+}
+
+.fadeIn-top{
+top: 20%;
+}
+
+.fadeIn-left{
+left: 20%;
+}
+
+.fadeIn-right{
+left: 80%;
 }
 
 footer {
@@ -213,7 +328,7 @@ footer p{
 
 /* Mobile Size */
 
-@media only screen and (min-width: 375px) and (max-width: 767px){
+@media only screen and (min-width: 360px) and (max-width: 767px){
 
   /* Mobile Nav */
 
@@ -254,6 +369,17 @@ footer p{
       width: 100%;
     }
 
+    h2.section-title {
+      font-size: 3.2rem;
+      font-weight: 900;
+      margin: 2rem auto;
+    }
+
+    h2.section-title-2 {
+      font-size: 3.2rem;
+      font-weight: 900;
+      margin: 2rem auto;
+    }
 
   /* Mobile Hero */
 
@@ -292,7 +418,8 @@ footer p{
   /* Ideahub*/
   .ideahub-project {
     background-color: #fff;
-    border: 1rem solid #662D91;
+    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
+    /*border: 1rem solid #662D91;*/
     border-radius: .5rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -306,6 +433,8 @@ footer p{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
   }
 
@@ -337,31 +466,33 @@ footer p{
   }
 
   .column1 button {
-    background-color: #fff;
-    border: .5rem solid #662D91;
+    background-color: #1b1464;
+    /*border: .5rem solid #662D91;*/
     border-radius: .2rem;
-    color: #1b1464;
+    color: #fff;
     font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
     grid-row: 4;
     margin-left: 8rem;
     margin-bottom: 2rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     text-align: center;
     width: 15rem;
   }
 
   .column1 button:hover {
-    background-color: #1b1464;
-    border: 1rem solid #1b1464;
-    color: #fff;
+    background-color: #fff;
+    border: .2rem solid #fff;
+    color: #1b1464;
   }
 
   .column2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .iphone {
@@ -383,7 +514,8 @@ footer p{
 /* Greenbook*/
   .greenbook-project {
     background-color: #fff;
-    border: 1rem solid #662D91;
+    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
+    /*border: 1rem solid #662D91;*/
     border-radius: .5rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -421,10 +553,9 @@ footer p{
   }
 
   .greenbook-project .column1 button {
-    background-color: #fff;
-    border: .5rem solid #662D91;
+    background-color: #1b1464;
     border-radius: .2rem;
-    color: #1b1464;
+    color: #fff;
     font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
@@ -435,15 +566,18 @@ footer p{
   }
 
   .greenbook-project .column1 button:hover {
-    background-color: #1b1464;
-    border: 1rem solid #1b1464;
-    color: #fff;
+    background-color: #fff;
+    border: .2rem solid #fff;
+    color: #1b1464;
   }
 
   .column2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   .greenbook-project .iphone {
@@ -459,6 +593,67 @@ footer p{
     height: 159px;
     width: 249px;
   }
+
+  /* Mobile Logos*/
+  .container{
+    display: block;
+    width: 100%;
+  }
+
+  .content {
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 20rem;
+  }
+
+  .content .content-title{
+    font-size: 2.0rem;
+  }
+
+  .content .content-text{
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brand-logo-1 {
+    display: block;
+    margin: 5rem auto;
+    width: 80%;
+  }
+
+  .brand-logo-2 {
+    display: block;
+    margin: 2rem auto;
+    width: 65%;
+  }
+
+  .brand-logo-3{
+    display: block;
+    margin: 4.5rem auto;
+    width: 30%;
+  }
+
+  .brand-logo-4{
+    display: block;
+    margin: 6rem auto;
+    width: 85%;
+  }
+
+  .brand-logo-5 {
+    display: block;
+    margin: 8rem auto;
+    width: 85%;
+  }
+
+  .brand-logo-6 {
+    display: block;
+    margin: 2rem auto;
+    width: 70%;
+  }
+
 
   footer {
     display: grid;
@@ -556,6 +751,16 @@ h2{
   width: 100%;
 }
 
+h2.section-title {
+  font-size: 4.8rem;
+  margin: 4rem auto;
+}
+
+h2.section-title-2 {
+  font-size: 4.8rem;
+  margin: 4rem auto;
+}
+
 .hero p{
   font-family: "Source Sans Pro";
   font-size: 4.4rem;
@@ -570,7 +775,8 @@ h2{
 /* Tablet Case Study */
 .ideahub-project {
   background-color: #fff;
-  border: 1rem solid #662D91;
+  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
+  /*border: 1rem solid #662D91;*/
   border-radius: 1rem;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -620,10 +826,10 @@ h2{
 }
 
 .column1 button {
-  background-color: #fff;
-  border: .5rem solid #662D91;
+  background-color: #1b1464;
+  border: .5rem solid #1b1464;
   border-radius: .2rem;
-  color: #1b1464;
+  color: #fff;
   font-size: 1.8rem;
   font-weight: 900;
   height: 6.0rem;
@@ -661,7 +867,8 @@ h2{
 /* Greenbook*/
   .greenbook-project {
     background-color: #fff;
-    border: 1rem solid #662D91;
+    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
+    /*border: 1rem solid #662D91;*/
     border-radius: 1rem;
     height: 42rem;
     margin-left: 3rem;
@@ -700,10 +907,10 @@ h2{
   }
 
   .greenbook-project .column1 button {
-    background-color: #fff;
-    border: .5rem solid #662D91;
+    background-color: #1b1464;
+    border: .5rem solid #1b1464;
     border-radius: .2rem;
-    color: #1b1464;
+    color: #fff;
     font-size: 1.8rem;
     height: 6.0rem;
     grid-column: 2;
@@ -717,9 +924,9 @@ h2{
   }
 
   .greenbook-project .column1 button:hover {
-    background-color: #1b1464;
-    border: 1rem solid #1b1464;
-    color: #fff;
+    background-color: #fff;
+    border: .2rem solid #fff;
+    color: #1b1464;
   }
 
   .greenbook-project .column2 {
@@ -744,6 +951,65 @@ h2{
     height: 269px;
     width: 378px;
   }
+
+  /* Tablet logos */
+  .content {
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 30rem;
+  }
+
+  .content .content-title{
+    font-size: 2.0rem;
+  }
+
+  .content .content-text{
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .brand-logo-1 {
+    display: block;
+    margin: 7rem auto;
+    width: 80%;
+  }
+
+  .brand-logo-2 {
+    display: block;
+    margin: 3rem auto;
+    width: 65%;
+  }
+
+  .brand-logo-3{
+    display: block;
+    margin: 6rem auto;
+    width: 30%;
+  }
+
+  .brand-logo-4{
+    display: block;
+    margin: 10rem auto;
+    width: 85%;
+  }
+
+  .brand-logo-5 {
+    display: block;
+    margin: 12rem auto;
+    width: 85%;
+  }
+
+  .brand-logo-6 {
+    display: block;
+    margin: 3rem auto;
+    width: 70%;
+  }
+
+
 
 /* Tablet Footer */
 
@@ -861,6 +1127,11 @@ h2{
     margin-top: -1rem;
   }
 
+  h2.section-title {
+    font-size: 5.2rem;
+    margin: 6rem auto;
+  }
+
   .hero p {
     font-family: "Source Sans Pro";
     font-size: 4.0rem;
@@ -918,10 +1189,10 @@ h2{
 
 
   .column1 button {
-    background-color: #fff;
-    border: .5rem solid #662D91;
+    background-color: #1b1464;
+    border: .5rem solid #1b1464;
     border-radius: .2rem;
-    color: #1b1464;
+    color: #fff;
     font-size: 1.8rem;
     height: 6.0rem;
     grid-column: 1;
@@ -1003,10 +1274,10 @@ h2{
     }
 
     .greenbook-project .column1 button {
-        background-color: #fff;
-        border: .5rem solid #662D91;
+        background-color: #1b1464;
+        border: .5rem solid #1b1464;
         border-radius: .2rem;
-        color: #1b1464;
+        color: #fff;
         font-size: 1.8rem;
         height: 6.0rem;
         grid-column: 2;
@@ -1019,9 +1290,9 @@ h2{
     }
 
     .greenbook-project .column1 button:hover {
-      background-color: #1b1464;
-      border: 1rem solid #1b1464;
-      color: #fff;
+      background-color: #fff;
+      border: .2rem solid #fff;
+      color: #1b1464;
     }
 
     .greenbook-project .column2 {
@@ -1047,6 +1318,91 @@ h2{
       height: 43rem;
       width: 67rem;
     }
+
+    /* Desktop logos */
+
+    .branding-logos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-top: 8rem;
+      margin-bottom: 8rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    h2.section-title-2 {
+      font-size: 5.2rem;
+      grid-column: 2;
+      grid-row: 1;
+      margin: 6rem auto;
+      width: 100%
+    }
+
+    .container {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    .content {
+      height: 30rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2rem;
+      width: 30rem;
+    }
+
+    .content .content-title{
+      font-size: 2.0rem;
+    }
+
+    .content .content-text{
+      font-size: 1.6rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .brand-logo-1 {
+      display: block;
+      margin: 7rem auto;
+      width: 80%;
+    }
+
+    .brand-logo-2 {
+      display: block;
+      margin: 3rem auto;
+      width: 65%;
+    }
+
+    .brand-logo-3{
+      display: block;
+      margin: 6rem auto;
+      width: 30%;
+    }
+
+    .brand-logo-4{
+      display: block;
+      margin: 10rem auto;
+      width: 85%;
+    }
+
+    .brand-logo-5 {
+      display: block;
+      margin: 12rem auto;
+      width: 85%;
+    }
+
+    .brand-logo-6 {
+      display: block;
+      margin: 3rem auto;
+      width: 70%;
+    }
+
 
 
   /* Laptop Footer */

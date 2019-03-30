@@ -481,7 +481,7 @@ ul.Takeaways {
 
       /* Mobile Size */
 
-      @media only screen and (min-width: 375px) and (max-width: 767px){
+      @media only screen and (min-width: 360px) and (max-width: 767px){
 
         /* Mobile Nav */
 
@@ -3396,11 +3396,7 @@ ul.Takeaways {
     grid-column-gap: 2rem;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-=======
     margin-top: 5rem;
-    width: 45rem;
->>>>>>> 9a447040a2cb2ecf8f3aa1019a1ada4dab9f8380
   }
 
   .Branding p.title {
