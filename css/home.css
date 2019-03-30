@@ -229,7 +229,7 @@ img.arrow {
 .content .overlay {
 background: rgba(255,255,255,0.95);
 position: absolute;
-height: 99%;
+height: 100%;
 width: 100%;
 left: 0;
 top: 0;
