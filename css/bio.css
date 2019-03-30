@@ -134,7 +134,7 @@ footer p{
 
 /* Mobile Size */
 
-@media only screen and (min-width: 375px) and (max-width: 767px){
+@media only screen and (min-width: 360px) and (max-width: 767px){
 
   /* Mobile Nav */
 
@@ -157,13 +157,22 @@ footer p{
       display: inline-flex;
       grid-column: 1;
       grid-row: 1;
-      padding-left: 1rem;
+      padding-right: 4rem;
+      margin-left: 2rem;
+      padding-bottom: 2rem;
+      padding-top:2rem;
       vertical-align: middle;
     }
 
     .logo a {
       color: #ffffff;
     }
+
+    .NavLinks {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
 
     .NavLinks a {
       display: block;
@@ -172,7 +181,7 @@ footer p{
       grid-column: 2;
       grid-row: 1;
       padding: .5rem 0;
-      padding-left: 8.5rem;
+      padding-left: 6rem;
       width: 100%;
     }
 
