@@ -205,8 +205,8 @@ img.arrow {
 }
 
 .content {
-  background-color: #1b1464;
-  border-radius: .2rem;
+  background-color: #fff;
+  border-radius: .5rem;
   box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.3);
   position: relative;
   width: 90%;
@@ -216,18 +216,18 @@ img.arrow {
 }
 
 .content .content-title{
-  color: #1b1464;
+  color: #fff;
   font-family: "Montserrat";
   font-weight: 900;
 }
 
 .content .content-text{
-  color: #1b1464;
+  color: #fff;
   font-family: "Source Sans Pro";
 }
 
 .content .overlay {
-background: rgba(255,255,255,0.95);
+background: rgba(27,20,100,0.8);
 position: absolute;
 height: 100%;
 width: 100%;
@@ -621,7 +621,7 @@ footer p{
 
   .brand-logo-1 {
     display: block;
-    margin: 5rem auto;
+    margin: 3rem auto;
     width: 80%;
   }
 
@@ -976,7 +976,7 @@ h2.section-title-2 {
 
   .brand-logo-1 {
     display: block;
-    margin: 7rem auto;
+    margin: 4rem auto;
     width: 80%;
   }
 
@@ -1370,7 +1370,7 @@ h2.section-title-2 {
 
     .brand-logo-1 {
       display: block;
-      margin: 7rem auto;
+      margin: 4rem auto;
       width: 80%;
     }
 
