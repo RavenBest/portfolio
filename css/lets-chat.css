@@ -7,6 +7,11 @@ html {
   font-size: 10px;
 }
 
+main {
+  overflow-x: hidden;
+}
+
+
 .container{
   color: #1b1464;
   opacity: 0.8;
@@ -20,6 +25,10 @@ header {
   z-index: 2;
 }
 
+.name {
+  display: none;
+}
+
 nav img {
   height: 45px;
   width: 45px;
@@ -30,18 +39,110 @@ nav img {
   text-decoration: none;
 }
 
-.logo a {
+.logo a.name {
   color: #1b1464;
   font-family: "Montserrat";
   font-size: 2rem;
   text-decoration: none;
 }
 
-.NavLinks a {
+#menuToggle a {
   color: #1b1464;
+  font-family: "Montserrat";
+  font-weight: 900;
+  letter-spacing: .1rem;
+  padding: .5rem 0;
+  text-decoration: none;
+}
+
+#menuToggle {
+  display: block;
+  float: right;
+  margin-top: 3.5rem;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input{
+  display: block;
+  width: 4rem;
+  height: 3.2rem;
+  position: absolute;
+  opacity: 0;
+  margin-left: -5px;
+  margin-top: -7px;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 3.3rem;
+  height: .4rem;
+  margin-bottom: .5rem;
+  background: #1b1464;
+  border-radius: .3rem;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #fff;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#NavLinks {
+  position: absolute;
+  width: 400px;
+  margin: -100px 0 0 -200px;
+  padding: 50px;
+  padding-top: 120px;
+  margin-right: 0px;
+  background: #1b1464;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  z-index: -1;
+}
+
+#menuToggle input:checked ~ ul {
+  transform: scale(1.0, 1.0);
+}
+
+#NavLinks a {
+  color: #fff;
   display: block;
   font-family: "Montserrat";
-  padding: 0 0;
+  padding: 0 0 0 3rem;
   text-decoration: none;
 }
 
@@ -186,6 +287,10 @@ footer p{
     width: 45px;
   }
 
+  .logo {
+    margin-left: 1rem;
+  }
+
     nav {
       align-items: center;
       background-color: #ffffff;
@@ -211,20 +316,25 @@ footer p{
       color: #ffffff;
     }
 
-    .NavLinks {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+    a.name {
+      display: none;
+    }
+
+    #menuToggle {
+      grid-column: 2;
+      grid-row: 1;
+      margin-bottom: 3rem;
+      margin-left: 12rem;
     }
 
 
-    .NavLinks a {
+    #NavLinks a {
       display: block;
       float: right;
       font-size: 1.8rem;
       grid-column: 2;
       grid-row: 1;
-      padding: .5rem 0;
-      padding-left: 6rem;
+      padding-bottom: .5rem;
       width: 100%;
     }
 
@@ -238,6 +348,8 @@ footer p{
     p{
       font-size: 2.2rem;
       line-height: 2.8rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
       padding-bottom: 3rem;
       padding-top: 2rem;
     }
@@ -293,10 +405,6 @@ footer p{
   @media only screen and (min-width: 768px) {
   /* Tablet Size */
 
-    nav img {
-      height: 6rem;
-      width: 6rem;
-    }
 
     nav img {
       height: 6rem;
@@ -313,26 +421,40 @@ footer p{
       width: 100%;
     }
 
-    header .logo {
+    .logo {
+      align-items: center;
       display: inline-flex;
       grid-column: 1;
       padding-left: 3rem;
+      margin-top: 2rem;
       vertical-align: middle;
     }
 
-    .logo a {
-      padding-bottom: 10px;
+    .logo img {
+      margin-left: 2rem;
+    }
+
+   .logo a.name {
       padding-left: 1rem;
     }
 
-    .NavLinks a {
+    #menuToggle {
+      grid-column: 2;
+      grid-row: 1;
+      margin-bottom: 3rem;
+      margin-left: 26rem;
+    }
+
+    #NavLinks a {
       display: block;
       float: right;
       font-size: 2.0rem;
       grid-column: 2;
       grid-row: 1;
-      width: 30%;
+      padding-bottom: 2rem;
+      width: 100%;
     }
+
 
     /* Tablet Form */
 
@@ -398,6 +520,7 @@ footer p{
       padding-bottom: 2rem;
       padding-right: 12rem;
       text-align: center;
+
     }
 
   }
@@ -437,12 +560,20 @@ footer p{
         margin-right: 5rem;
       }
 
-      .NavLinks a {
-        display: flex;
-        font-size: 2.0rem;
-        justify-content: center;
-        text-align: right;
-        width: 25%;
+      #menuToggle {
+        grid-column: 2;
+        grid-row: 1;
+        margin-bottom: 3rem;
+        margin-left: 60rem;
+      }
+
+
+      #NavLinks a {
+        display: block;
+        float: right;
+        font-size: 2.4rem;
+        padding-bottom: 4rem;
+        width: 100%;
       }
 
       /* Laptop Form */
