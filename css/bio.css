@@ -151,13 +151,13 @@ a:hover {
 
 
 /* Main */
-main h1 {
+.bio h1 {
   color: #1b1464;
   font-family: "Montserrat";
   font-weight: 900;
 }
 
-main p {
+.bio p {
   color: #1b1464;
   font-family: "Source Sans Pro";
 
@@ -169,7 +169,7 @@ main p {
   margin: auto;
 }
 
-main button {
+.bio button {
   background-color: #1b1464;
   border: none;
   border-radius: .2rem;
