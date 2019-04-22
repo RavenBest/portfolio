@@ -44,6 +44,7 @@ nav img {
 .logo {
   align-items: center;
   text-decoration: none;
+  z-index: 100;
 }
 
 .logo a {
@@ -73,7 +74,8 @@ nav img {
 #menuToggle {
   display: block;
   float: right;
-  margin-top: 3.5rem;
+  top: .5rem;
+  right: 5rem;
   position: relative;
   z-index: 1;
   -webkit-user-select: none;
@@ -86,8 +88,8 @@ nav img {
   height: 3.2rem;
   position: absolute;
   opacity: 0;
-  margin-left: -5px;
-  margin-top: -7px;
+  margin-left: -7px;
+  margin-top: -5px;
   opacity: 0;
   z-index: 2;
   -webkit-touch-callout: none;
@@ -118,7 +120,7 @@ nav img {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #fff;
+  background: #1b1464;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -133,32 +135,27 @@ nav img {
 
 #NavLinks {
   position: absolute;
-  width: 400px;
-  margin: -100px 0 0 -200px;
+  height: 400px;
+  width: 100vw;
+  /*margin: -100px 0 0 -100vw;*/
   padding: 50px;
-  padding-top: 120px;
-  margin-right: 0px;
-  background: #1b1464;
+  padding-top: 140px;
+  background: #fff;
+  opacity: 1;
   list-style-type: none;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
 
   transform-origin: 0% 0%;
-  transform: translate(100%, 0);
+  transform: translate(-100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   z-index: -1;
 }
 
 #menuToggle input:checked ~ ul {
-  transform: scale(1.0, 1.0);
-}
-
-#NavLinks a {
-  color: #fff;
-  display: block;
-  font-family: "Montserrat";
-  padding: 0 0 0 3rem;
-  text-decoration: none;
+  transform: none;
+  opacity: 1;
 }
 
 
@@ -650,10 +647,20 @@ footer p {
     #menuToggle {
       grid-column: 2;
       grid-row: 1;
+      top: 3.5rem;
+      right: 3rem;
       margin-bottom: 3rem;
       margin-left: 12rem;
+      position: absolute;
     }
 
+    #NavLinks {
+      height: 300px;
+      width: 100vw;
+      margin: -100px 0 0 -100vw;
+      right: -100%;
+      position: absolute;
+    }
 
     #NavLinks a {
       display: block;
@@ -1641,22 +1648,33 @@ footer p {
     padding-left: 1rem;
   }
 
-      #menuToggle {
-        grid-column: 2;
-        grid-row: 1;
-        margin-bottom: 3rem;
-        margin-left: 26rem;
-      }
+  #menuToggle {
+    grid-column: 2;
+    grid-row: 1;
+    top: 5rem;
+    right: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 12rem;
+    position: absolute;
+  }
 
-      #NavLinks a {
-        display: block;
-        float: right;
-        font-size: 2.0rem;
-        grid-column: 2;
-        grid-row: 1;
-        padding-bottom: 2rem;
-        width: 100%;
-      }
+  #NavLinks {
+    height: 400px;
+    width: 100vw;
+    margin: -100px 0 0 100vw;
+    position: absolute;
+    right: -125%;
+  }
+
+  #NavLinks a {
+    display: block;
+    float: right;
+    font-size: 2.4rem;
+    grid-column: 2;
+    grid-row: 1;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
 
   /* Tablet Hero */
 
@@ -2831,19 +2849,27 @@ footer p {
   #menuToggle {
     grid-column: 2;
     grid-row: 1;
+    top: 5rem;
+    right: 5rem;
+    position: absolute;
     margin-bottom: 3rem;
-    margin-left: 60rem;
   }
 
+  #NavLinks {
+    height: 400px;
+    width: 100vw;
+    margin: -100px 0 0 -100vw;
+  }
 
   #NavLinks a {
     display: block;
     float: right;
-    font-size: 2.4rem;
-    padding-bottom: 4rem;
+    font-size: 3.2rem;
+    grid-column: 2;
+    grid-row: 1;
+    padding-bottom: 1rem;
     width: 100%;
   }
-
 
   /* Laptop Hero */
 
