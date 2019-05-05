@@ -18,6 +18,7 @@ main {
 .container{
   color: #1b1464;
   opacity: 0.8;
+  position: fixed;
   text-decoration: none;
 }
 
@@ -30,7 +31,6 @@ p {
 }
 
 nav {
-  position: sticky;
   top: 0;
   width: 100%;
   z-index: 2;
@@ -165,6 +165,7 @@ a:hover {
 
 
 /* Hero */
+
 .hero img {
   display: block;
   margin-left: auto;
@@ -172,8 +173,8 @@ a:hover {
 }
 
 .hero img.logo {
-  height: 45px;
-  width: 27px;
+  height: 8rem;
+  width: auto;
 }
 
 /* Deliverables */
@@ -600,7 +601,7 @@ ul li {
 footer p {
   color: #ffffff;
   font-family: "Source Sans Pro";
-  font-size: 2.0rem;
+  font-size: 1.6rem;
 }
 
 /* Mobile Size */
@@ -658,7 +659,7 @@ footer p {
       height: 300px;
       width: 100vw;
       margin: -100px 0 0 -100vw;
-      right: -100%;
+      right: -90%;
       position: absolute;
     }
 
@@ -677,21 +678,23 @@ footer p {
   section.hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 170px 60px 50px auto 20px auto;
+    grid-template-rows: 190px 65px 70px auto 20px auto;
+    margin-top: 12rem;
     width: 100%;
   }
 
   ul.logomark{
+    align-items: center;
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
   }
 
-  img {
+  .hero img {
     grid-column: 1;
     grid-row: 1;
-    height: 159px;
-    width: 249px;
+    height: auto;
+    width: 30rem;
   }
 
   img.logo {
@@ -700,7 +703,7 @@ footer p {
     margin-right: 2rem;
   }
 
-  h2.hero{
+  .hero h2{
     font-family: "Oswald";
     font-size: 4.5rem;
     font-weight: 900;
@@ -1243,12 +1246,12 @@ footer p {
     padding-bottom: 3rem;
   }
 
-  div.iterations {
-    display: block;
-    margin-left: 6.5rem;
+  .iterations {
+    margin-left: 5rem;
+    width: 100%;
   }
 
-  .Branding img.iteration {
+  .Branding img {
     height: 24.2rem;
     margin-bottom: 3rem;
     width: 27.2rem;
@@ -1256,7 +1259,7 @@ footer p {
 
   div.logos {
     display: block;
-    margin-left: 6.5rem;
+    margin-left: 5rem;
   }
 
   .Branding img.logos {
@@ -1562,7 +1565,7 @@ footer p {
   footer {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: auto auto auto;
     width: 100%;
   }
 
@@ -1575,7 +1578,7 @@ footer p {
   ul.footer-links {
     align-items: center;
     font-size: 2rem;
-    grid-row: 2;
+    grid-row: 3;
     padding-top: 4rem;
     text-align: center;
   }
@@ -1604,7 +1607,7 @@ footer p {
 
   footer p {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
     line-height: 1.3;
     margin-top: 2rem;
     text-align: center;
@@ -1681,8 +1684,9 @@ footer p {
   section.hero {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 340px 85px 80px auto auto;
+    grid-template-rows: 300px 150px 80px auto auto;
     margin-bottom: 8rem;
+    margin-top: 12rem;
     width: 100%;
   }
 
@@ -1696,6 +1700,7 @@ footer p {
   }
 
   ul.logomark {
+    align-items: center;
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
@@ -1712,7 +1717,7 @@ footer p {
 
   h2.hero{
     font-family: "Oswald";
-    font-size: 6.0rem;
+    font-size: 6.5rem;
     font-weight: 900;
     grid-column: 1;
     grid-row: 2;
@@ -2767,14 +2772,14 @@ ul.conclusion-list {
     width: 378px;
   }
 
-/* Tablet Footer */
+/* Tablet Footer*/
 
 footer {
   align-items: center;
   bottom: 0;
   display: grid;
-  grid-template-columns: 1fr 10fr;
-  grid-template-rows: 100px auto;
+  grid-template-columns: .5fr 3fr 1fr;
+  grid-template-rows: auto;
   width: 100%;
 }
 
@@ -2792,20 +2797,20 @@ footer img {
 ul.footer-links{
   display: inline-flex;
   float: right;
-  font-size: 3rem;
-  grid-column: 2;
+  font-size: 2rem;
+  grid-column: 3;
   grid-row: 1;
 }
 
 .footer-links li {
-  padding-right: 3rem;
+  padding-right: 2rem;
 }
 
 footer p {
   grid-column: 2;
+  grid-row: 1;
   margin-top: 2rem;
   padding-bottom: 2rem;
-  padding-right: 12rem;
   text-align: center;
 }
 
@@ -3442,8 +3447,7 @@ ul.Takeaways {
   font-size: 2.2rem;
   line-height: 1.3;
   grid-column: 1;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  max-width: 60%;
 }
 
 .Branding img.Sketches {
@@ -3957,12 +3961,68 @@ ul.conclusion-list {
 
   /* Laptop Footer */
 
+  /* Laptop and Up */
+
+  nav img {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  nav {
+    align-items: center;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    padding: .5rem 1rem;
+    width: 100%;
+  }
+
+  header .logo {
+    display: inline-flex;
+    grid-column: 1;
+    padding-left: 3rem;
+    vertical-align: middle;
+  }
+
+  .logo a {
+    padding-bottom: 10px;
+    padding-left: 1rem;
+  }
+
+  #menuToggle {
+    grid-column: 2;
+    grid-row: 1;
+    top: 5rem;
+    right: 5rem;
+    position: absolute;
+    margin-bottom: 3rem;
+  }
+
+  #NavLinks {
+    height: 400px;
+    width: 100vw;
+    margin: -100px 0 0 -100vw;
+  }
+
+  #NavLinks a {
+    display: block;
+    float: right;
+    font-size: 3.2rem;
+    grid-column: 2;
+    grid-row: 1;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+
+  /* Laptop Footer */
+
   footer {
     align-items: center;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 10fr;
-    grid-template-rows: 100px auto;
+    grid-template-columns: 1fr 2fr .5fr;
+    grid-template-rows: 1fr;
     width: 100%;
   }
 
@@ -3981,7 +4041,7 @@ ul.conclusion-list {
     display: inline-flex;
     float: right;
     font-size: 3rem;
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
   }
 
