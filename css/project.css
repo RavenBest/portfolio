@@ -1472,20 +1472,14 @@ footer p {
   .Conclusion p {
     font-size: 1.8rem;
     line-height: 1.3;
-    padding-bottom: 8rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
 
   .greenbook-project {
-    background-color: #fff;
-    border: .5rem solid #662D91;
+    /*border: 1rem solid #662D91;*/
     border-radius: .5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding-bottom: 2rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
     padding-top: 2rem;
   }
 
@@ -1499,66 +1493,57 @@ footer p {
   .greenbook-project .column1 img {
     grid-column: 1;
     height: auto;
-    margin: auto 4rem;
-    width: 70%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
   }
 
-  .column1 p {
+  .greenbook-project .column1 p {
     color: #000;
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     line-height: 2.4rem;
-    margin: 1rem 3rem;
+    margin-bottom: 2rem;
     padding-top: .5rem;
     grid-column: 1;
     grid-row-start: 3;
-    text-align: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .greenbook-project .column1 button {
-    background-color: #662D91;
-    border: .5rem solid #662D91;
+    background-color: #2e8657;
     border-radius: .2rem;
     color: #fff;
     font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
     grid-row: 4;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
     text-align: center;
     width: 15rem;
   }
 
   .greenbook-project .column1 button:hover {
-    background-color: #fff;
-    border: 1rem solid #1b1464;
-    color: #1b1464;
+    background-color: #054A29;
+    border: .2rem solid #fff;
+    color: #fff;
   }
 
   .column2 {
-    align-items: baseline;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px auto;
+    width: 100%;
   }
 
-  .greenbook-project .iphone {
+  .greenbook-project img {
     grid-column: 1;
-    grid-row: 1;
-    margin-left: 2rem;
-    height: 106px;
-    width: 54px;
-    z-index: 1;
-  }
-
-  .greenbook-project .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 159px;
-    margin-left: 3rem;
-    width: 249px;
+    margin: 0;
+    width: 100%;
   }
 
   /* Mobile Footer */
@@ -2679,99 +2664,78 @@ ul.conclusion-list {
 }
 
 /* Greenbook*/
-  .greenbook-project {
-    background-color: #fff;
-    border: .5rem solid #662D91;
-    border-radius: 1rem;
-    height: 42rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding-bottom: 6rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding-top: 2rem;
-  }
+.greenbook-project {
+  padding-bottom: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 2rem;
+  width: 100%;
+}
 
-  .greenbook-project .column1 {
-    display: grid;
-    float: right;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    margin-right: 2rem;
-    width: 30%;
-  }
+.greenbook-project .column1 {
+  display: grid;
+  float: left;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  width: 50%;
+}
 
-  .greenbook-project .column1 img {
-    grid-column: 2;
-    height: auto;
-    padding-left: 0;
-    padding-right: 3rem;
-    grid-row: 1;
-    width: 100%;
-  }
+.greenbook-project .column1 img {
+  grid-column: 2;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  width: auto;
+}
 
-  .greenbook-project .column1 p {
-    font-family: "Source Sans Pro";
-    font-size: 2.8rem;
-    line-height: 3.2rem;
-    padding-top: 2.5rem;
-    grid-column: 2;
-    padding-left: 0;
-    padding-right: 3rem;
-    margin-bottom: 2rem;
-    width: 100%;
-  }
+.greenbook-project .column1 p {
+  font-family: "Source Sans Pro";
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  padding-top: 2.5rem;
+  grid-column: 2;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  width: 100%;
+}
 
-  .greenbook-project .column1 button {
-    background-color: #662d91;
-    border: .5rem solid #662D91;
-    border-radius: .2rem;
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: 900;
-    height: 6.0rem;
-    grid-column: 2;
-    grid-row: 4;
-    margin-bottom: 12rem;
-    margin-right: 3rem;
-    padding-left: 0;
-    margin-left: 0;
-    text-align: center;
-    width: 20rem;
-  }
+.greenbook-project .column1 button {
+  background-color: #2e8657;
+  border: .5rem solid #2e8657;
+  border-radius: .2rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 900;
+  height: 6.0rem;
+  grid-column: 2;
+  grid-row: 4;
+  margin-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 20rem;
+}
 
-  .greenbook-project .column1 button:hover {
-    background-color: #fff;
-    border: .5rem solid #1b1464;
-    color: #1b1464;
-  }
+.greenbook-project .column1 button:hover {
+  background-color: #fff;
+  border: .2rem solid #fff;
+  color: #2e6547;
+}
 
-  .greenbook-project .column2 {
-    align-items: baseline;
-    display: grid;
-    float: left;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    padding-top: 4.0rem;
-    margin-left: 2rem;
-    width: 60%;
-  }
+.greenbook-project .column2 {
+  display: grid;
+  float: right;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  width: 50%;
+}
 
-  .greenbook-project .iphone {
-    grid-column: 1;
-    grid-row: 1;
-    height: 182px;
-    width: 93px;
-    z-index: 1;
-  }
-
-  .greenbook-project .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 269px;
-    width: 378px;
-  }
-
+.greenbook-project img {
+  width: 100%;
+}
 /* Tablet Footer*/
 
 footer {
@@ -3871,94 +3835,71 @@ ul.conclusion-list {
 }
 
 /* Greenbook*/
-  .greenbook-project {
-    height: 53rem;
-    max-width: 1100px;
-    padding-bottom: 6rem;
-    padding-top: 2rem;
+.greenbook-project {
+  padding-top: 0;
+  width: 100%;
+}
+
+.greenbook-project .column1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  padding-top: 2rem;
+  margin-top: 8rem;
+  width: 50%;
+}
+
+.greenbook-project .column1 img {
+  grid-column: 2;
+  height: auto;
+  padding-right: 5rem;
+  width: 40rem;
+}
+
+.greenbook-project .column1 p {
+  font-family: "Source Sans Pro";
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  padding-top: 2.5rem;
+  grid-column: 2;
+  grid-row-start: 3;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.greenbook-project .column1 button {
+    background-color: #2e8657;
+    border: .5rem solid #2e8657;
+    border-radius: .2rem;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 6.0rem;
+    grid-column: 2;
+    grid-row: 4;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
+    margin-top: 0rem;
+    padding-left: 0;
+    text-align: center;
+    width: 24rem;
+}
 
-  .greenbook-project .column1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
-    margin-left: 3rem;
-    margin-right: 5rem;
-    padding-top: 2rem;
-    width: 25%;
-  }
+.greenbook-project .column1 button:hover {
+  background-color: #fff;
+  border: .2rem solid #fff;
+  color: #2e8657;
+}
 
-  .greenbook-project .column1 img {
-    grid-column: 2;
-    height: auto;
-    padding-right: 5rem;
-    width: 100%;
-  }
-
-  .greenbook-project .column1 p {
-    font-family: "Source Sans Pro";
-    font-size: 2.8rem;
-    line-height: 3.2rem;
-    padding-top: 2.5rem;
-    grid-column: 2;
-    grid-row-start: 3;
-    padding-bottom: 2rem;
-    padding-right: 5rem;
-    width: 100%;
-  }
-
-  .greenbook-project .column1 button {
-      background-color: #fff;
-      border: .5rem solid #662D91;
-      border-radius: .2rem;
-      color: #1b1464;
-      font-size: 1.8rem;
-      height: 6.0rem;
-      grid-column: 2;
-      grid-row: 4;
-      margin-right: 5rem;
-      margin-top: 0rem;
-      padding-left: 0;
-      text-align: center;
-      width: 24rem;
-  }
-
-  .greenbook-project .column1 button:hover {
-    background-color: #1b1464;
-    border: 1rem solid #1b1464;
-    color: #fff;
-  }
-
-  .greenbook-project .column2 {
-    grid-column: 1;
-    grid-row: 1;
-    margin-left: 5rem;
-    margin-right: 0;
-    padding-top: 4.0rem;
-    width: 60%;
-  }
-
-  .greenbook-project .iphone {
-    grid-column: 1;
-    grid-row: 1;
-    height: 23.8rem;
-    margin-top: 19rem;
-    width: 12rem;
-  }
-
-  .greenbook-project .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 43rem;
-    width: 67rem;
-  }
-
-
-
+.greenbook-project .column2 {
+  grid-column: 1;
+  grid-row: 1;
+  margin-right: 0;
+  padding-top: 4.0rem;
+  width: 50%;
+}
   /* Laptop Footer */
 
   /* Laptop and Up */

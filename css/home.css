@@ -29,27 +29,14 @@ body {
 .header {
   top: 0;
   width: 100%;
+  opacity: 0.8;
   z-index: 2;
 }
 
-/* .header img {
+ .header img {
   height: 45px;
   width: 45px;
-}*/
-
-.cls-1{fill:#fff; stroke-width:3;}
-.cls-2,.cls-3{fill:none;stroke:#fff;stroke-width:3;}
-.cls-2{stroke-linecap:round;stroke-linejoin:round;stroke-width:3;}
-.cls-3{stroke-miterlimit:10; stroke-width:3;}
-
-#rblogo-white {
-  fill: #fff;
-  width: 60px;
-  height: 60px;
-  position: relative;
-  overflow: visible;
 }
-
 .hero h1 {
   letter-spacing: 1px;
 }
@@ -61,14 +48,14 @@ body {
 }
 
 .logo a {
-  color: #ffffff;
+  color: #1b1464;
   font-family: "Montserrat";
   font-size: 2rem;
   text-decoration: none;
 }
 
 #menuToggle a {
-  color: #fff;
+  color: #1b1464;
   font-family: "Montserrat";
   font-weight: 900;
   letter-spacing: .1rem;
@@ -105,7 +92,7 @@ body {
   width: 3.3rem;
   height: .4rem;
   margin-bottom: .5rem;
-  background: #fff;
+  background: #1b1464;
   border-radius: .3rem;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -125,7 +112,7 @@ body {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #fff;
+  background: #1b1464;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -144,8 +131,8 @@ body {
   width: 100vw;
   /*margin: -100px 0 0 -100vw;*/
   padding-top: 140px;
-  background: #1b1464;
-  opacity: 1;
+  background: #fff;
+  opacity: 0.8;
   list-style-type: none;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -163,67 +150,29 @@ body {
 }
 
 a:hover {
-  color: #E4B5CA;
+  color: #F5569C;
 }
 
 .hero {
-  background-image: linear-gradient(45deg, #371866, #1b1464, #46227E, #662d91, #A52686, #ed1e79);
+  background-image: #fff;
   background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;
 }
 
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
 
 h1 {
-  color: #ffffff;
+  color: #1b1464;
   font-family: "Montserrat";
   width: 100%;
 }
 
 h2 {
-  color: #ffffff;
+  color: #1b1464;
   font-family: "Montserrat";
   width: 100%;
 }
 
 p{
-  color: #fff;
+  color: #1b1464;
   font-family: "Source Sans Pro";
   width: 100%;
 }
@@ -243,6 +192,7 @@ h2.section-title-2 {
 }
 
 img.arrow {
+  color: #1b1464;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -270,12 +220,10 @@ img.arrow {
   font-family: "Source Sans Pro";
   font-size: 1.8rem;
   padding-top: .5rem;
-  width: 80%;
 }
 
 .column1 button {
   border-radius: .2rem;
-  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
   height: 4.0rem;
   text-align: center;
   width: 15rem;
@@ -285,119 +233,26 @@ img.arrow {
   align-items: baseline;
 }
 
-.iphone {
-  z-index: 1;
-}
-
-.laptop {
-  z-index: 0;
-}
-
 .button:hover {
   background-color: #fff;
   border: .2rem solid #fff;
   color: #1b1464;
 }
 
-.container {
-  background-color: #fff;
-  padding: 1rem;
-  float: left;
-  width: 50%;
+.scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
-.content {
-  background-color: #fff;
-  border-radius: .5rem;
-  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.3);
-  position: relative;
-  width: 90%;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
+.illustrations img {
+  display: inline-block;
+  height: 40rem;
+  margin: 3rem;
+  width: auto;
+  vertical-align: top;
 }
 
-.content .content-title{
-  color: #fff;
-  font-family: "Montserrat";
-  font-weight: 900;
-}
-
-.content .content-text{
-  color: #fff;
-  font-family: "Source Sans Pro";
-}
-
-.content .overlay {
-background: rgba(27,20,100,0.8);
-position: absolute;
-height: 100%;
-width: 100%;
-left: 0;
-top: 0;
-bottom: 0;
-right: 0;
-opacity: 0;
--webkit-transition: all 0.4s ease-in-out 0s;
--moz-transition: all 0.4s ease-in-out 0s;
-transition: all 0.4s ease-in-out 0s;
-}
-
-.content:hover .overlay{
-  opacity: 1;
-}
-
-.content-details {
-position: absolute;
-text-align: center;
-padding-left: 1em;
-padding-right: 1em;
-width: 100%;
-top: 50%;
-left: 50%;
-opacity: 0;
--webkit-transform: translate(-50%, -50%);
--moz-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
--webkit-transition: all 0.3s ease-in-out 0s;
--moz-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
-}
-
-.content:hover .content-details{
-top: 50%;
-left: 50%;
-opacity: 1;
-}
-
-.content-details h3{
-color: #fff;
-font-weight: 500;
-letter-spacing: 0.15em;
-margin-bottom: 0.5em;
-text-transform: uppercase;
-}
-
-.content-details p{
-color: #fff;
-font-size: 0.8em;
-}
-
-.fadeIn-bottom{
-top: 80%;
-}
-
-.fadeIn-top{
-top: 20%;
-}
-
-.fadeIn-left{
-left: 20%;
-}
-
-.fadeIn-right{
-left: 80%;
-}
 
 footer {
   background-color: #1b1464;
@@ -424,7 +279,7 @@ ul li {
 footer p{
   color: #ffffff;
   font-family: "Source Sans Pro";
-  font-size: 2.0rem;
+  font-size: 1.6rem;
 }
 
 
@@ -511,7 +366,7 @@ footer p{
     padding-bottom: 0rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 8rem;
+    padding-top: 2rem;
   }
 
   .hero h2 {
@@ -538,19 +393,16 @@ footer p{
 
   /* Ideahub*/
   .ideahub-project {
-    background-color: #fff;
-    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
     /*border: 1rem solid #662D91;*/
     border-radius: .5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
     padding-bottom: 2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     padding-top: 2rem;
+    width: 100%;
   }
 
-  .column1 {
+  .ideahub-project .column1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -559,13 +411,15 @@ footer p{
     width: 100%;
   }
 
-  .column1 img {
+  .ideahub-project .column1 img {
     grid-column: 1;
     margin-top: 2rem;
     padding-left: 8rem;
+    height: 4rem;
+    width: auto;
   }
 
-  .column1 h2 {
+  .ideahub-project .column1 h2 {
     color: #000;
     font-family: "Oswald";
     font-size: 3.6rem;
@@ -575,7 +429,7 @@ footer p{
     padding-top: 1rem;
   }
 
-  .column1 p {
+  .ideahub-project .column1 p {
     color: #000;
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
@@ -584,62 +438,45 @@ footer p{
     grid-column: 1;
     grid-row-start: 3;
     padding-left: 8rem;
+    padding-right: 8rem;
   }
 
-  .column1 button {
-    background-color: #1b1464;
-    /*border: .5rem solid #662D91;*/
+  .ideahub-project .column1 button {
+    background-color: #000;
+    border: none;
     border-radius: .2rem;
     color: #fff;
     font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
     grid-row: 4;
-    margin-left: 8rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
     width: 15rem;
   }
 
-  .column1 button:hover {
+  .ideahub-project .column1 button:hover {
     background-color: #fff;
     border: .2rem solid #fff;
-    color: #1b1464;
+    color: #000;
   }
 
-  .column2 {
+  .ideahub-project .column2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px auto;
-    margin-left: 1rem;
-    margin-right: auto;
   }
 
-  .iphone {
-    grid-column: 1;
-    grid-row: 1;
-    height: 106px;
-    margin-left: 2rem;
-    width: 54px;
-  }
-
-  .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 159px;
-    margin-left: 2.5rem;
-    width: 249px;
+  .ideahub-project img {
+    width: 100%;
   }
 
 /* Greenbook*/
   .greenbook-project {
-    background-color: #fff;
-    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
     /*border: 1rem solid #662D91;*/
     border-radius: .5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
     padding-bottom: 2rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -658,123 +495,71 @@ footer p{
     height: auto;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    padding-left: 4rem;
-    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
   }
 
-  .column1 p {
+  .greenbook-project .column1 p {
     color: #000;
     font-family: "Source Sans Pro";
     font-size: 1.8rem;
     line-height: 2.4rem;
+    margin-bottom: 2rem;
     padding-top: .5rem;
     grid-column: 1;
     grid-row-start: 3;
     padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .greenbook-project .column1 button {
-    background-color: #1b1464;
+    background-color: #2e8657;
     border-radius: .2rem;
     color: #fff;
     font-weight: 900;
     height: 4.0rem;
     grid-column: 1;
     grid-row: 4;
-    margin-left: 8rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right:auto;
     text-align: center;
     width: 15rem;
   }
 
   .greenbook-project .column1 button:hover {
-    background-color: #fff;
+    background-color: #054A29;
     border: .2rem solid #fff;
-    color: #1b1464;
+    color: #fff;
   }
 
   .column2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px auto;
-    margin-left: 1rem;
-    margin-right: auto;
     width: 100%;
   }
 
-  .greenbook-project .iphone {
+  .greenbook-project img {
     grid-column: 1;
-    grid-row: 1;
-    height: 106px;
-    width: 54px;
-  }
-
-  .greenbook-project .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 159px;
-    width: 249px;
-  }
-
-  /* Mobile Logos*/
-  .container{
-    display: block;
+    margin: 0;
     width: 100%;
   }
 
-  .content {
-    height: 20rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    width: 20rem;
+  /* Mobile Illustrations*/
+
+  .scroll {
+    margin-bottom: 4rem;
+    margin-left: 3rem;
   }
 
-  .content .content-title{
-    font-size: 2.0rem;
+  .illustrations img {
+    height: 30rem;
+    width: auto;
+    margin: 1rem;
   }
 
-  .content .content-text{
-    font-size: 1.6rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .brand-logo-1 {
-    display: block;
-    margin: 3rem auto;
-    width: 80%;
-  }
-
-  .brand-logo-2 {
-    display: block;
-    margin: 2rem auto;
-    width: 65%;
-  }
-
-  .brand-logo-3{
-    display: block;
-    margin: 4.5rem auto;
-    width: 30%;
-  }
-
-  .brand-logo-4{
-    display: block;
-    margin: 6rem auto;
-    width: 85%;
-  }
-
-  .brand-logo-5 {
-    display: block;
-    margin: 8rem auto;
-    width: 85%;
-  }
-
-  .brand-logo-6 {
-    display: block;
-    margin: 2rem auto;
-    width: 70%;
-  }
-
+  /* Mobile Footer*/
 
   footer {
     display: grid;
@@ -792,7 +577,7 @@ footer p{
   ul.footer-links {
     align-items: center;
     font-size: 2rem;
-    grid-row: 2;
+    grid-row: 3;
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-align: center;
@@ -800,7 +585,7 @@ footer p{
 
   footer p {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
     margin-top: 2rem;
     text-align: center;
   }
@@ -913,34 +698,24 @@ h2.section-title-2 {
 
 /* Tablet Case Study */
 .ideahub-project {
-  background-color: #fff;
-  box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
-  /*border: 1rem solid #662D91;*/
-  border-radius: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding-bottom: 6rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  padding-top: 2rem;
-}
-
-.column1 {
   display: grid;
-  float: left;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  margin-right: 3rem;
-  width: 30%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
 }
 
-.column1 img {
+.ideahub-project .column1 {
+  grid-column: 2;
+  width: 100%;
+}
+
+.ideahub-project .column1 img {
   grid-column: 1;
   margin-top: 2rem;
   padding-left: 5rem;
 }
 
-.column1 h2 {
+.ideahub-project .column1 h2 {
   color: #000;
   font-family: "Oswald";
   font-size: 5.6rem;
@@ -951,22 +726,22 @@ h2.section-title-2 {
   padding-top: 1rem;
 }
 
-.column1 p {
+.ideahub-project .column1 p {
   color: #000;
   font-family: "Source Sans Pro";
   font-size: 2.8rem;
   line-height: 3.2rem;
   padding-top: 2.5rem;
-  grid-column: 1;
   grid-row-start: 3;
   margin-bottom: 2rem;
   padding-left: 5rem;
+  padding-right: 5rem;
   width: 100%;
 }
 
-.column1 button {
-  background-color: #1b1464;
-  border: .5rem solid #1b1464;
+.ideahub-project .column1 button {
+  background-color: #000;
+  border: .5rem solid #000;
   border-radius: .2rem;
   color: #fff;
   font-size: 1.8rem;
@@ -978,60 +753,49 @@ h2.section-title-2 {
   width: 20rem;
 }
 
-
-.column2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  padding-top: 8.0rem;
-  width: 60%;
+.ideahub-project .column1 button:hover {
+  background-color: #fff;
+  border: .2rem solid #fff;
+  color: #000;
 }
 
-.iphone {
+
+.ideahub-project .column2 {
   grid-column: 1;
   grid-row: 1;
-  height: 182px;
-  margin-left: 3rem;
-  width: 93px;
 }
 
-.laptop {
+.ideahub-project img.ih-screens {
+  height: auto;
   grid-column: 1;
   grid-row: 1;
-  height: 269px;
-  margin-left: 5rem;
-  width: 378px;
+  width: 100%;
 }
 
 /* Greenbook*/
   .greenbook-project {
-    background-color: #fff;
-    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.2);
-    /*border: 1rem solid #662D91;*/
-    border-radius: 1rem;
-    height: 42rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
     padding-bottom: 6rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding-top: 2rem;
+    width: 100%;
   }
 
   .greenbook-project .column1 {
     display: grid;
-    float: right;
+    float: left;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    width: 30%;
+    width: 50%;
   }
 
   .greenbook-project .column1 img {
     grid-column: 2;
-    height: auto;
-    padding-left: 0;
-    padding-right: 3rem;
-    width: 100%;
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: auto;
   }
 
   .greenbook-project .column1 p {
@@ -1040,24 +804,26 @@ h2.section-title-2 {
     line-height: 3.2rem;
     padding-top: 2.5rem;
     grid-column: 2;
-    padding-left: 0;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
     padding-right: 3rem;
+    text-align: center;
     width: 100%;
   }
 
   .greenbook-project .column1 button {
-    background-color: #1b1464;
-    border: .5rem solid #1b1464;
+    background-color: #2e8657;
+    border: .5rem solid #2e8657;
     border-radius: .2rem;
     color: #fff;
     font-size: 1.8rem;
+    font-weight: 900;
     height: 6.0rem;
     grid-column: 2;
     grid-row: 4;
-    margin-bottom: 12rem;
     margin-right: 3rem;
-    padding-left: 0;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 20rem;
   }
@@ -1065,133 +831,76 @@ h2.section-title-2 {
   .greenbook-project .column1 button:hover {
     background-color: #fff;
     border: .2rem solid #fff;
-    color: #1b1464;
+    color: #2e6547;
   }
 
   .greenbook-project .column2 {
     display: grid;
-    float: left;
+    float: right;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    padding-top: 4.0rem;
-    width: 60%;
+    width: 50%;
   }
 
-  .greenbook-project .iphone {
-    grid-column: 1;
-    grid-row: 1;
-    height: 182px;
-    width: 93px;
-  }
-
-  .greenbook-project .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 269px;
-    width: 378px;
+  .greenbook-project img {
+    width: 100%;
   }
 
   /* Tablet logos */
-  .content {
-    height: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    width: 30rem;
-  }
 
-  .content .content-title{
-    font-size: 2.0rem;
+  .scroll {
+    margin-bottom: 5rem;
+    margin-left: 3rem;
   }
-
-  .content .content-text{
-    font-size: 1.6rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .brand-logo-1 {
-    display: block;
-    margin: 4rem auto;
-    width: 80%;
-  }
-
-  .brand-logo-2 {
-    display: block;
-    margin: 3rem auto;
-    width: 65%;
-  }
-
-  .brand-logo-3{
-    display: block;
-    margin: 6rem auto;
-    width: 30%;
-  }
-
-  .brand-logo-4{
-    display: block;
-    margin: 10rem auto;
-    width: 85%;
-  }
-
-  .brand-logo-5 {
-    display: block;
-    margin: 12rem auto;
-    width: 85%;
-  }
-
-  .brand-logo-6 {
-    display: block;
-    margin: 3rem auto;
-    width: 70%;
-  }
+   .illustrations img {
+     height: 80rem;
+     width: auto;
+   }
 
 
 
 /* Tablet Footer */
 
-        footer {
-          align-items: center;
-          bottom: 0;
-          display: grid;
-          grid-template-columns: 1fr 10fr;
-          grid-template-rows: 100px auto;
-          width: 100%;
-        }
+footer {
+  align-items: center;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: .5fr 3fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+}
 
-        footer img {
-          height: 6rem;
-          width: 6rem;
-        }
+footer img {
+  height: 6rem;
+  width: 6rem;
+}
 
-        .logo-white {
-          grid-column: 1;
-          grid-row: 1;
-          padding-left: 3rem;
-        }
+.logo-white {
+  grid-column: 1;
+  grid-row: 1;
+  padding-left: 3rem;
+}
 
-        ul.footer-links{
-          display: inline-flex;
-          float: right;
-          font-size: 3rem;
-          grid-column: 2;
-          grid-row: 1;
-        }
+ul.footer-links{
+  display: inline-flex;
+  float: right;
+  font-size: 2rem;
+  grid-column: 3;
+  grid-row: 1;
+}
 
-        .footer-links li {
-          padding-right: 3rem;
-        }
+.footer-links li {
+  padding-right: 2rem;
+}
 
-        footer p {
-          grid-column: 2;
-          margin-top: 2rem;
-          padding-bottom: 2rem;
-          padding-right: 12rem;
-          text-align: center;
-        }
-
+footer p {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+  text-align: center;
+}
 }
 
 @media only screen and (min-width: 900px) {
@@ -1285,7 +994,7 @@ h2.section-title-2 {
 
   h2.section-title {
     font-size: 5.2rem;
-    margin: 6rem auto;
+    margin: 3rem auto;
   }
 
   .hero p {
@@ -1294,127 +1003,77 @@ h2.section-title-2 {
     line-height: 1.4;
     margin: auto;
     max-width: 920px;
-    padding-bottom: 25rem;
+    padding-bottom: 15rem;
   }
 
   /* Laptop Case Study */
-  .ideahub-project {
-    max-width: 1100px;
-    padding-bottom: 6rem;
-    padding-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+
+  .ideahub-project .column1{
+    margin-left: 12rem;
+    margin-top: 8rem;
   }
 
-  .column1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
-    margin-left: 5rem;
-    margin-right: 0;
-    padding-top: 4rem;
-  }
-
-  .column1 img {
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 0;
-  }
-
-  .column1 h2 {
+  .ideahub-project .column1 h2 {
     font-family: "Oswald";
     font-size: 5.6rem;
     font-weight: 900;
-    grid-column: 1;
-    grid-row-start: 2;
-    padding-left: 0;
   }
 
-  .column1 p {
+  .ideahub-project .column1 p {
     font-family: "Source Sans Pro";
     font-size: 2.8rem;
     line-height: 3.6rem;
     grid-column: 1;
     grid-row-start: 3;
-    padding-left: 0;
-    padding-top: 0;
-    width: 80%;
+    width: 60%;
   }
 
 
-  .column1 button {
-    background-color: #1b1464;
-    border: .5rem solid #1b1464;
+  .ideahub-project .column1 button {
+    background-color: #000;
+    border: .5rem solid #000;
     border-radius: .2rem;
     color: #fff;
     font-size: 1.8rem;
     height: 6.0rem;
     grid-column: 1;
     grid-row: 4;
-    margin-left: 0;
+    margin-left: 5rem;
     margin-top: 4rem;
-    padding-left: 0;
     text-align: center;
     width: 24rem;
   }
 
-
-  .column2 {
-    display: flex;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    margin-right: 5rem;
-    padding-top: 4rem;
-    width: 65%;
+  .ideahub-project .column1 button:hover {
+    background-color: #fff;
+    border: .2rem solid #fff;
+    color: #000;
   }
 
-  .iphone {
-    grid-column: 1;
-    grid-row: 1;
-    height: 23.8rem;
-    margin-left: -1rem;
-    margin-top: 19rem;
-    position: absolute;
-    width: 12rem;
-  }
-
-  .laptop {
-    grid-column: 1;
-    grid-row: 1;
-    height: 43rem;
-    margin-left: 2rem;
-    width: 67rem;
+  .ideahub-project img.ih-screens {
+    width: 100%;
   }
 
   /* Greenbook*/
     .greenbook-project {
-      height: 53rem;
-      max-width: 1100px;
-      padding-bottom: 6rem;
-      padding-top: 2rem;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 6rem;
-      margin-bottom: 6rem;
+      padding-top: 0;
+      width: 100%;
     }
 
     .greenbook-project .column1 {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto auto;
-      margin-left: 3rem;
-      margin-right: 5rem;
       padding-top: 2rem;
-      width: 25%;
+      margin-top: 8rem;
+      width: 50%;
     }
 
     .greenbook-project .column1 img {
       grid-column: 2;
       height: auto;
       padding-right: 5rem;
-      width: 100%;
+      width: 40rem;
     }
 
     .greenbook-project .column1 p {
@@ -1425,20 +1084,23 @@ h2.section-title-2 {
       grid-column: 2;
       grid-row-start: 3;
       padding-bottom: 2rem;
-      padding-right: 5rem;
-      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
     }
 
     .greenbook-project .column1 button {
-        background-color: #1b1464;
-        border: .5rem solid #1b1464;
+        background-color: #2e8657;
+        border: .5rem solid #2e8657;
         border-radius: .2rem;
         color: #fff;
         font-size: 1.8rem;
+        font-weight: 900;
         height: 6.0rem;
         grid-column: 2;
         grid-row: 4;
-        margin-right: 5rem;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0rem;
         padding-left: 0;
         text-align: center;
@@ -1448,115 +1110,27 @@ h2.section-title-2 {
     .greenbook-project .column1 button:hover {
       background-color: #fff;
       border: .2rem solid #fff;
-      color: #1b1464;
+      color: #2e8657;
     }
 
     .greenbook-project .column2 {
       grid-column: 1;
       grid-row: 1;
-      margin-left: 5rem;
       margin-right: 0;
       padding-top: 4.0rem;
-      width: 60%;
+      width: 50%;
     }
 
-    .greenbook-project .iphone {
-      grid-column: 1;
-      grid-row: 1;
-      height: 23.8rem;
-      margin-top: 19rem;
-      width: 12rem;
+    /* Desktop Illustrations */
+
+    .scroll {
+      margin-left: 5rem;
+      margin-bottom: 5rem;
     }
 
-    .greenbook-project .laptop {
-      grid-column: 1;
-      grid-row: 1;
-      height: 43rem;
-      width: 67rem;
-    }
-
-    /* Desktop logos */
-
-    .branding-logos {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-top: 8rem;
-      margin-bottom: 8rem;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
-
-    h2.section-title-2 {
-      font-size: 5.2rem;
-      grid-column: 2;
-      grid-row: 1;
-      margin: 6rem auto;
-      width: 100%
-    }
-
-    .container {
-      float: none;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
-
-    .content {
-      height: 30rem;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 2rem;
-      width: 30rem;
-    }
-
-    .content .content-title{
-      font-size: 2.0rem;
-    }
-
-    .content .content-text{
-      font-size: 1.6rem;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    .brand-logo-1 {
-      display: block;
-      margin: 4rem auto;
-      width: 80%;
-    }
-
-    .brand-logo-2 {
-      display: block;
-      margin: 3rem auto;
-      width: 65%;
-    }
-
-    .brand-logo-3{
-      display: block;
-      margin: 6rem auto;
-      width: 30%;
-    }
-
-    .brand-logo-4{
-      display: block;
-      margin: 10rem auto;
-      width: 85%;
-    }
-
-    .brand-logo-5 {
-      display: block;
-      margin: 12rem auto;
-      width: 85%;
-    }
-
-    .brand-logo-6 {
-      display: block;
-      margin: 3rem auto;
-      width: 70%;
+    .illustrations img {
+      height: 90rem;
+      width: auto;
     }
 
 
@@ -1567,8 +1141,8 @@ h2.section-title-2 {
     align-items: center;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 10fr;
-    grid-template-rows: 100px auto;
+    grid-template-columns: 1fr 2fr .5fr;
+    grid-template-rows: 1fr;
     width: 100%;
   }
 
@@ -1587,7 +1161,7 @@ h2.section-title-2 {
     display: inline-flex;
     float: right;
     font-size: 3rem;
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
   }
 
